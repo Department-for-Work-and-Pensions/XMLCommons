@@ -321,7 +321,11 @@
                     </WelshCommunication>
                     <AdditionalInformation>
                         <QuestionLabel>anything.else</QuestionLabel>
-                        <Answer>It takes too long to claim. But I can write a very long answer here. 2000 characters.</Answer>
+                        <Answer>No</Answer>
+                        <Why>
+                            <QuestionLabel>Please tell us anything else you think we should know about your claim</QuestionLabel>
+                            <Answer>we can added text here which is 2000 characters long</Answer>
+                        </Why>
                     </AdditionalInformation>
                 </OtherInformation>
                 <Declaration>
