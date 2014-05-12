@@ -54,11 +54,11 @@
                     <QuestionLabel>Do you spend 35 hours or more each week caring for this person?</QuestionLabel>
                     <Answer>Yes</Answer>
                 </Cared35Hours>
-                <BreaksSinceClaim>
-                    <QuestionLabel>Have you had any breaks in caring for this person since claim date?</QuestionLabel>
-                    <Answer>Yes</Answer>
-                </BreaksSinceClaim>
                 <CareBreak>
+                    <BreaksSinceClaim>
+                        <QuestionLabel>Have you had any breaks in caring for this person since claim date?</QuestionLabel>
+                        <Answer>Yes</Answer>
+                    </BreaksSinceClaim>
                     <StartDateTime><QuestionLabel>Start date time</QuestionLabel><Answer>10-07-2010 10:00</Answer></StartDateTime>
                     <EndDateTime><QuestionLabel>End date time</QuestionLabel><Answer>17-07-2010 17:45</Answer></EndDateTime>
                     <ReasonClaimant>
