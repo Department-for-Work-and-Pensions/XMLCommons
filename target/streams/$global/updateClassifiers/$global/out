@@ -1,0 +1,1084 @@
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3e6c7624[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.santuario#xmlsec;1.4.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25b8a8ac[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.santuario#xmlsec;1.4.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.santuario#xmlsec;1.4.8[0m
+[0m[[0mdebug[0m] [0m	found org.apache.santuario#xmlsec;1.4.8 in Carers repo[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@432f74d5[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving logkit#logkit;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6db13624[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: logkit#logkit;1.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: logkit#logkit;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found logkit#logkit;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving javax.servlet#servlet-api;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5013eba[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.servlet#servlet-api;2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: javax.servlet#servlet-api;2.3[0m
+[0m[[0mdebug[0m] [0m	found javax.servlet#servlet-api;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13cbe909[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c9e54ed[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.13[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-classic;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5d6f7d3c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.13[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jasypt#jasypt;1.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32283e8b[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jasypt#jasypt;1.9.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.jasypt#jasypt;1.9.1[0m
+[0m[[0mdebug[0m] [0m	found org.jasypt#jasypt;1.9.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6be06a2f[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14b3e7bb[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@49322fd1[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mockito#mockito-core;1.9.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a05ab21[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mockito#mockito-core;1.9.5[0m
+[0m[[0mdebug[0m] [0m	found org.mockito#mockito-core;1.9.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2cc57de4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.objenesis#objenesis;1.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.objenesis#objenesis;1.0[0m
+[0m[[0mdebug[0m] [0m	found org.objenesis#objenesis;1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalacheck#scalacheck_2.10;1.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fa28eb6[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.10;1.11.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalacheck#scalacheck_2.10;1.11.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalacheck#scalacheck_2.10;1.11.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@adc7bb6[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-sbt#test-interface;1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#test-interface;1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.pegdown#pegdown;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6b8d9055[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.pegdown#pegdown;1.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.pegdown#pegdown;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found org.pegdown#pegdown;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-java;1.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b4ad4ae[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-java;1.1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-java;1.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-java;1.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a8c2005[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-core;1.1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-core;1.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-core;1.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c33478d[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-tree;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6caf3ed4[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-tree;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-tree;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-tree;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-analysis;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@606bf823[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-analysis;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-analysis;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-analysis;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-util;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@118821af[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-util;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-util;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-util;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.specs2#classycle;1.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62fd6abb[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#classycle;1.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#classycle;1.4.1[0m
+[0m[[0mdebug[0m] [0m	found org.specs2#classycle;1.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.chuusai#shapeless_2.10.3;2.0.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53aa994c[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.chuusai#shapeless_2.10.3;2.0.0-M1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.chuusai#shapeless_2.10.3;2.0.0-M1[0m
+[0m[[0mdebug[0m] [0m	found com.chuusai#shapeless_2.10.3;2.0.0-M1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7bc4a6a6[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.10;7.0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46b55c71[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-concurrent_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-concurrent_2.10;7.0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@32bb2118[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [provided][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.apache.santuario#xmlsec;1.4.8 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->commons-logging#commons-logging;1.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->logkit#logkit;1.0.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->javax.servlet#servlet-api;2.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.slf4j#slf4j-api;1.7.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-classic;1.0.13 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->ch.qos.logback#logback-core;1.0.13 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.jasypt#jasypt;1.9.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#specs2_2.10;2.3.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.mockito#mockito-core;1.9.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.objenesis#objenesis;1.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalacheck#scalacheck_2.10;1.11.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-sbt#test-interface;1.0 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.pegdown#pegdown;1.2.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-java;1.1.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.parboiled#parboiled-core;1.1.4 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm;4.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-tree;4.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-analysis;4.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.ow2.asm#asm-util;4.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.specs2#classycle;1.4.1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->com.chuusai#shapeless_2.10.3;2.0.0-M1 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-core_2.10;7.0.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-concurrent_2.10;7.0.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test-internal->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test-internal->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test-internal->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scalaz#scalaz-effect_2.10;7.0.5 [test-internal->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#scala-reflect;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#jline;2.10.3 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#jline;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#jline;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.scala-lang#jline;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.fusesource.jansi#jansi;1.4 [scala-tool->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.fusesource.jansi#jansi;1.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2->org.fusesource.jansi#jansi;1.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/com.dwp.carers/carerscommon$sources_javadoc_2.10/2.2.2/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.santuario#xmlsec;1.4.8!xmlsec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.santuario#xmlsec;1.4.8!xmlsec.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.santuario#xmlsec;1.4.8!xmlsec.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1!commons-logging.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] logkit#logkit;1.0.1!logkit.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] logkit#logkit;1.0.1!logkit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.servlet#servlet-api;2.3!servlet-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.servlet#servlet-api;2.3!servlet-api.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jasypt#jasypt;1.9.1!jasypt.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jasypt#jasypt;1.9.1!jasypt.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jasypt#jasypt;1.9.1!jasypt.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.3.6!specs2_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.3.6!specs2_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.3.6!specs2_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mockito#mockito-core;1.9.5!mockito-core.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mockito#mockito-core;1.9.5!mockito-core.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mockito#mockito-core;1.9.5!mockito-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.objenesis#objenesis;1.0!objenesis.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.objenesis#objenesis;1.0!objenesis.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.objenesis#objenesis;1.0!objenesis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalacheck#scalacheck_2.10;1.11.1!scalacheck_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalacheck#scalacheck_2.10;1.11.1!scalacheck_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalacheck#scalacheck_2.10;1.11.1!scalacheck_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.pegdown#pegdown;1.2.1!pegdown.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.pegdown#pegdown;1.2.1!pegdown.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.pegdown#pegdown;1.2.1!pegdown.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.4!parboiled-java.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.4!parboiled-java.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.4!parboiled-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.4!parboiled-core.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.4!parboiled-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.4!parboiled-core.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#classycle;1.4.1!classycle.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#classycle;1.4.1!classycle.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#classycle;1.4.1!classycle.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.chuusai#shapeless_2.10.3;2.0.0-M1!shapeless_2.10.3.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.chuusai#shapeless_2.10.3;2.0.0-M1!shapeless_2.10.3.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.chuusai#shapeless_2.10.3;2.0.0-M1!shapeless_2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.5!scalaz-core_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.5!scalaz-core_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.5!scalaz-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.5!scalaz-concurrent_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.5!scalaz-concurrent_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.5!scalaz-concurrent_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.5!scalaz-effect_2.10.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.5!scalaz-effect_2.10.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.5!scalaz-effect_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(src)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar(doc)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 649ms :: artifacts dl 201ms[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 compile produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 runtime produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 test produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 provided produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 optional produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 compile-internal produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 runtime-internal produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 test-internal produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 plugin produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 sources produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 docs produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 pom produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#carerscommon$sources_javadoc_2.10;2.2.2 scala-tool produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-carerscommon$sources_javadoc_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (649ms resolve - 201ms download)[0m

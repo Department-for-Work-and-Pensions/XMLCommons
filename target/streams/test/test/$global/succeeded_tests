@@ -1,0 +1,9 @@
+#Successful Tests
+#Mon May 12 15:54:21 BST 2014
+com.dwp.carers.s2.xml.signing.DsaSha1XmlSignatureImplTest=1399906461674
+com.dwp.carers.s2.xml.validation.CocFutureXmlValidatorImplTest=1399906460571
+com.dwp.carers.s2.xml.validation.CocLegacyXmlValidatorImplTest=1399906460571
+com.dwp.carers.s2.xml.validation.S2LocalResourceResolverTest=1399906460349
+com.dwp.carers.s2.xml.validation.CaFutureXmlValidatorImpl2Test=1399906461103
+com.dwp.carers.s2.xml.validation.XmlValidatoFactoryTest=1399906460349
+com.dwp.carers.s2.xml.validation.CaLegacyXmlValidatorImpl2Test=1399906461332

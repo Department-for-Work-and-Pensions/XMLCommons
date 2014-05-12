@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ca:DWPBody xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+ xmlns:ca="http://www.govtalk.gov.uk/dwp/carers-allowance"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance CarersAllowance_Schema.xsd">
+    <ca:Version>0</ca:Version>
+    <ca:DWPCATransaction id="2222222">
+        <ca:TransactionId>2222222</ca:TransactionId>
+        <ca:DateTimeGenerated>01-01-1900 00:00</ca:DateTimeGenerated>
+        <ca:DWPCAChangeOfCircumstances>
+            <ca:Claim>
+                <ca:ClaimantDetails>
+                    <ca:Surname>Surname0</ca:Surname>
+                    <ca:OtherNames>OtherNames0</ca:OtherNames>
+                    <ca:OtherSurnames>OtherSurnames0</ca:OtherSurnames>
+                    <ca:OtherSurnames>OtherSurnames1</ca:OtherSurnames>
+                    <ca:Title>Mr</ca:Title>
+                    <ca:DateOfBirth>01-01-1900</ca:DateOfBirth>
+                    <ca:NationalInsuranceNumber>AA000000!</ca:NationalInsuranceNumber>
+                    <ca:Address>
+                        <ca:Line>Line0</ca:Line>
+                        <ca:Line>Line1</ca:Line>
+                    </ca:Address>
+                    <ca:DayTimePhoneNumber>       </ca:DayTimePhoneNumber>
+                    <ca:MobileNumber>       </ca:MobileNumber>
+                </ca:ClaimantDetails>
+                <ca:CareeDetails>
+                    <ca:Surname>Surname1</ca:Surname>
+                    <ca:OtherNames>OtherNames1</ca:OtherNames>
+                    <ca:OtherSurnames>OtherSurnames2</ca:OtherSurnames>
+                    <ca:OtherSurnames>OtherSurnames3</ca:OtherSurnames>
+                    <ca:Title>Mr</ca:Title>
+                    <ca:DateOfBirth>01-01-1900</ca:DateOfBirth>
+                    <ca:NationalInsuranceNumber>AA000000!</ca:NationalInsuranceNumber>
+                    <ca:Address>
+                        <ca:Line>Line2</ca:Line>
+                        <ca:Line>Line3</ca:Line>
+                    </ca:Address>
+                    <ca:DayTimePhoneNumber>       </ca:DayTimePhoneNumber>
+                    <ca:MobileNumber>       </ca:MobileNumber>
+                </ca:CareeDetails>
+            </ca:Claim>
+            <ca:OtherChanges>
+                <ca:QuestionLabel>QuestionLabel0</ca:QuestionLabel>
+                <ca:Answer>Answer0</ca:Answer>
+            </ca:OtherChanges>
+            <ca:Declaration>
+                <ca:DeclarationStatement>
+                    <ca:Title>Title2</ca:Title>
+                    <ca:Content>Content0</ca:Content>
+                    <ca:Content>Content1</ca:Content>
+                </ca:DeclarationStatement>
+                <ca:DeclarationQuestion>
+                    <ca:QuestionLabel>QuestionLabel1</ca:QuestionLabel>
+                    <ca:Answer>Yes</ca:Answer>
+                </ca:DeclarationQuestion>
+                <ca:DeclarationQuestion>
+                    <ca:QuestionLabel>QuestionLabel2</ca:QuestionLabel>
+                    <ca:Answer>Yes</ca:Answer>
+                </ca:DeclarationQuestion>
+            </ca:Declaration>
+            <ca:Disclaimer>
+                <ca:DisclaimerStatement>
+                    <ca:Title>Title3</ca:Title>
+                    <ca:Content>Content2</ca:Content>
+                    <ca:Content>Content3</ca:Content>
+                </ca:DisclaimerStatement>
+                <ca:DisclaimerQuestion>
+                    <ca:QuestionLabel>QuestionLabel3</ca:QuestionLabel>
+                    <ca:Answer>Yes</ca:Answer>
+                </ca:DisclaimerQuestion>
+            </ca:Disclaimer>
+            <ca:EvidenceList>
+                <ca:RecipientAddress>
+                    <ca:Line>Line4</ca:Line>
+                    <ca:Line>Line5</ca:Line>
+                    <ca:PostCode>GIR 0AA</ca:PostCode>
+                </ca:RecipientAddress>
+                <ca:Evidence>
+                    <ca:Title>Title4</ca:Title>
+                    <ca:Content>Content4</ca:Content>
+                    <ca:Content>Content5</ca:Content>
+                </ca:Evidence>
+                <ca:Evidence>
+                    <ca:Title>Title5</ca:Title>
+                    <ca:Content>Content6</ca:Content>
+                    <ca:Content>Content7</ca:Content>
+                </ca:Evidence>
+            </ca:EvidenceList>
+            <ca:Consents>
+                <ca:Consent>
+                    <ca:QuestionLabel>QuestionLabel4</ca:QuestionLabel>
+                    <ca:Answer>Yes</ca:Answer>
+                </ca:Consent>
+                <ca:Consent>
+                    <ca:QuestionLabel>QuestionLabel5</ca:QuestionLabel>
+                    <ca:Answer>Yes</ca:Answer>
+                </ca:Consent>
+            </ca:Consents>
+        </ca:DWPCAChangeOfCircumstances>
+    </ca:DWPCATransaction>
+</ca:DWPBody>

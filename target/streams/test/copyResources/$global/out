@@ -1,0 +1,18 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/legacy,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/legacy)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/circs_0.91.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/circs_0.91.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/Claim.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/Claim.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/DWPCarerClaimGeneratedFromXML1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/DWPCarerClaimGeneratedFromXML1.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/DWPCarerClaimGeneratedFromXMLWithOptionals1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/DWPCarerClaimGeneratedFromXMLWithOptionals1.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/SchemaReferencingUnknownSchema.xsd,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/SchemaReferencingUnknownSchema.xsd)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/Sign1_out.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/Sign1_out.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/signed_circs_0.91.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/signed_circs_0.91.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/XmlFromProduction_Test_1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/XmlFromProduction_Test_1.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/future/XmlFromProductionWithErrors_Test_1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/future/XmlFromProductionWithErrors_Test_1.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/legacy/Claim.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/legacy/Claim.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/legacy/DWPCarerClaimGeneratedFromXML1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/legacy/DWPCarerClaimGeneratedFromXML1.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/legacy/DWPCarerClaimGeneratedFromXMLWithOptionals1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/legacy/DWPCarerClaimGeneratedFromXMLWithOptionals1.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/legacy/SchemaReferencingUnknownSchema.xsd,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/legacy/SchemaReferencingUnknownSchema.xsd)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/legacy/XmlFromProduction_Test_1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/legacy/XmlFromProduction_Test_1.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/valtechuk/Dev/xmlCommons/src/test/resources/legacy/XmlFromProductionWithErrors_Test_1.xml,/Users/valtechuk/Dev/xmlCommons/target/scala-2.10/test-classes/legacy/XmlFromProductionWithErrors_Test_1.xml)[0m

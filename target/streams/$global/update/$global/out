@@ -1,0 +1,1036 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/valtechuk/Dev/xmlCommons/}xmlCommons...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: com.dwp.carers#xmlcommons_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7899b4b1[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.santuario#xmlsec;1.4.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.santuario#xmlsec;1.4.8 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.santuario#xmlsec;1.4.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.apache.santuario#xmlsec;1.4.8[0m
+[0m[[0mdebug[0m] [0m	found org.apache.santuario#xmlsec;1.4.8 in Carers repo[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-logging#commons-logging;1.1[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.12 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: log4j#log4j;1.2.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: log4j#log4j;1.2.12[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: log4j#log4j;1.2.12[0m
+[0m[[0mdebug[0m] [0m	found log4j#log4j;1.2.12 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving logkit#logkit;1.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: logkit#logkit;1.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: logkit#logkit;1.0.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: logkit#logkit;1.0.1[0m
+[0m[[0mdebug[0m] [0m	found logkit#logkit;1.0.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving avalon-framework#avalon-framework;4.1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: avalon-framework#avalon-framework;4.1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: avalon-framework#avalon-framework;4.1.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: avalon-framework#avalon-framework;4.1.3[0m
+[0m[[0mdebug[0m] [0m	found avalon-framework#avalon-framework;4.1.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving javax.servlet#servlet-api;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.servlet#servlet-api;2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.servlet#servlet-api;2.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: javax.servlet#servlet-api;2.3[0m
+[0m[[0mdebug[0m] [0m	found javax.servlet#servlet-api;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.7.5[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-classic;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-classic;1.0.13 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-classic;1.0.13[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-classic;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-classic;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving ch.qos.logback#logback-core;1.0.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: ch.qos.logback#logback-core;1.0.13 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: ch.qos.logback#logback-core;1.0.13[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: ch.qos.logback#logback-core;1.0.13[0m
+[0m[[0mdebug[0m] [0m	found ch.qos.logback#logback-core;1.0.13 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jasypt#jasypt;1.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jasypt#jasypt;1.9.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jasypt#jasypt;1.9.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.jasypt#jasypt;1.9.1[0m
+[0m[[0mdebug[0m] [0m	found org.jasypt#jasypt;1.9.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.specs2#specs2_2.10;2.3.6 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.specs2#specs2_2.10;2.3.6 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#specs2_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#specs2_2.10;2.3.6[0m
+[0m[[0mdebug[0m] [0m	found org.specs2#specs2_2.10;2.3.6 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.hamcrest#hamcrest-core;1.3[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.mockito#mockito-core;1.9.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mockito#mockito-core;1.9.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mockito#mockito-core;1.9.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mockito#mockito-core;1.9.5[0m
+[0m[[0mdebug[0m] [0m	found org.mockito#mockito-core;1.9.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.objenesis#objenesis;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.objenesis#objenesis;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.objenesis#objenesis;1.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.objenesis#objenesis;1.0[0m
+[0m[[0mdebug[0m] [0m	found org.objenesis#objenesis;1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scalacheck#scalacheck_2.10;1.11.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalacheck#scalacheck_2.10;1.11.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.10;1.11.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalacheck#scalacheck_2.10;1.11.1[0m
+[0m[[0mdebug[0m] [0m	found org.scalacheck#scalacheck_2.10;1.11.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-sbt#test-interface;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-sbt#test-interface;1.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-sbt#test-interface;1.0[0m
+[0m[[0mdebug[0m] [0m	found org.scala-sbt#test-interface;1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.11 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.11 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.11[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: junit#junit;4.11[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.11 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.pegdown#pegdown;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.pegdown#pegdown;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.pegdown#pegdown;1.2.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.pegdown#pegdown;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found org.pegdown#pegdown;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-java;1.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.parboiled#parboiled-java;1.1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-java;1.1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-java;1.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-java;1.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.parboiled#parboiled-core;1.1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.parboiled#parboiled-core;1.1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.parboiled#parboiled-core;1.1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.parboiled#parboiled-core;1.1.4[0m
+[0m[[0mdebug[0m] [0m	found org.parboiled#parboiled-core;1.1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-tree;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-tree;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-tree;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-tree;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-tree;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-analysis;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-analysis;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-analysis;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-analysis;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-analysis;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.ow2.asm#asm-util;4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.ow2.asm#asm-util;4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.ow2.asm#asm-util;4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.ow2.asm#asm-util;4.1[0m
+[0m[[0mdebug[0m] [0m	found org.ow2.asm#asm-util;4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.specs2#classycle;1.4.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.specs2#classycle;1.4.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.specs2#classycle;1.4.1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.specs2#classycle;1.4.1[0m
+[0m[[0mdebug[0m] [0m	found org.specs2#classycle;1.4.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.chuusai#shapeless_2.10.3;2.0.0-M1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.chuusai#shapeless_2.10.3;2.0.0-M1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.chuusai#shapeless_2.10.3;2.0.0-M1[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.chuusai#shapeless_2.10.3;2.0.0-M1[0m
+[0m[[0mdebug[0m] [0m	found com.chuusai#shapeless_2.10.3;2.0.0-M1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-core_2.10;7.0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-core_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-core_2.10;7.0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-concurrent_2.10;7.0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-concurrent_2.10;7.0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-concurrent_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-concurrent_2.10;7.0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scalaz#scalaz-effect_2.10;7.0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scalaz#scalaz-effect_2.10;7.0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scalaz#scalaz-effect_2.10;7.0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->default][0m
+[0m[[0minfo[0m] [0mResolving com.novocode#junit-interface;0.8 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.novocode#junit-interface;0.8 {test=[default]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.novocode#junit-interface;0.8[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.novocode#junit-interface;0.8[0m
+[0m[[0mdebug[0m] [0m	found com.novocode#junit-interface;0.8 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.8.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.8.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-tools.testing#test-interface;0.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-tools.testing#test-interface;0.5[0m
+[0m[[0mdebug[0m] [0m	found org.scala-tools.testing#test-interface;0.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.8.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.apache.santuario#xmlsec;1.4.8->commons-logging#commons-logging;1.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->log4j#log4j;1.2.12 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->logkit#logkit;1.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->avalon-framework#avalon-framework;4.1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-logging#commons-logging;1.1->javax.servlet#servlet-api;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.apache.santuario#xmlsec;1.4.8 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.slf4j#slf4j-api;1.7.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->ch.qos.logback#logback-core;1.0.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies ch.qos.logback#logback-classic;1.0.13->org.slf4j#slf4j-api;1.7.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->ch.qos.logback#logback-classic;1.0.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->log4j#log4j;1.2.12 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.jasypt#jasypt;1.9.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.9.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-compiler;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.hamcrest#hamcrest-core;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.mockito#mockito-core;1.9.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.hamcrest#hamcrest-core;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.mockito#mockito-core;1.9.5->org.objenesis#objenesis;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalacheck#scalacheck_2.10;1.11.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalacheck#scalacheck_2.10;1.11.1->org.scala-sbt#test-interface;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->junit#junit;4.11 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.11->org.hamcrest#hamcrest-core;1.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.pegdown#pegdown;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.pegdown#pegdown;1.2.1->org.parboiled#parboiled-java;1.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.parboiled#parboiled-core;1.1.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-analysis;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.parboiled#parboiled-java;1.1.4->org.ow2.asm#asm-util;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.specs2#classycle;1.4.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#classycle;1.4.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->com.chuusai#shapeless_2.10.3;2.0.0-M1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-compiler;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.chuusai#shapeless_2.10.3;2.0.0-M1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-core_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scalaz#scalaz-concurrent_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.0.5->org.scalaz#scalaz-effect_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalaz#scalaz-effect_2.10;7.0.5->org.scalaz#scalaz-core_2.10;7.0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.specs2#specs2_2.10;2.3.6->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.specs2#specs2_2.10;2.3.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->junit#junit;4.11 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.8.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.8.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.8.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->junit#junit;4.11 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.novocode#junit-interface;0.8->org.scala-tools.testing#test-interface;0.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->com.novocode#junit-interface;0.8 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for com.dwp.carers#xmlcommons_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.dwp.carers#xmlcommons_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/com.dwp.carers/xmlcommons_2.10/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.santuario#xmlsec;1.4.8!xmlsec.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.5!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-classic;1.0.13!logback-classic.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.12!log4j.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jasypt#jasypt;1.9.1!jasypt.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.1!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] logkit#logkit;1.0.1!logkit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] avalon-framework#avalon-framework;4.1.3!avalon-framework.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.servlet#servlet-api;2.3!servlet-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] ch.qos.logback#logback-core;1.0.13!logback-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.3.6!specs2_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.11!junit.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.novocode#junit-interface;0.8!junit-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mockito#mockito-core;1.9.5!mockito-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalacheck#scalacheck_2.10;1.11.1!scalacheck_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.pegdown#pegdown;1.2.1!pegdown.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#classycle;1.4.1!classycle.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.chuusai#shapeless_2.10.3;2.0.0-M1!shapeless_2.10.3.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.5!scalaz-core_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.5!scalaz-concurrent_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.objenesis#objenesis;1.0!objenesis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.4!parboiled-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.4!parboiled-core.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-tree;4.1!asm-tree.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.5!scalaz-effect_2.10.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1312ms :: artifacts dl 35ms[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 compile produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 runtime produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 test produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 provided produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 optional produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 compile-internal produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 runtime-internal produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 test-internal produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 plugin produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 sources produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 docs produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 pom produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.dwp.carers#xmlcommons_2.10;1.0 scala-tool produced in /Users/valtechuk/Dev/xmlCommons/target/resolution-cache/reports/com.dwp.carers-xmlcommons_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (1312ms resolve - 35ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
