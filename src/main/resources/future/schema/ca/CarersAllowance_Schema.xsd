@@ -54,7 +54,7 @@
                                                             <xs:sequence>
                                                                 <xs:element minOccurs="0" name="RelationToClaimant" type="QuestionOtherType"/>
                                                                 <xs:element minOccurs="0" name="Cared35Hours" type="QuestionTextType"/>
-                                                                <xs:element minOccurs="0" maxOccurs="10" name="CareBreak" type="CareBreakType"/>
+                                                                <xs:element minOccurs="0" maxOccurs="unbounded" name="CareBreak" type="CareBreakType"/>
                                                                 <xs:element minOccurs="0" name="Cared35HoursBefore" type="QuestionTextType"/>
                                                                 <xs:element minOccurs="0" name="DateStartCaring" type="QuestionDateType"/>
                                                                 <xs:element minOccurs="0" name="LiveSameAddress" type="QuestionTextType"/>
@@ -74,7 +74,7 @@
                                                         <xs:element minOccurs="0" name="NormallyLiveInGB" type="QuestionTextType"/>
                                                         <xs:element minOccurs="0" name="CountryNormallyLive" type="QuestionTextType"/>
                                                         <xs:element minOccurs="0" name="Nationality" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" maxOccurs="20" name="PeriodAbroad">
+                                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="PeriodAbroad">
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element minOccurs="0" name="TimeOutsideGBLast3Years" type="QuestionTextType"/>
