@@ -54,18 +54,7 @@
                                                             <xs:sequence>
                                                                 <xs:element minOccurs="0" name="RelationToClaimant" type="QuestionOtherType"/>
                                                                 <xs:element minOccurs="0" name="Cared35Hours" type="QuestionTextType"/>
-                                                                <xs:element minOccurs="0" name="BreaksSinceClaim" type="QuestionTextType"/>
-                                                                <xs:element minOccurs="0" maxOccurs="10" name="CareBreak">
-                                                                    <xs:complexType>
-                                                                        <xs:all>
-                                                                            <xs:element minOccurs="0" name="StartDateTime" type="QuestionDateTimeType"/>
-                                                                            <xs:element minOccurs="0" name="EndDateTime" type="QuestionDateTimeType"/>
-                                                                            <xs:element minOccurs="0" name="ReasonClaimant" type="QuestionOtherType"/>
-                                                                            <xs:element minOccurs="0" name="ReasonCaree" type="QuestionOtherType"/>
-                                                                            <xs:element minOccurs="0" name="MedicalCare" type="QuestionTextType"/>
-                                                                        </xs:all>
-                                                                    </xs:complexType>
-                                                                </xs:element>
+                                                                <xs:element minOccurs="0" maxOccurs="10" name="CareBreak" type="CareBreakType"/>
                                                                 <xs:element minOccurs="0" name="Cared35HoursBefore" type="QuestionTextType"/>
                                                                 <xs:element minOccurs="0" name="DateStartCaring" type="QuestionDateType"/>
                                                                 <xs:element minOccurs="0" name="LiveSameAddress" type="QuestionTextType"/>
@@ -820,5 +809,15 @@
                 </xs:simpleType>
             </xs:element>
         </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="CareBreakType">
+        <xs:all>
+            <xs:element minOccurs="0" name="BreaksSinceClaim" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="StartDateTime" type="QuestionDateTimeType"/>
+            <xs:element minOccurs="0" name="EndDateTime" type="QuestionDateTimeType"/>
+            <xs:element minOccurs="0" name="ReasonClaimant" type="QuestionOtherType"/>
+            <xs:element minOccurs="0" name="ReasonCaree" type="QuestionOtherType"/>
+            <xs:element minOccurs="0" name="MedicalCare" type="QuestionTextType"/>
+        </xs:all>
     </xs:complexType>
 </xs:schema>
