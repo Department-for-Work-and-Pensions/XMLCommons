@@ -381,7 +381,7 @@
     <xs:complexType name="TextBlockType">
         <xs:sequence>
             <xs:element minOccurs="0" name="Title" type="RestrictedStringType"/>
-            <xs:element maxOccurs="10" name="Content" type="TwoThousandTextType"/>
+            <xs:element minOccurs="0" maxOccurs="unbounded" name="Content" type="TwoThousandTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="UKPostalAddressType">
