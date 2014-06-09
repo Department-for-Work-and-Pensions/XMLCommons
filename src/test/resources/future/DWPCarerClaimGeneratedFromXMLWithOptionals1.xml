@@ -1,6 +1,6 @@
 <DWPBody xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance CarersAllowance_Schema.xsd">
+         xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/schema/ca/CarersAllowance_Schema.xsd">
     <Version>0.1</Version>
     <DWPCATransaction>
         <TransactionId>CGNJM9K</TransactionId>
@@ -59,8 +59,8 @@
                         <QuestionLabel>Have you had any breaks in caring for this person since claim date?</QuestionLabel>
                         <Answer>Yes</Answer>
                     </BreaksSinceClaim>
-                    <StartDateTime><QuestionLabel>Start date time</QuestionLabel><Answer>10-07-2010 10:00</Answer></StartDateTime>
-                    <EndDateTime><QuestionLabel>End date time</QuestionLabel><Answer>17-07-2010 17:45</Answer></EndDateTime>
+                    <StartDate><QuestionLabel>Start date time</QuestionLabel><Answer>10-07-2010</Answer></StartDate>
+                    <EndDate><QuestionLabel>End date time</QuestionLabel><Answer>17-07-2010</Answer></EndDate>
                     <ReasonClaimant>
                         <QuestionLabel>Where were you during the break?</QuestionLabel>
                         <Other>Friend's place</Other>
@@ -76,8 +76,8 @@
                     </MedicalCare>
                 </CareBreak>
                 <CareBreak>
-                    <StartDateTime><QuestionLabel>Start date time</QuestionLabel><Answer>10-09-2010 10:00</Answer></StartDateTime>
-                    <EndDateTime><QuestionLabel>End date time</QuestionLabel><Answer>17-09-2010 17:45</Answer></EndDateTime>
+                    <StartDate><QuestionLabel>Start date time</QuestionLabel><Answer>10-09-2010</Answer></StartDate>
+                    <EndDate><QuestionLabel>End date time</QuestionLabel><Answer>17-09-2010</Answer></EndDate>
                     <ReasonClaimant>
                         <QuestionLabel>Where were you during the break?</QuestionLabel>
                         <Answer>Hospital</Answer>
@@ -92,7 +92,7 @@
                     </MedicalCare>
                 </CareBreak>
                 <CareBreak>
-                    <StartDateTime><QuestionLabel>Start date time</QuestionLabel><Answer>10-10-2010 10:30</Answer></StartDateTime>
+                    <StartDate><QuestionLabel>Start date time</QuestionLabel><Answer>10-10-2010</Answer></StartDate>
                 </CareBreak>
                 <Cared35HoursBefore>
                     <QuestionLabel>care.35.before</QuestionLabel>
