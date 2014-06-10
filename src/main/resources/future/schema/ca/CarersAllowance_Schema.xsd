@@ -546,6 +546,7 @@
             <xs:element minOccurs="0" name="Expense" type="PaymentWithFrequencyType"/>
             <xs:element minOccurs="0" name="RelationshipCarerToClaimant" type="QuestionOtherType"/>
             <xs:element minOccurs="0" name="RelationshipCarerToPartner" nillable="false" type="QuestionOtherType"/>
+            <xs:element minOccurs="0" name="RelationshipCarerToPersonYouCare" nillable="false" type="QuestionOtherType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:simpleType name="NumberHoursType">
