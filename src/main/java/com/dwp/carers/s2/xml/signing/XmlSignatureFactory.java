@@ -1,5 +1,7 @@
 package com.dwp.carers.s2.xml.signing;
 
+import com.dwp.carers.security.keystore.KeyStoreLoaderJCEKS;
+
 /**
  * Factory to use to get a XMLSignature.
  * <br>
@@ -18,7 +20,7 @@ public class XmlSignatureFactory {
      * @return DSA-SHA1 signature generator.
      */
     public static synchronized XmlSignature buildDsaSha1Generator() {
-        return new DsaSha1XmlSignatureImpl(new KeyStoreLoaderJKS());
+        return new DsaSha1XmlSignatureImpl(new KeyStoreLoaderJCEKS());
     }
 
 

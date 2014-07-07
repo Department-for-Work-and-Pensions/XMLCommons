@@ -17,6 +17,8 @@ import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.security.Key;
 import java.security.KeyStore;
+import com.dwp.carers.security.keystore.KeyStoreLoader;
+import com.dwp.carers.security.PasswordManager;
 
 /**
  * To use to sign Carers XML messages to Government Gateway. Uses SHA1 and DSA-SHA1 algorithms.
