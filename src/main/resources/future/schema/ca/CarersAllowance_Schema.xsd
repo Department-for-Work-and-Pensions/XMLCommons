@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
-           targetNamespace="http://www.govtalk.gov.uk/dwp/carers-allowance" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.1" id="dwp-ca">
+    targetNamespace="http://www.govtalk.gov.uk/dwp/carers-allowance" elementFormDefault="qualified" attributeFormDefault="unqualified" version="0.1" id="dwp-ca">
     <xs:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="schema/ca/xmldsig-core-schema.xsd"/>
     <xs:element name="DWPBody">
         <xs:complexType>
@@ -164,8 +164,10 @@
                                                                                 <xs:element minOccurs="0" name="ClockPayrollNumber" type="QuestionTextType"/>
                                                                                 <xs:element minOccurs="0" name="Name" type="QuestionTextType"/>
                                                                                 <xs:element minOccurs="0" name="Address" type="QuestionAddressType"/>
-                                                                                <xs:element minOccurs="0" name="EmployersPhoneNumber" type="QuestionPhoneNumberType"/>
-                                                                                <xs:element minOccurs="0" name="EmployersFaxNumber" type="QuestionPhoneNumberType"/>
+                                                                                <xs:element minOccurs="0" name="EmployersPhoneNumber"
+                                                                                type="QuestionPhoneNumberType"/>
+                                                                                <xs:element minOccurs="0" name="EmployersFaxNumber"
+                                                                                type="QuestionPhoneNumberType"/>
                                                                                 <xs:element minOccurs="0" name="HaveFinishedJob" type="QuestionTextType"/>
                                                                                 <xs:element minOccurs="0" name="P45LeavingDate" type="QuestionDateType"/>
                                                                             </xs:sequence>
@@ -175,15 +177,15 @@
                                                                         <xs:complexType>
                                                                             <xs:sequence>
                                                                                 <xs:element minOccurs="0" name="WeeklyHoursWorked">
-                                                                                    <xs:complexType>
-                                                                                        <xs:complexContent>
-                                                                                            <xs:extension base="QuestionType">
-                                                                                                <xs:sequence>
-                                                                                                    <xs:element name="Answer" type="NumberHoursType"/>
-                                                                                                </xs:sequence>
-                                                                                            </xs:extension>
-                                                                                        </xs:complexContent>
-                                                                                    </xs:complexType>
+                                                                                <xs:complexType>
+                                                                                <xs:complexContent>
+                                                                                <xs:extension base="QuestionType">
+                                                                                <xs:sequence>
+                                                                                <xs:element name="Answer" type="NumberHoursType"/>
+                                                                                </xs:sequence>
+                                                                                </xs:extension>
+                                                                                </xs:complexContent>
+                                                                                </xs:complexType>
                                                                                 </xs:element>
                                                                                 <xs:element minOccurs="0" name="DateLastPaid" type="QuestionDateType"/>
                                                                                 <xs:element minOccurs="0" name="GrossPayment" type="QuestionMoneyType"> </xs:element>
@@ -361,9 +363,7 @@
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="NationalInsuranceNumberType">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="[A-CEGHJ-PR-TW-Z]{2}[0-9]{6}[ABCD\S]{1}"/>
-        </xs:restriction>
+        <xs:restriction base="xs:string"> </xs:restriction>
     </xs:simpleType>
     <xs:complexType name="QuestionNationalInsuranceNumberType">
         <xs:complexContent>
@@ -392,7 +392,7 @@
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:pattern
-                                value="(GIR 0AA)|((([A-Z][0-9][0-9]?)|(([A-Z][A-HJ-Y][0-9][0-9]?)|(([A-Z][0-9][A-Z])|([A-Z][A-HJ-Y][0-9]?[A-Z])))) [0-9][A-Z]{2})"/>
+                            value="(GIR 0AA)|((([A-Z][0-9][0-9]?)|(([A-Z][A-HJ-Y][0-9][0-9]?)|(([A-Z][0-9][A-Z])|([A-Z][A-HJ-Y][0-9]?[A-Z])))) [0-9][A-Z]{2})"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -604,7 +604,7 @@
     </xs:complexType>
     <xs:complexType name="EvidenceListType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="RecipientAddress" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="RecipientAddress" type="QuestionAddressType"/>
             <xs:element maxOccurs="50" minOccurs="0" name="Evidence" type="TextBlockType"/>
         </xs:sequence>
     </xs:complexType>
@@ -629,7 +629,7 @@
             <xs:element minOccurs="0" name="Title" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="DateOfBirth" type="QuestionDateType"/>
             <xs:element minOccurs="0" name="NationalInsuranceNumber" type="QuestionNationalInsuranceNumberType"/>
-            <xs:element minOccurs="0" name="Address" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="Address" type="QuestionSecureAddressType"/>
             <xs:element minOccurs="0" name="DayTimePhoneNumber" type="QuestionTextType"/>
         </xs:sequence>
     </xs:complexType>
@@ -644,74 +644,74 @@
     </xs:complexType>
     <xs:complexType name="StoppedCaringType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="DateStoppedCaring" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="OtherChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="DateStoppedCaring" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="OtherChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="AddressChangeType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="PreviousAddress" type="QuestionAddressType"/>
-            <xs:element minOccurs="0"  name="Caring35Hours" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="DateStoppedCaring35Hours" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="NewAddress" type="QuestionAddressType"/>
-            <xs:element minOccurs="0"  name="CareeChangedAddress" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="CareeSameAddress" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="CareeAddress" type="QuestionAddressType"/>
-            <xs:element minOccurs="0"  name="OtherChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="PreviousAddress" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="Caring35Hours" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="DateStoppedCaring35Hours" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="NewAddress" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="CareeChangedAddress" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="CareeSameAddress" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="CareeAddress" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="OtherChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="PaymentChangeType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="PaidIntoAccountDetails" type="PaidIntoAccountType"/>
-            <xs:element minOccurs="0"  name="AccountDetails" type="AccountDetailsType"/>
+            <xs:element minOccurs="0" name="PaidIntoAccountDetails" type="PaidIntoAccountType"/>
+            <xs:element minOccurs="0" name="AccountDetails" type="AccountDetailsType"/>
             <xs:element minOccurs="0" name="PaymentFrequency" type="QuestionOtherType"/>
-            <xs:element minOccurs="0"  name="OtherChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="OtherChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="SelfEmployedChangeType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="Caring35Hours" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="DateStoppedCaring35Hours" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="BusinessStartDate" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="BusinessType" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="MoreThan100" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="OtherChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="Caring35Hours" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="DateStoppedCaring35Hours" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="BusinessStartDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="BusinessType" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="MoreThan100" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="OtherChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="BreakFromCaringEndedType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="HasBreakFromCaringEnded" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="EndDate" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="EndTime" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="ExpectStartCaringAgain" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="ExpectStartCaringAgainDate" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="PermanentBreakDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="HasBreakFromCaringEnded" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="EndDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="EndTime" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="ExpectStartCaringAgain" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="ExpectStartCaringAgainDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="PermanentBreakDate" type="QuestionDateType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="BreakFromCaringChangeType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="RecentBreakStartDate" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="RecentBreakStartTime" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="WherePersonYouCare" type="QuestionOtherType"/>
-            <xs:element minOccurs="0"  name="WhereWereYou" type="QuestionOtherType"/>
-            <xs:element minOccurs="0"  name="BreakFromCaringEnded" type="BreakFromCaringEndedType"/>
-            <xs:element minOccurs="0"  name="MedicalTreatmentDuringBreak" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="MoreChanges" type="QuestionTextThreeHundredType"/>
-            <xs:element minOccurs="0"  name="AdditionalBreaksNotReported" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="AdditionalBreaksNotReportedDesc" type="QuestionTextThreeHundredType"/>
+            <xs:element minOccurs="0" name="RecentBreakStartDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="RecentBreakStartTime" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="WherePersonYouCare" type="QuestionOtherType"/>
+            <xs:element minOccurs="0" name="WhereWereYou" type="QuestionOtherType"/>
+            <xs:element minOccurs="0" name="BreakFromCaringEnded" type="BreakFromCaringEndedType"/>
+            <xs:element minOccurs="0" name="MedicalTreatmentDuringBreak" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="MoreChanges" type="QuestionTextThreeHundredType"/>
+            <xs:element minOccurs="0" name="AdditionalBreaksNotReported" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="AdditionalBreaksNotReportedDesc" type="QuestionTextThreeHundredType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="EmploymentChangeType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="StillCaring" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="DateStoppedCaring" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="HasWorkStartedYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="DateWorkedStarted" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="DateWhenWillWorkStart" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="HasWorkFinishedYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="DateWorkedFinished" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="TypeOfWork" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="SelfEmployment" type="EmploymentChangeSelfEmploymentType"/>
+            <xs:element minOccurs="0" name="StillCaring" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="DateStoppedCaring" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="HasWorkStartedYet" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="DateWorkedStarted" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="DateWhenWillWorkStart" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="HasWorkFinishedYet" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="DateWorkedFinished" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="TypeOfWork" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="SelfEmployment" type="EmploymentChangeSelfEmploymentType"/>
             <xs:element minOccurs="0" name="StartedEmploymentAndOngoing" type="StartedEmploymentAndOngoingType"/>
             <xs:element minOccurs="0" name="StartedEmploymentAndFinished" type="StartedEmploymentAndFinishedType"/>
             <xs:element minOccurs="0" name="NotStartedEmployment" type="NotStartedEmploymentType"/>
@@ -719,64 +719,64 @@
     </xs:complexType>
     <xs:complexType name="EmploymentChangeSelfEmploymentType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="TypeOfSelfEmployment" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="TotalIncome" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="MoreAboutChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="TypeOfSelfEmployment" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="TotalIncome" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="NotStartedEmploymentType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="Address" type="QuestionAddressType"/>
-            <xs:element minOccurs="0"  name="EmployerContactNumber" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="EmployerPayroll" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="BeenPaidYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="HowMuchPaid" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PaymentDate" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="PayFrequency" type="PaymentWithFrequencyType"/>
-            <xs:element minOccurs="0"  name="UsuallyPaidSameAmount" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PayIntoPension" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
-            <xs:element minOccurs="0"  name="CareCostsForThisWork" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
-            <xs:element minOccurs="0"  name="MoreAboutChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="Address" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="EmployerContactNumber" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="EmployerPayroll" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="BeenPaidYet" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PaymentDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="PayFrequency" type="PaymentWithFrequencyType"/>
+            <xs:element minOccurs="0" name="UsuallyPaidSameAmount" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PayIntoPension" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="CareCostsForThisWork" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="StartedEmploymentAndOngoingType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="Address" type="QuestionAddressType"/>
-            <xs:element minOccurs="0"  name="EmployerContactNumber" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="EmployerPayroll" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="BeenPaidYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="HowMuchPaid" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PaymentDate" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="MonthlyPayDay" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PayFrequency" type="PaymentWithFrequencyType"/>
-             <xs:element minOccurs="0"  name="UsuallyPaidSameAmount" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PayIntoPension" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
-            <xs:element minOccurs="0"  name="CareCostsForThisWork" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
-            <xs:element minOccurs="0"  name="MoreAboutChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="Address" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="EmployerContactNumber" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="EmployerPayroll" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="BeenPaidYet" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PaymentDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="MonthlyPayDay" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PayFrequency" type="PaymentWithFrequencyType"/>
+            <xs:element minOccurs="0" name="UsuallyPaidSameAmount" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PayIntoPension" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="CareCostsForThisWork" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="StartedEmploymentAndFinishedType">
         <xs:sequence>
-            <xs:element minOccurs="0"  name="Address" type="QuestionAddressType"/>
-            <xs:element minOccurs="0"  name="EmployerContactNumber" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="EmployerPayroll" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="BeenPaidYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="HowMuchPaid" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PaymentDate" type="QuestionDateType"/>
-            <xs:element minOccurs="0"  name="WhatWasIncluded" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="MonthlyPayDay" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="EmployerOwesYouMoney" type="QuestionOtherType"/>
-            <xs:element minOccurs="0"  name="PayFrequency" type="PaymentWithFrequencyType"/>
-            <xs:element minOccurs="0"  name="UsuallyPaidSameAmount" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PayIntoPension" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
-            <xs:element minOccurs="0"  name="CareCostsForThisWork" type="QuestionTextType"/>
-            <xs:element minOccurs="0"  name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
-            <xs:element minOccurs="0"  name="MoreAboutChanges" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="Address" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="EmployerContactNumber" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="EmployerPayroll" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="BeenPaidYet" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PaymentDate" type="QuestionDateType"/>
+            <xs:element minOccurs="0" name="WhatWasIncluded" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="MonthlyPayDay" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="EmployerOwesYouMoney" type="QuestionOtherType"/>
+            <xs:element minOccurs="0" name="PayFrequency" type="PaymentWithFrequencyType"/>
+            <xs:element minOccurs="0" name="UsuallyPaidSameAmount" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PayIntoPension" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="CareCostsForThisWork" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="PaidIntoAccountType">
@@ -789,14 +789,13 @@
     <xs:complexType name="AccountDetailsType">
         <xs:sequence>
             <xs:element minOccurs="0" name="AccountHolder" type="QuestionTextType"/>
-            <xs:element minOccurs="0" name="HolderName" type="QuestionTextType" />
+            <xs:element minOccurs="0" name="HolderName" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="BuildingSocietyDetails" type="BuildingSocietyDetailsType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:simpleType name="AccountNumberType">
-        <xs:restriction base="RestrictedStringType">
+        <xs:restriction base="xs:string">
             <xs:minLength value="6"/>
-            <xs:maxLength value="10"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="RollNumberType">
@@ -806,9 +805,7 @@
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="SortCodeType">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="[0-9]{6}"/>
-        </xs:restriction>
+        <xs:restriction base="xs:string"> </xs:restriction>
     </xs:simpleType>
     <xs:complexType name="QuestionAccountNumberType">
         <xs:complexContent>
@@ -906,5 +903,20 @@
             <xs:element minOccurs="0" name="ReasonCaree" type="QuestionOtherType"/>
             <xs:element minOccurs="0" name="MedicalCare" type="QuestionTextType"/>
         </xs:all>
+    </xs:complexType>
+    <xs:complexType name="QuestionSecureAddressType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="UKSecurePostalAddressType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="UKSecurePostalAddressType">
+        <xs:sequence>
+            <xs:element maxOccurs="5" name="Line" type="AddresLineType"/>
+            <xs:element minOccurs="0" name="PostCode" type="xs:string"> </xs:element>
+        </xs:sequence>
     </xs:complexType>
 </xs:schema>
