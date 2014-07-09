@@ -482,6 +482,15 @@
             </xs:extension>
         </xs:complexContent>
     </xs:complexType>
+    <xs:complexType name="QuestionSecureTextType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="EightyTextType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
     <xs:complexType name="QuestionOtherType">
         <xs:complexContent>
             <xs:extension base="QuestionType">
@@ -623,7 +632,7 @@
     </xs:complexType>
     <xs:complexType name="PersonType">
         <xs:sequence>
-            <xs:element minOccurs="0" name="Surname" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="Surname" type="QuestionSecureTextType"/>
             <xs:element minOccurs="0" name="OtherNames" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="OtherSurnames" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="Title" type="QuestionTextType"/>
@@ -635,7 +644,7 @@
     </xs:complexType>
     <xs:complexType name="CircsPersonType">
         <xs:sequence>
-            <xs:element minOccurs="0" name="FullName" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="FullName" type="QuestionSecureTextType"/>
             <xs:element minOccurs="0" name="DateOfBirth" type="QuestionDateType"/>
             <xs:element minOccurs="0" name="NationalInsuranceNumber" type="QuestionNationalInsuranceNumberType"/>
             <xs:element minOccurs="0" name="RelationToClaimant" type="QuestionOtherType"/>
@@ -919,4 +928,10 @@
             <xs:element minOccurs="0" name="PostCode" type="xs:string"> </xs:element>
         </xs:sequence>
     </xs:complexType>
+    <xs:simpleType name="EightyTextType">
+        <xs:restriction base="RestrictedStringType">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="80"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
