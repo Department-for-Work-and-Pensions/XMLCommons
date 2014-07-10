@@ -387,12 +387,12 @@
                 <Answer>Yes</Answer>
             </Employed>
             <Employment>
-                <CurrentlyEmployed>
-                    <QuestionLabel>employed.currently</QuestionLabel>
-                    <Answer>Yes</Answer>
-                </CurrentlyEmployed>
                 <JobDetails>
                     <Employer>
+                        <CurrentlyEmployed>
+                            <QuestionLabel>employed.currently</QuestionLabel>
+                            <Answer>Yes</Answer>
+                        </CurrentlyEmployed>
                         <DateJobStarted>
                             <QuestionLabel>job.started</QuestionLabel>
                             <Answer>01-01-2013</Answer>
