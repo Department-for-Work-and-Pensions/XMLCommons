@@ -19,7 +19,7 @@ object ApplicationBuild extends Build {
     libraryDependencies += "junit" % "junit" % "4.11" % "test",
     libraryDependencies += "com.novocode" % "junit-interface" % "0.8" % "test->default",
     libraryDependencies += "org.jasypt" % "jasypt" % "1.9.1" classifier "lite",
-    libraryDependencies += "com.dwp.carers" %% "carerscommon" % "5.0"
+    libraryDependencies += "com.dwp.carers" %% "carerscommon" % "5.1"
     // Add your project dependencies here,
   )
 
