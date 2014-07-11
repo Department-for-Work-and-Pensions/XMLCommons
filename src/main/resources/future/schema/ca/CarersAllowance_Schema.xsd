@@ -468,7 +468,7 @@
         <xs:complexContent>
             <xs:extension base="QuestionType">
                 <xs:sequence>
-                    <xs:element name="Answer" type="SixtyTextType"/>
+                    <xs:element name="Answer" type="EightyTextType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -659,13 +659,13 @@
     </xs:complexType>
     <xs:complexType name="AddressChangeType">
         <xs:sequence>
-            <xs:element minOccurs="0" name="PreviousAddress" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="PreviousAddress" type="QuestionSecureAddressType"/>
             <xs:element minOccurs="0" name="Caring35Hours" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="DateStoppedCaring35Hours" type="QuestionDateType"/>
-            <xs:element minOccurs="0" name="NewAddress" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="NewAddress" type="QuestionSecureAddressType"/>
             <xs:element minOccurs="0" name="CareeChangedAddress" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="CareeSameAddress" type="QuestionTextType"/>
-            <xs:element minOccurs="0" name="CareeAddress" type="QuestionAddressType"/>
+            <xs:element minOccurs="0" name="CareeAddress" type="QuestionSecureAddressType"/>
             <xs:element minOccurs="0" name="OtherChanges" type="QuestionLongTextType"/>
         </xs:sequence>
     </xs:complexType>
