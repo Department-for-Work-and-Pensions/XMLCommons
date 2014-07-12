@@ -1,12 +1,14 @@
 package com.dwp.carers.s2.xml.signing;
 
+import com.dwp.exceptions.DwpRuntimeException;
+
 /**
  * Exception raised by a signature generator when an error occurred and cannot sign XML.
  *
  * @author Jorge Migueis
  *         Date: 28/06/2013
  */
-public class SigningException extends RuntimeException {
+public class SigningException extends DwpRuntimeException {
 
 
     /**
