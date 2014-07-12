@@ -468,7 +468,7 @@
         <xs:complexContent>
             <xs:extension base="QuestionType">
                 <xs:sequence>
-                    <xs:element name="Answer" type="EightyTextType"/>
+                    <xs:element name="Answer" type="HundredTwentyTextType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -486,7 +486,7 @@
         <xs:complexContent>
             <xs:extension base="QuestionType">
                 <xs:sequence>
-                    <xs:element name="Answer" type="EightyTextType"/>
+                    <xs:element name="Answer" type="HundredTwentyTextType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -928,10 +928,10 @@
             <xs:element minOccurs="0" name="PostCode" type="xs:string"> </xs:element>
         </xs:sequence>
     </xs:complexType>
-    <xs:simpleType name="EightyTextType">
+    <xs:simpleType name="HundredTwentyTextType">
         <xs:restriction base="RestrictedStringType">
             <xs:minLength value="1"/>
-            <xs:maxLength value="80"/>
+            <xs:maxLength value="120"/>
         </xs:restriction>
     </xs:simpleType>
 </xs:schema>
