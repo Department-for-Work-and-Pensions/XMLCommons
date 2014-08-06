@@ -708,10 +708,6 @@
                     </Name>
                 </OtherMoneyDetails>
                 <EEA>
-                    <EEAClaimPensionsBenefits>
-                        <QuestionLabel>eea.pension</QuestionLabel>
-                        <Answer>Yes</Answer>
-                    </EEAClaimPensionsBenefits>
                     <EEAReceivePensionsBenefits>
                         <QuestionLabel>eea.pension</QuestionLabel>
                         <Answer>Yes</Answer>

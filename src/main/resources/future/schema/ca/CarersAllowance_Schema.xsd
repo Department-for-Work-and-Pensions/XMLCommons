@@ -275,7 +275,6 @@
                                                             <xs:complexType>
                                                                 <xs:all>
                                                                     <xs:element minOccurs="0" name="EEAReceivePensionsBenefits" type="QuestionTextType"> </xs:element>
-                                                                    <xs:element minOccurs="0" name="EEAClaimPensionsBenefits" type="QuestionTextType"/>
                                                                     <xs:element minOccurs="0" name="EEAWorkingInsurance" type="QuestionTextType"/>
                                                                 </xs:all>
                                                             </xs:complexType>
