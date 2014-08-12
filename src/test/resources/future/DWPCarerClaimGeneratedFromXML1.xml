@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance CarersAllowance_Schema.xsd">
         <Version>0.1</Version>
         <DWPCATransaction id="NFM33DB">
-            <TransactionId>NFM33DB</TransactionId>
+            <TransactionId>1409NOM33DB</TransactionId>
             <DateTimeGenerated>09-10-2010 10:39</DateTimeGenerated>
             <DWPCAClaim>
                 <DateOfClaim>
