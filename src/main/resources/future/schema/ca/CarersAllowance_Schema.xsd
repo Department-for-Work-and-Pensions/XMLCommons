@@ -71,9 +71,8 @@
                                             <xs:element minOccurs="0" name="Residency">
                                                 <xs:complexType>
                                                     <xs:sequence>
-                                                        <xs:element minOccurs="0" name="NormallyLiveInGB" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" name="CountryNormallyLive" type="QuestionTextType"/>
                                                         <xs:element minOccurs="0" name="Nationality" type="QuestionTextType"/>
+                                                        <xs:element minOccurs="0" name="NationalResidency" type="QuestionTextType"/>
                                                         <xs:element minOccurs="0" maxOccurs="unbounded" name="PeriodAbroad">
                                                             <xs:complexType>
                                                                 <xs:sequence>
