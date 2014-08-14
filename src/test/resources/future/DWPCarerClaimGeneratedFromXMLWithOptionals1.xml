@@ -467,115 +467,16 @@
                         <QuestionLabel>job.owe</QuestionLabel>
                         <Answer>No</Answer>
                     </OweMoney>
-                    <CareExpensesChildren>
-                        <QuestionLabel>chld.expenses</QuestionLabel>
+                    <PaidForPension>
+                        <QuestionLabel>job.pension.expenses</QuestionLabel>
                         <Answer>Yes</Answer>
-                    </CareExpensesChildren>
-                    <ChildCareExpenses>
-                        <CarerName>
-                            <QuestionLabel>child.carer</QuestionLabel>
-                            <Answer>Mr Grandfather Senior</Answer>
-                        </CarerName>
+                    </PaidForPension>
+                    <PensionExpenses>
                         <Expense>
-                            <Payment>
-                                <QuestionLabel>child.care.amount</QuestionLabel>
-                                <Answer>
-                                    <Currency>GBP</Currency>
-                                    <Amount>120.12</Amount>
-                                </Answer>
-                            </Payment>
-                            <Frequency>
-                                <QuestionLabel>child.care.frequency</QuestionLabel>
-                                <Answer>Weekly</Answer>
-                            </Frequency>
+                            <QuestionLabel>job.pension.expense</QuestionLabel>
+                            <Answer>Petrol money for driving</Answer>
                         </Expense>
-                        <RelationshipCarerToClaimant>
-                            <QuestionLabel>child.care.rel.claimant</QuestionLabel>
-                            <Answer>Father</Answer>
-                        </RelationshipCarerToClaimant>
-                        <RelationshipCarerToPartner>
-                            <QuestionLabel>cild.care.rel.partner</QuestionLabel>
-                            <Answer>Stepfather</Answer>
-                        </RelationshipCarerToPartner>
-                        <RelationToChild>
-                            <QuestionLabel>child.care.rel.child</QuestionLabel>
-                            <Answer>Grandfather</Answer>
-                        </RelationToChild>
-                    </ChildCareExpenses>
-                    <CareExpensesCaree>
-                        <QuestionLabel>care.expenses</QuestionLabel>
-                        <Answer>Yes</Answer>
-                    </CareExpensesCaree>
-                    <CareExpenses>
-                        <CarerName>
-                            <QuestionLabel>care.carer</QuestionLabel>
-                            <Answer>Carers UK Ltd</Answer>
-                        </CarerName>
-                        <Expense>
-                            <Payment>
-                                <QuestionLabel>care.carer.amount</QuestionLabel>
-                                <Answer>
-                                    <Currency>GBP</Currency>
-                                    <Amount>150.55</Amount>
-                                </Answer>
-                            </Payment>
-                            <Frequency>
-                                <QuestionLabel>care.carer.frequency</QuestionLabel>
-                                <Other>Annually</Other>
-                                <Answer>Other</Answer>
-                            </Frequency>
-                        </Expense>
-                        <RelationshipCarerToClaimant>
-                            <QuestionLabel>care.carer.rel.claimant</QuestionLabel>
-                            <Other>None</Other>
-                            <Answer>Other</Answer>
-                        </RelationshipCarerToClaimant>
-                        <RelationshipCarerToPartner>
-                            <QuestionLabel>care.carer.rel.partner</QuestionLabel>
-                            <Other>None</Other>
-                            <Answer>Other</Answer>
-                        </RelationshipCarerToPartner>
-                        <RelationshipCarerToCaree>
-                            <QuestionLabel>care.carer.rel.caree</QuestionLabel>
-                            <Other>None</Other>
-                            <Answer>Other</Answer>
-                        </RelationshipCarerToCaree>
-                    </CareExpenses>
-                    <PaidForOccupationalPension>
-                        <QuestionLabel>pension.occupational</QuestionLabel>
-                        <Answer>Yes</Answer>
-                    </PaidForOccupationalPension>
-                    <OccupationalPension>
-                        <Payment>
-                            <QuestionLabel>pension.occ.amount</QuestionLabel>
-                            <Answer>
-                                <Currency>GBP</Currency>
-                                <Amount>350.10</Amount>
-                            </Answer>
-                        </Payment>
-                        <Frequency>
-                            <QuestionLabel>pension.occ.frequency</QuestionLabel>
-                            <Other>Other frequency fo occupational scheme</Other>
-                            <Answer>Other</Answer>
-                        </Frequency>
-                    </OccupationalPension>
-                    <PaidForPersonalPension>
-                        <QuestionLabel>pension.personal</QuestionLabel>
-                        <Answer>Yes</Answer>
-                    </PaidForPersonalPension>
-                    <PersonalPension>
-                        <Payment>
-                            <QuestionLabel>pension.per.amount</QuestionLabel>
-                            <Answer>
-                                <Currency>GBP</Currency>
-                                <Amount>200.1</Amount>
-                            </Answer>
-                        </Payment>
-                        <Frequency>
-                            <QuestionLabel>pension.per.frequency</QuestionLabel>
-                            <Answer>Monthly</Answer>
-                        </Frequency>
-                    </PersonalPension>
+                    </PensionExpenses>
                     <PaidForJobExpenses>
                         <QuestionLabel>job.expenses</QuestionLabel>
                         <Answer>Yes</Answer>
