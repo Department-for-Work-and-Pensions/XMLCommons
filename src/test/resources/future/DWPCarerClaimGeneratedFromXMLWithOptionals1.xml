@@ -113,10 +113,18 @@
             </Caree>
             <Residency>
                 <Nationality><QuestionLabel>Nationality</QuestionLabel><Answer>British</Answer></Nationality>
-                <NationalResidency>
+                <ActualNationality>
                     <QuestionLabel>live.normally.country</QuestionLabel>
                     <Answer>France</Answer>
-                </NationalResidency>
+                </ActualNationality>
+                <NormallyLiveInGB>
+                    <QuestionLabel>live.normally.GB</QuestionLabel>
+                    <Answer>No</Answer>
+                </NormallyLiveInGB>
+                <CountryNormallyLive>
+                    <QuestionLabel>live.normally.country</QuestionLabel>
+                    <Answer>France</Answer>
+                </CountryNormallyLive>
                 <PeriodAbroad>
                     <TimeOutsideGBLast3Years>
                         <QuestionLabel>Time.out.GB</QuestionLabel>
