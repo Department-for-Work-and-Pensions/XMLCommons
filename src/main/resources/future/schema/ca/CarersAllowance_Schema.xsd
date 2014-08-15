@@ -162,7 +162,6 @@
                                                                                 <xs:element minOccurs="0" name="DateJobStarted" type="QuestionDateType"/>
                                                                                 <xs:element minOccurs="0" name="DateJobEnded" type="QuestionDateType"/>
                                                                                 <xs:element minOccurs="0" name="JobType" type="QuestionTextType"/>
-                                                                                <xs:element minOccurs="0" name="ClockPayrollNumber" type="QuestionTextType"/>
                                                                                 <xs:element minOccurs="0" name="Name" type="QuestionTextType"/>
                                                                                 <xs:element minOccurs="0" name="Address" type="QuestionAddressType"/>
                                                                                 <xs:element minOccurs="0" name="EmployersPhoneNumber"
