@@ -409,7 +409,6 @@
                             <QuestionLabel>job.title</QuestionLabel>
                             <Answer>Hacker</Answer>
                         </JobType>
-                        <ClockPayrollNumber><QuestionLabel>Pay roll number</QuestionLabel><Answer>12345678</Answer></ClockPayrollNumber>
                         <Name><QuestionLabel>Name</QuestionLabel><Answer>Tesco's</Answer></Name>
                         <Address>
                             <QuestionLabel>Address</QuestionLabel>
