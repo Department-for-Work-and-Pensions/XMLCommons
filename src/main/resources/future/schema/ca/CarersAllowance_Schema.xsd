@@ -198,7 +198,7 @@
                                                                     </xs:element>
                                                                     <xs:element minOccurs="0" name="OweMoney" type="QuestionTextType"/>
                                                                     <xs:element minOccurs="0" name="PaidForPension" type="QuestionTextType"/>
-                                                                    <xs:element minOccurs="0" maxOccurs="4" name="PensionExpenses">
+                                                                    <xs:element minOccurs="0" name="PensionExpenses">
                                                                         <xs:complexType>
                                                                             <xs:sequence>
                                                                                 <xs:element minOccurs="0" name="Expense" type="QuestionTextType"/>
@@ -206,7 +206,7 @@
                                                                         </xs:complexType>
                                                                     </xs:element>
                                                                     <xs:element minOccurs="0" name="PaidForJobExpenses" type="QuestionTextType"/>
-                                                                    <xs:element minOccurs="0" maxOccurs="4" name="JobExpenses">
+                                                                    <xs:element minOccurs="0" name="JobExpenses">
                                                                         <xs:complexType>
                                                                             <xs:sequence>
                                                                                 <xs:element minOccurs="0" name="Expense" type="QuestionTextType"/>
