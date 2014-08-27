@@ -143,7 +143,7 @@
                                                         <xs:element minOccurs="0" name="PensionExpenses">
                                                             <xs:complexType>
                                                                 <xs:sequence>
-                                                                    <xs:element minOccurs="0" name="Expense" type="QuestionTextType"/>
+                                                                    <xs:element minOccurs="0" name="Expense" type="QuestionTextThreeHundredType"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
@@ -151,7 +151,7 @@
                                                         <xs:element minOccurs="0" name="JobExpenses">
                                                             <xs:complexType>
                                                                 <xs:sequence>
-                                                                    <xs:element minOccurs="0" name="Expense" type="QuestionTextType"/>
+                                                                    <xs:element minOccurs="0" name="Expense" type="QuestionTextThreeHundredType"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
