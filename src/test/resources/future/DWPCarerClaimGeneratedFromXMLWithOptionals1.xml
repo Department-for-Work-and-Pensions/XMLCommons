@@ -267,124 +267,26 @@
                         <Answer>Yes</Answer>
                     </TradingCeased>
                 </RecentJobDetails>
-                <!--                <CurrentJobDetails>
-                            <DateStarted>
-                                <QuestionLabel>QuestionLabel34</QuestionLabel>
-                                <Answer>2006-05-04</Answer>
-                            </DateStarted>
-                            <NatureBusiness>
-                                <QuestionLabel>QuestionLabel35</QuestionLabel>
-                                <Answer>Answer23</Answer>
-                            </NatureBusiness>
-                            <TradingYear>
-                                <DateFrom>
-                                    <QuestionLabel>QuestionLabel36</QuestionLabel>
-                                    <Answer>2006-05-04</Answer>
-                                </DateFrom>
-                                <DateTo>
-                                    <QuestionLabel>QuestionLabel37</QuestionLabel>
-                                    <Answer>2006-05-04</Answer>
-                                </DateTo>
-                            </TradingYear>
-                            <SameIncomeOutgoingLevels>
-                                <QuestionLabel>QuestionLabel38</QuestionLabel>
-                                <Answer>Yes</Answer>
-                            </SameIncomeOutgoingLevels>
-                            <WhyWhenChange>
-                                <QuestionLabel>QuestionLabel39</QuestionLabel>
-                                <Answer>Answer25</Answer>
-                            </WhyWhenChange>
-                        </CurrentJobDetails>-->
-                <CareExpensesChildren>
-                    <QuestionLabel>self.child.expenses</QuestionLabel>
-                    <Answer>Yes</Answer>
-                </CareExpensesChildren>
-                <ChildCareExpenses>
-                    <CarerName>
-                        <QuestionLabel>self.child.carer</QuestionLabel>
-                        <Answer>Mr John Smith</Answer>
-                    </CarerName>
-                    <Expense>
-                        <Payment>
-                            <QuestionLabel>self.child.care.amount</QuestionLabel>
-                            <Answer>
-                                <Currency>GBP</Currency>
-                                <Amount>120.00</Amount>
-                            </Answer>
-                        </Payment>
-                        <Frequency>
-                            <QuestionLabel>self.child.care.frequency</QuestionLabel>
-                            <Answer>Weekly</Answer>
-                        </Frequency>
-                    </Expense>
-                    <RelationshipCarerToClaimant>
-                        <QuestionLabel>self.child.rel.claimant</QuestionLabel>
-                        <Answer>Uncle</Answer>
-                    </RelationshipCarerToClaimant>
-                    <RelationshipCarerToPartner>
-                        <QuestionLabel>self.child.rel.partner</QuestionLabel>
-                        <Other>None</Other>
-                        <Answer>Other</Answer>
-                    </RelationshipCarerToPartner>
-                    <RelationToChild>
-                        <QuestionLabel>self.child.rel.child</QuestionLabel>
-                        <Answer>Uncle</Answer>
-                    </RelationToChild>
-                </ChildCareExpenses>
-                <CareExpensesCaree>
-                    <QuestionLabel>self.care.expenses</QuestionLabel>
-                    <Answer>Yes</Answer>
-                </CareExpensesCaree>
-                <CareExpenses>
-                    <CarerName>
-                        <QuestionLabel>self.care.carer</QuestionLabel>
-                        <Answer>Mrs Terry Smith</Answer>
-                    </CarerName>
-                    <Expense>
-                        <Payment>
-                            <QuestionLabel>self.care.amount</QuestionLabel>
-                            <Answer>
-                                <Currency>GBP</Currency>
-                                <Amount>400.00</Amount>
-                            </Answer>
-                        </Payment>
-                        <Frequency>
-                            <QuestionLabel>self.care.frequency</QuestionLabel>
-                            <Other>Other expenses frequency</Other>
-                            <Answer>Other</Answer>
-                        </Frequency>
-                    </Expense>
-                    <RelationshipCarerToClaimant>
-                        <QuestionLabel>self.care.rel.claimant</QuestionLabel>
-                        <Other>None</Other>
-                        <Answer>Other</Answer>
-                    </RelationshipCarerToClaimant>
-                    <RelationshipCarerToPartner>
-                        <QuestionLabel>self.care.rel.partner</QuestionLabel>
-                        <Answer>Aunt</Answer>
-                    </RelationshipCarerToPartner>
-                    <RelationshipCarerToCaree>
-                        <QuestionLabel>self.care.rel.caree</QuestionLabel>
-                        <Answer>Aunt</Answer>
-                    </RelationshipCarerToCaree>
-                </CareExpenses>
                 <PaidForPension>
-                    <QuestionLabel>self.pension</QuestionLabel>
+                    <QuestionLabel>job.pension.expenses</QuestionLabel>
                     <Answer>Yes</Answer>
                 </PaidForPension>
-                <PensionScheme>
-                    <Payment>
-                        <QuestionLabel>self.pension.amount</QuestionLabel>
-                        <Answer>
-                            <Currency>GBP</Currency>
-                            <Amount>15.23</Amount>
-                        </Answer>
-                    </Payment>
-                    <Frequency>
-                        <QuestionLabel>self.pension.frequency</QuestionLabel>
-                        <Answer>Weekly</Answer>
-                    </Frequency>
-                </PensionScheme>
+                <PensionExpenses>
+                    <Expense>
+                        <QuestionLabel>job.pension.expense</QuestionLabel>
+                        <Answer>Petrol money for driving</Answer>
+                    </Expense>
+                </PensionExpenses>
+                <PaidForJobExpenses>
+                    <QuestionLabel>job.expenses</QuestionLabel>
+                    <Answer>Yes</Answer>
+                </PaidForJobExpenses>
+                <JobExpenses>
+                    <Expense>
+                        <QuestionLabel>job.expense</QuestionLabel>
+                        <Answer>Petrol money for driving</Answer>
+                    </Expense>
+                </JobExpenses>
             </SelfEmployment>
             <Employed>
                 <QuestionLabel>Have you been employed at any time since (this is six months before your claim date)?</QuestionLabel>

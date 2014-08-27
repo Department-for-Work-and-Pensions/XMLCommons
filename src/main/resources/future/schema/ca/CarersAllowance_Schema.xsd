@@ -139,12 +139,22 @@
                                                             </xs:element>
                                                             <xs:element minOccurs="0" name="CurrentJobDetails" type="TradingType"/>
                                                         </xs:choice>
-                                                        <xs:element minOccurs="0" name="CareExpensesChildren" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" name="ChildCareExpenses" type="ChildCareExpensesType"/>
-                                                        <xs:element minOccurs="0" name="CareExpensesCaree" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" name="CareExpenses" type="CareeCareExpensesType"/>
                                                         <xs:element minOccurs="0" name="PaidForPension" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" name="PensionScheme" type="PaymentWithFrequencyType"> </xs:element>
+                                                        <xs:element minOccurs="0" name="PensionExpenses">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element minOccurs="0" name="Expense" type="QuestionTextThreeHundredType"/>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                        <xs:element minOccurs="0" name="PaidForJobExpenses" type="QuestionTextType"/>
+                                                        <xs:element minOccurs="0" name="JobExpenses">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element minOccurs="0" name="Expense" type="QuestionTextThreeHundredType"/>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
                                                     </xs:sequence>
                                                 </xs:complexType>
                                             </xs:element>
