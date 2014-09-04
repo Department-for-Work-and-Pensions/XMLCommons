@@ -1,5 +1,6 @@
 package com.dwp.carers.s2.xml.validation;
 
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.w3c.dom.ls.LSException;
@@ -62,13 +63,17 @@ abstract class S2XmlValidator implements XmlValidator {
         boolean isValid;
         final String schemaLang = "http://www.w3.org/2001/XMLSchema";
         final SchemaFactory factory = SchemaFactory.newInstance(schemaLang);
+        // Get version number of XML so we know which version of schema to use
+        // <Version>0.1</Version>
+        final String version = StringUtils.substringBetween(xml,"<Version>","</Version>");
+        final String realSchemaPath = schemasPath + ((null == version || version.isEmpty()) ? "" : version + "/" );
         //Need to tell the factory to look at a different location to get the schemas.
         //By default the schema are on http://www.govtalk.gov.uk, we want to use the locally stored versions
-        factory.setResourceResolver(new S2LocalResourceResolver(schemasPath));
+        factory.setResourceResolver(new S2LocalResourceResolver(realSchemaPath));
         try {
-            final InputStream is = S2XmlValidator.class.getResourceAsStream(schemasPath + mainSchemaFile);
+            final InputStream is = S2XmlValidator.class.getResourceAsStream(realSchemaPath + mainSchemaFile);
             if (null == is) {
-                throw new IOException("Did not find resource: " + schemasPath + mainSchemaFile);
+                throw new IOException("Did not find resource: " + realSchemaPath + mainSchemaFile);
             }
             final Schema schema = factory.newSchema(new StreamSource(is));
             final Validator validator = schema.newValidator();

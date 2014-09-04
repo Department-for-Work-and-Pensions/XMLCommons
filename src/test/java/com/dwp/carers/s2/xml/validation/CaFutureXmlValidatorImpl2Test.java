@@ -18,6 +18,7 @@ public class CaFutureXmlValidatorImpl2Test extends XmlTestBase {
     public void setUp() {
         validator = XmlValidatorFactory.buildCaFutureValidator();
     }
+
     @Test
     public void testValidateSuccessFullWithOnlyMandatoryFields() throws IOException {
         final String xml = readXMLFile("future/DWPCarerClaimGeneratedFromXML1.xml");
@@ -46,6 +47,12 @@ public class CaFutureXmlValidatorImpl2Test extends XmlTestBase {
     public void testValidateFailWithSchemaReferencingUnknownSchema() throws IOException {
         final String xml = readXMLFile("future/DWPCarerClaimGeneratedFromXML1.xml");
         ((S2XmlValidator)validator).setMainSchemaFile("future/SchemaReferencingUnknownSchema.xsd");
+        assertFalse(validator.validate(xml));
+    }
+
+    @Test
+    public void testValidateFailWithUnkownXmlVersion() throws IOException {
+        final String xml = readXMLFile("future/DWPCarerClaimGeneratedFromXMLUnknownVersion.xml");
         assertFalse(validator.validate(xml));
     }
 }

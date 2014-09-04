@@ -1,4 +1,4 @@
-<DWPBody xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/ca/claim schema/ca/CarersAllowance_Schema_0.9.xsd"
+<DWPBody xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/ca/claim 0.1/schema/ca/CarersAllowance_Schema_0.9.xsd"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns:gds="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails"
          xmlns="http://www.govtalk.gov.uk/dwp/ca/claim">

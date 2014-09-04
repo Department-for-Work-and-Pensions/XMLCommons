@@ -54,13 +54,13 @@
 		</xsd:appinfo>
 	</xsd:annotation>
 	<!-- include the 702 schema -->
-	<xsd:include schemaLocation="schema/ca/dwp-ca-702-v1_10_unknown.xsd"/>
+	<xsd:include schemaLocation="0.1/schema/ca/dwp-ca-702-v1_10_unknown.xsd"/>
 	<!-- include the core schema -->
-	<xsd:include schemaLocation="schema/ca/dwp-ca-core-v1_10.xsd"/>
+	<xsd:include schemaLocation="0.1/schema/ca/dwp-ca-core-v1_10.xsd"/>
 	<!-- import types and structures from Technology Policy Team, Office of the e-Envoy, Cabinet Office -->
-	<xsd:import namespace="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" schemaLocation="schema/ca/dwp-ca-gds-v1_10.xsd"/>
+	<xsd:import namespace="http://www.govtalk.gov.uk/people/AddressAndPersonalDetails" schemaLocation="0.1/schema/ca/dwp-ca-gds-v1_10.xsd"/>
 	<!-- import types and structures from W3C with respect to digital signatures -->
-	<xsd:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="schema/ca/xmldsig-core-schema.xsd"/>
+	<xsd:import namespace="http://www.w3.org/2000/09/xmldsig#" schemaLocation="0.1/schema/ca/xmldsig-core-schema.xsd"/>
 	<!-- start of DWPBody type definition -->
 	<xsd:element name="DWPBody" type="DWPBodyStructure"/>
 	<xsd:complexType name="DWPBodyStructure">
