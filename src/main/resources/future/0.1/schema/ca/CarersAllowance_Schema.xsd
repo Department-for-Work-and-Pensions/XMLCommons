@@ -169,6 +169,7 @@
                                                                         <xs:complexType>
                                                                             <xs:sequence>
                                                                                 <xs:element minOccurs="0" name="CurrentlyEmployed" type="QuestionTextType"/>
+                                                                                <xs:element minOccurs="0" name="DidJobStartBeforeClaimDate" type="QuestionTextType"/>
                                                                                 <xs:element minOccurs="0" name="DateJobStarted" type="QuestionDateType"/>
                                                                                 <xs:element minOccurs="0" name="DateJobEnded" type="QuestionDateType"/>
                                                                                 <xs:element minOccurs="0" name="JobType" type="QuestionTextType"/>
