@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DWPBody xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance CarersAllowance_Schema.xsd">
-        <Version>0.15</Version>
+         xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/0.2/schema/ca/CarersAllowance_Schema.xsd">
+        <Version>0.25</Version>
         <DWPCATransaction id="NFM33DB">
             <TransactionId>1409NOM33DB</TransactionId>
             <DateTimeGenerated>09-10-2010 10:39</DateTimeGenerated>
@@ -198,12 +198,6 @@
                     </IsCaree>
                 </Partner>
                 <OtherBenefits>
-                    <ClaimantBenefits>
-                        <StatePension>
-                            <QuestionLabel>Do you get State Pension?</QuestionLabel>
-                            <Answer>No</Answer>
-                        </StatePension>
-                    </ClaimantBenefits>
                     <OtherMoneySSP>
                         <QuestionLabel>ssp.money</QuestionLabel>
                         <Answer>Yes</Answer>

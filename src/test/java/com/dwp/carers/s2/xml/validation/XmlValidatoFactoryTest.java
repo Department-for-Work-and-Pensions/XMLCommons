@@ -1,5 +1,9 @@
 package com.dwp.carers.s2.xml.validation;
 
+import com.dwp.carers.s2.xml.validation.CaLegacyXmlValidatorImpl;
+import com.dwp.carers.s2.xml.validation.CocLegacyXmlValidatorImpl;
+import com.dwp.carers.s2.xml.validation.XmlValidator;
+import com.dwp.carers.s2.xml.validation.XmlValidatorFactory;
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;

@@ -32,8 +32,18 @@ public class S2LocalResourceResolverTest {
     }
 
     @Test
-    public void testSuccessfulResolveResourceFuture() throws Exception {
+    public void testSuccessfulResolveResourceFutureV1() throws Exception {
         S2LocalResourceResolver resolver = new S2LocalResourceResolver("/future/0.1/");
+        resolver.resolveResource("http://www.w3.org/2001/XMLSchema",
+                "http://www.govtalk.gov.uk/dwp/ca/claim",
+                null,
+                "schema/ca/CarersAllowance_Schema.xsd",
+                null);
+    }
+
+    @Test
+    public void testSuccessfulResolveResourceFutureV2() throws Exception {
+        S2LocalResourceResolver resolver = new S2LocalResourceResolver("/future/0.2/");
         resolver.resolveResource("http://www.w3.org/2001/XMLSchema",
                 "http://www.govtalk.gov.uk/dwp/ca/claim",
                 null,
