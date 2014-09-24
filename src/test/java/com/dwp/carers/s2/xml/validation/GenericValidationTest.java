@@ -30,29 +30,31 @@ public class GenericValidationTest extends XmlTestBase {
 
     @Test
     public void testValidateFailWithUnreadableSchema() throws IOException {
-        final String xml = readXMLFile("future/0.1/DWPCarerClaimGeneratedFromXML1.xml");
-        ((S2XmlValidator)validator).setMainSchemaFile("future/doesNotExistFile.xsd");
+        final String xml = readXMLFile("future/DWPCarerClaimGeneratedFromXML1.xml");
+        ((S2XmlValidator)validator).setMainSchemaFile("doesNotExistFile.xsd");
         assertFalse(validator.validate(xml));
     }
 
     @Test
     public void testValidateFailWithSchemaReferencingUnknownSchema() throws IOException {
-        final String xml = readXMLFile("future/0.1/DWPCarerClaimGeneratedFromXML1.xml");
-        ((S2XmlValidator)validator).setMainSchemaFile("future/SchemaReferencingUnknownSchema.xsd");
+        final String xml = readXMLFile("future/DWPCarerClaimGeneratedFromXML1.xml");
+        ((S2XmlValidator)validator).setSchemasPath("/future/");
+        ((S2XmlValidator)validator).setMainSchemaFile("SchemaReferencingUnknownSchema.xsd");
         assertFalse(validator.validate(xml));
     }
 
     @Test
     public void testCOCValidateFailWithUnreadableSchema() throws IOException {
-        final String xml = readXMLFile("future/0.1/DWPCarerClaimGeneratedFromXML1.xml");
-        ((S2XmlValidator)cocValidator).setMainSchemaFile("future/doesNotExistFile.xsd");
+        final String xml = readXMLFile("future/DWPCarerCOCGeneratedFromCase1.xml");
+        ((S2XmlValidator)cocValidator).setMainSchemaFile("doesNotExistFile.xsd");
         assertFalse(cocValidator.validate(xml));
     }
 
     @Test
     public void testCOCValidateFailWithSchemaReferencingUnknownSchema() throws IOException {
-        final String xml = readXMLFile("future/0.1/DWPCarerClaimGeneratedFromXML1.xml");
-        ((S2XmlValidator)cocValidator).setMainSchemaFile("future/SchemaReferencingUnknownSchema.xsd");
+        final String xml = readXMLFile("future/DWPCarerCOCGeneratedFromCase1.xml");
+        ((S2XmlValidator)cocValidator).setSchemasPath("/future/");
+        ((S2XmlValidator)cocValidator).setMainSchemaFile("SchemaReferencingUnknownSchema.xsd");
         assertFalse(cocValidator.validate(xml));
     }
 }
