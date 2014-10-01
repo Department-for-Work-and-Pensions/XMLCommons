@@ -169,7 +169,8 @@
                                                                         <xs:complexType>
                                                                             <xs:sequence>
                                                                                 <xs:element minOccurs="0" name="CurrentlyEmployed" type="QuestionTextType"/>
-                                                                                <xs:element minOccurs="0" name="DidJobStartBeforeClaimDate" type="QuestionTextType"/>
+                                                                                <xs:element minOccurs="0" name="DidJobStartBeforeClaimDate"
+                                                                                type="QuestionTextType"/>
                                                                                 <xs:element minOccurs="0" name="DateJobStarted" type="QuestionDateType"/>
                                                                                 <xs:element minOccurs="0" name="DateJobEnded" type="QuestionDateType"/>
                                                                                 <xs:element minOccurs="0" name="JobType" type="QuestionTextType"/>
@@ -396,7 +397,8 @@
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:pattern
-                            value="(GIR 0AA)|((([A-Z][0-9][0-9]?)|(([A-Z][A-HJ-Y][0-9][0-9]?)|(([A-Z][0-9][A-Z])|([A-Z][A-HJ-Y][0-9]?[A-Z])))) ?[0-9][A-Z]{2})"/>
+                            value="(GIR 0AA)|((([A-Z][0-9][0-9]?)|(([A-Z][A-HJ-Y][0-9][0-9]?)|(([A-Z][0-9][A-Z])|([A-Z][A-HJ-Y][0-9]?[A-Z])))) ?[0-9][A-Z]{2})"
+                        />
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -539,7 +541,7 @@
             <xs:element name="Amount">
                 <xs:simpleType>
                     <xs:restriction base="xs:decimal">
-                        <xs:totalDigits value="8"/>
+                        <xs:totalDigits value="14"/>
                     </xs:restriction>
                 </xs:simpleType>
             </xs:element>
@@ -743,7 +745,7 @@
             <xs:element minOccurs="0" name="EmployerContactNumber" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="EmployerPayroll" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="BeenPaidYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionAmountType"/>
             <xs:element minOccurs="0" name="PaymentDate" type="QuestionDateType"/>
             <xs:element minOccurs="0" name="PayFrequency" type="PaymentWithFrequencyType"/>
             <xs:element minOccurs="0" name="UsuallyPaidSameAmount" type="QuestionTextType"/>
@@ -760,7 +762,7 @@
             <xs:element minOccurs="0" name="EmployerContactNumber" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="EmployerPayroll" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="BeenPaidYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionAmountType"/>
             <xs:element minOccurs="0" name="PaymentDate" type="QuestionDateType"/>
             <xs:element minOccurs="0" name="MonthlyPayDay" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="PayFrequency" type="PaymentWithFrequencyType"/>
@@ -778,7 +780,7 @@
             <xs:element minOccurs="0" name="EmployerContactNumber" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="EmployerPayroll" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="BeenPaidYet" type="QuestionTextType"/>
-            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="HowMuchPaid" type="QuestionAmountType"/>
             <xs:element minOccurs="0" name="PaymentDate" type="QuestionDateType"/>
             <xs:element minOccurs="0" name="WhatWasIncluded" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="MonthlyPayDay" type="QuestionTextType"/>
@@ -938,4 +940,19 @@
             <xs:maxLength value="120"/>
         </xs:restriction>
     </xs:simpleType>
+    <xs:complexType name="QuestionAmountType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:decimal">
+                                <xs:totalDigits value="14"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
 </xs:schema>
