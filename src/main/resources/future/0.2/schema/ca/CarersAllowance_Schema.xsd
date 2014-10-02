@@ -803,7 +803,6 @@
     </xs:complexType>
     <xs:complexType name="AccountDetailsType">
         <xs:sequence>
-            <xs:element minOccurs="0" name="AccountHolder" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="HolderName" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="BuildingSocietyDetails" type="BuildingSocietyDetailsType"/>
         </xs:sequence>
