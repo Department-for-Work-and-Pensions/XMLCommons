@@ -19,11 +19,11 @@ object ApplicationBuild extends Build {
     libraryDependencies += "junit" % "junit" % "4.11" % "test",
     libraryDependencies += "com.novocode" % "junit-interface" % "0.8" % "test->default",
     libraryDependencies += "org.jasypt" % "jasypt" % "1.9.1" classifier "lite",
-    libraryDependencies += "com.dwp.carers" %% "carerscommon" % "5.5"
+    libraryDependencies += "com.dwp.carers" %% "carerscommon" % "6.0"
     // Add your project dependencies here,
   )
 
-  var sV: Seq[Def.Setting[_]] = Seq(scalaVersion := "2.10.3")
+  var sV: Seq[Def.Setting[_]] = Seq(scalaVersion := "2.10.4")
 
   var sR: Seq[Def.Setting[_]] = Seq(resolvers += "Carers repo" at "http://build.3cbeta.co.uk:8080/artifactory/repo/")
 
