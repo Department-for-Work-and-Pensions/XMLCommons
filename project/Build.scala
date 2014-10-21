@@ -8,10 +8,10 @@ import sbt.Keys._
 object ApplicationBuild extends Build {
   val appName = "xmlCommons"
 
-  val appVersion = "3.2.3"
+  val appVersion = "4.0.0"
 
   val appDependencies = Seq(
-    libraryDependencies += "org.specs2" %% "specs2" % "2.3.6" % "test",
+    libraryDependencies += "org.specs2" %% "specs2" % "2.3.13" % "test",
     libraryDependencies += "org.apache.santuario" % "xmlsec" % "1.4.8",
     libraryDependencies += "org.slf4j" % "slf4j-api" % "1.7.5",
     libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.0.13",
@@ -40,7 +40,8 @@ object ApplicationBuild extends Build {
         Some("releases" at "http://build.3cbeta.co.uk:8080/artifactory/libs-release-local")
     })
 
-  var creds: Seq[Def.Setting[_]] = Seq(credentials += Credentials("Artifactory Realm", "build.3cbeta.co.uk", "admin", "{DESede}GwYNYWCGg88uVuPjHixZ4g=="))
+  var creds: Seq[Def.Setting[_]] = Seq(credentials += Credentials("Artifactory Realm", "build.3cbeta.co.uk", "admin", "{DESede}GwYNYWCGg88uVuPjHixZ4g=="),
+    isSnapshot := true)
 
   var appSettings: Seq[Def.Setting[_]] = Project.defaultSettings ++ sV ++ sO ++ sR ++ sAppN ++ sAppV ++ sOrg ++ appDependencies ++ publ ++ creds
 
