@@ -49,7 +49,7 @@ public class DsaSha1XmlSignatureImplTest  extends XmlTestBase {
 
     @Test
     public void testSuccessfulSignFuture() throws Exception {
-        final String XmlSigned = sign.sign(fileInputStream("future/0.1/DWPCarerClaimGeneratedFromXML1.xml"),"NFM33DB");
+        final String XmlSigned = sign.sign(fileInputStream("future/0.4/DWPCarerClaimGeneratedFromXML1.xml"),"NFM33DB");
         assertTrue(XmlSigned.contains("Signature"));
         assertTrue(XmlSigned.contains("Reference URI=\"#NFM33DB\""));
         assertTrue(XmlSigned.contains("SignatureValue"));
@@ -59,7 +59,7 @@ public class DsaSha1XmlSignatureImplTest  extends XmlTestBase {
 
     @Test
     public void testSuccessfulVerification() throws Exception {
-        final String XmlSigned = sign.sign(fileInputStream("future/0.1/DWPCarerClaimGeneratedFromXML1.xml"),"NFM33DB");
+        final String XmlSigned = sign.sign(fileInputStream("future/0.4/DWPCarerClaimGeneratedFromXML1.xml"),"NFM33DB");
         System.out.println(XmlSigned);
         assertTrue(sign.verifySignature(XmlSigned));
     }
