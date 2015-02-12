@@ -6,28 +6,27 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.security.Provider;
+import java.security.Security;
+
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-
 /**
- * Unit test of {@link com.dwp.carers.s2.xml.signing.DsaSha1XmlSignatureImpl}.
- *
- * @author Jorge Migueis
- *         Date: 27/06/2013
+ * Created by jmi on 06/02/15.
  */
-public class DsaSha1XmlSignatureImplTest  extends XmlTestBase {
-
-    private final Logger logger = LoggerFactory.getLogger(DsaSha1XmlSignatureImpl.class);
+public class RsaShaXmlSignatureImplTest  extends XmlTestBase {
+    private final Logger logger = LoggerFactory.getLogger(RsaShaXmlSignatureImpl.class);
     private XmlSignature sign;
 
     @Before
     public void setUp() {
-        sign = XmlSignatureFactory.buildDsaSha1Generator();
+        sign = XmlSignatureFactory.buildRsaSha1Generator();
     }
 
     @Test
     public void testSuccessfulSign() throws Exception {
+        for (Provider p : Security.getProviders()) System.out.println(p.getName());
         final String XmlSigned = sign.sign(fileInputStream("legacy/DWPCarerClaimGeneratedFromXML1.xml"), "CGNJM9K");
         assertTrue(XmlSigned.contains("Signature"));
         assertTrue(XmlSigned.contains("Reference URI=\"#CGNJM9K\""));

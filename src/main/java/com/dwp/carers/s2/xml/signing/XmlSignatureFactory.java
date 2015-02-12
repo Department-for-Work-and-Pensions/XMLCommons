@@ -23,5 +23,12 @@ public class XmlSignatureFactory {
         return new DsaSha1XmlSignatureImpl(new KeyStoreLoaderJCEKS());
     }
 
+    /**
+     * Builds a signature generator using SHA1 to digest XML and RSA-SHA1 to encrypt signature
+     * @return DSA-SHA1 signature generator.
+     */
+    public static synchronized XmlSignature buildRsaSha1Generator() {
+        return new RsaShaXmlSignatureImpl(new KeyStoreLoaderJCEKS());
+    }
 
 }
