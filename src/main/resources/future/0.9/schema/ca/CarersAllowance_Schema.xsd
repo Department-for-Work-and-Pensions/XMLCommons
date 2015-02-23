@@ -43,6 +43,7 @@
                                     <xs:complexType>
                                         <xs:sequence>
                                             <xs:element name="DateOfClaim" type="QuestionDateType"/>
+                                            <xs:element minOccurs="0" name="QualifyingBenefit" type="QuestionTenTextType"/>
                                             <xs:element name="Claimant">
                                                 <xs:complexType>
                                                     <xs:complexContent>

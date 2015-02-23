@@ -11,6 +11,10 @@
                 <QuestionLabel>When do you want your Carer's Allowance claim to start?</QuestionLabel>
                 <Answer>01-01-2010</Answer>
             </DateOfClaim>
+            <QualifyingBenefit>
+                <QuestionLabel>What benefit does the person you care for get?</QuestionLabel>
+                <Answer>AFIP</Answer>
+            </QualifyingBenefit>
             <Claimant>
                 <OtherNames><QuestionLabel>OtherNames</QuestionLabel><Answer>Test Middle</Answer></OtherNames>
                 <Title><QuestionLabel>Title</QuestionLabel><Answer>Mr</Answer></Title>

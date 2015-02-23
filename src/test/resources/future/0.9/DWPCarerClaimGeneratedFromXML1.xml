@@ -1,5 +1,5 @@
-<DWPBody xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance" xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/schema/ca/CarersAllowance_Schema.xsd">
-    <Version>0.8</Version>
+<DWPBody xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance" xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/0.9/schema/ca/CarersAllowance_Schema.xsd">
+    <Version>0.9</Version>
     <DWPCATransaction id="1408TEST432">
         <TransactionId>1408TEST432</TransactionId>
         <DateTimeGenerated>20-02-2015 14:02</DateTimeGenerated>
@@ -9,6 +9,10 @@
                 <QuestionLabel>Claim date</QuestionLabel>
                 <Answer>01-01-1111</Answer>
             </DateOfClaim>
+            <QualifyingBenefit>
+                <QuestionLabel>What benefit does the person you care for get?</QuestionLabel>
+                <Answer>PIP</Answer>
+            </QualifyingBenefit>
             <Claimant>
                 <Surname>
                     <QuestionLabel>Last name</QuestionLabel>
