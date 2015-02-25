@@ -8,7 +8,7 @@ import sbt.Keys._
 object ApplicationBuild extends Build {
   val appName = "xmlCommons"
 
-  val appVersion = "4.6"
+  val appVersion = "4.7"
 
   val appDependencies = Seq(
     libraryDependencies += "org.apache.santuario" % "xmlsec" % "1.4.8",
