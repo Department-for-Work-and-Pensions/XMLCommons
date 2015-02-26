@@ -4,4 +4,5 @@ Changes for 0.9 version :
 
 1) <ArmedForcesIndependencePayment/> - removed
 2) Added new element 'QualifyingBenefit'
+3) 'PaidForThingsToDoJob' and 'ExpensesToDoJob' added to employment
 
