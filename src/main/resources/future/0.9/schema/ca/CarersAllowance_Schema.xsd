@@ -360,12 +360,7 @@
     </xs:element>
     <xs:simpleType name="RestrictedStringType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Za-zÀ-ź\s~0-9\(\)&amp;£€&quot;'!\+\-=_:;\.,@/\?]*"/>
-        </xs:restriction>
-    </xs:simpleType>
-    <xs:simpleType name="DisclaimerRestrictedStringType">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Za-zÀ-ź\s~0-9\(\)&amp;£€&quot;'!\+\-=_:;\.,@/\?\[\]]*"/>
+            <xs:pattern value="[A-Za-z0-9\s~!&quot;@#$%&amp;'\(\)\*\+,\-\./:;&lt;=>\?\[\\\]_\{\}\^£€]*"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="LanguageType">
@@ -406,12 +401,6 @@
         <xs:sequence>
             <xs:element minOccurs="0" name="Title" type="RestrictedStringType"/>
             <xs:element minOccurs="0" maxOccurs="unbounded" name="Content" type="TwoThousandTextType"/>
-        </xs:sequence>
-    </xs:complexType>
-    <xs:complexType name="DisclaimerTextBlockType">
-        <xs:sequence>
-            <xs:element minOccurs="0" name="Title" type="DisclaimerRestrictedStringType"/>
-            <xs:element minOccurs="0" maxOccurs="unbounded" name="Content" type="DisclaimerTwoThousandTextType"/>
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="UKPostalAddressType">
@@ -577,12 +566,6 @@
             <xs:maxLength value="2000"/>
         </xs:restriction>
     </xs:simpleType>
-    <xs:simpleType name="DisclaimerTwoThousandTextType">
-        <xs:restriction base="DisclaimerRestrictedStringType">
-            <xs:minLength value="1"/>
-            <xs:maxLength value="2000"/>
-        </xs:restriction>
-    </xs:simpleType>
     <xs:simpleType name="ThreeThousandTextType">
         <xs:restriction base="RestrictedStringType">
             <xs:minLength value="1"/>
@@ -702,7 +685,7 @@
     </xs:complexType>
     <xs:complexType name="DisclaimerType">
         <xs:sequence>
-            <xs:element minOccurs="0" name="DisclaimerStatement" type="DisclaimerTextBlockType"/>
+            <xs:element minOccurs="0" name="DisclaimerStatement" type="TextBlockType"/>
             <xs:element minOccurs="0" maxOccurs="1" name="DisclaimerQuestion" type="QuestionTextType"/>
         </xs:sequence>
     </xs:complexType>
