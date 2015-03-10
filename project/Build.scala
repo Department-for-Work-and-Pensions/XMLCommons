@@ -26,7 +26,7 @@ object ApplicationBuild extends Build {
 
   var sAppN: Seq[Def.Setting[_]] = Seq(name := appName)
   var sAppV: Seq[Def.Setting[_]] = Seq(version := appVersion)
-  var sOrg: Seq[Def.Setting[_]] = Seq(organization := "com.dwp.carers")
+  var sOrg: Seq[Def.Setting[_]] = Seq(organization := "gov.dwp.carers")
 
   var publ: Seq[Def.Setting[_]] = Seq(
     publishTo := Some("Artifactory Realm" at "http://build.3cbeta.co.uk:8080/artifactory/repo/"),
