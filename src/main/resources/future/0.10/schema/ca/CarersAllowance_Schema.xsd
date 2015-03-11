@@ -834,6 +834,8 @@
             <xs:element minOccurs="0" name="UsuallyPaidSameAmount" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="PayIntoPension" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="PaidForThingsToDoJob" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PaidForThingsWhatFor" type="QuestionLongTextType"/>
             <xs:element minOccurs="0" name="CareCostsForThisWork" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
             <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionLongTextType"/>
@@ -852,6 +854,8 @@
             <xs:element minOccurs="0" name="UsuallyPaidSameAmount" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="PayIntoPension" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="PaidForThingsToDoJob" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PaidForThingsWhatFor" type="QuestionLongTextType"/>
             <xs:element minOccurs="0" name="CareCostsForThisWork" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
             <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionLongTextType"/>
@@ -872,6 +876,8 @@
             <xs:element minOccurs="0" name="UsuallyPaidSameAmount" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="PayIntoPension" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="PayIntoPensionWhatFor" type="QuestionLongTextType"/>
+            <xs:element minOccurs="0" name="PaidForThingsToDoJob" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PaidForThingsWhatFor" type="QuestionLongTextType"/>
             <xs:element minOccurs="0" name="CareCostsForThisWork" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="CareCostsForThisWorkWhatCosts" type="QuestionLongTextType"/>
             <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionLongTextType"/>
