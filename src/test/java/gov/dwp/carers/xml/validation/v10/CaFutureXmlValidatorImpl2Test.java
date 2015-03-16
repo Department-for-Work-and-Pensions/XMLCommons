@@ -46,6 +46,13 @@ public class CaFutureXmlValidatorImpl2Test extends XmlTestBase {
         assertFalse(validator.validate(xml));
     }
 
+
+    @Test
+    public void testValidateFailWithInvalidCharactersInFields() throws IOException {
+        final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimWithInvalidCharacters.xml", version));
+        assertFalse(validator.validate(xml));
+    }
+
     @Test
     public void testValidateFailWithInvalidLanguage() throws Exception {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimGeneratedFromXMLWithInvalidLanguage.xml", version));

@@ -360,12 +360,12 @@
     </xs:element>
     <xs:simpleType name="RestrictedStringType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Za-zÀ-ƶ\s~0-9\(\)&amp;£€&quot;'!\+\-=_:;\.,@/\?]*"/>
+            <xs:pattern value="[A-Za-zÀ-ƶ\s0-9\(\)&amp;£€&quot;'!\+\-=_:;\.,/\?]*"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="DisclaimerRestrictedStringType">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[A-Za-zÀ-ƶ\s~0-9\(\)&amp;£€&quot;'!\+\-=_:;\.,@/\?\[\]]*"/>
+            <xs:pattern value="[A-Za-zÀ-ƶ\s0-9\(\)&amp;£€&quot;'!\+\-=_:;\.,/\?\[\]]*"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:simpleType name="LanguageType">
