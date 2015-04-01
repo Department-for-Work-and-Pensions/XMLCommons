@@ -63,10 +63,62 @@
             </Residency>
             <CourseOfEducation><QuestionLabel>Have you been on a course of education since your claim date?</QuestionLabel><Answer>No</Answer></CourseOfEducation>
 
-            <SelfEmployed><QuestionLabel>Have you been self-employed at any time since 14 July 2013?</QuestionLabel><Answer>No</Answer></SelfEmployed>
-
-            <Employed><QuestionLabel>Have you been employed at any time since 21 January 2013?</QuestionLabel><Answer>No</Answer></Employed>
-
+            <SelfEmployed>
+                <QuestionLabel>Have you been self-employed at any time since 25 December 2009?</QuestionLabel>
+                <Answer>Yes</Answer>
+            </SelfEmployed>
+            <SelfEmployment>
+                <SelfEmployedNow>
+                    <QuestionLabel>Are you self employed now?</QuestionLabel>
+                    <Answer>Yes</Answer>
+                </SelfEmployedNow>
+                <CurrentJobDetails>
+                    <DateStarted>
+                        <QuestionLabel>When did you start this self employed work?</QuestionLabel>
+                        <Answer>01-02-2010</Answer>
+                    </DateStarted>
+                    <NatureBusiness>
+                        <QuestionLabel>Type of work or business?</QuestionLabel>
+                        <Answer>I help children charities as the owner of an NGO</Answer>
+                    </NatureBusiness>
+                    <TradingYear>
+                        <DateFrom>
+                            <QuestionLabel>What is your trading year? From</QuestionLabel>
+                            <Answer>01-02-2012</Answer>
+                        </DateFrom>
+                        <DateTo>
+                            <QuestionLabel>What is your trading year? To</QuestionLabel>
+                            <Answer>31-01-2013</Answer>
+                        </DateTo>
+                    </TradingYear>
+                    <SameIncomeOutgoingLevels>
+                        <QuestionLabel>Are the income, outgoings and profit in these accounts similar to your current level of trading?</QuestionLabel>
+                        <Answer>No</Answer>
+                    </SameIncomeOutgoingLevels>
+                    <WhyWhenChange>
+                        <QuestionLabel>Please tell us why and when the change happened</QuestionLabel>
+                        <Answer>All happened one night34567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</Answer>
+                    </WhyWhenChange>
+                </CurrentJobDetails>
+                <PaidForPension>
+                    <QuestionLabel>Do you pay into a pension?</QuestionLabel>
+                    <Answer>No</Answer>
+                </PaidForPension>
+                <PaidForJobExpenses>
+                    <QuestionLabel>Do you have any care costs because of this work?
+                    </QuestionLabel>
+                    <Answer>No</Answer>
+                </PaidForJobExpenses>
+            </SelfEmployment>
+            <Employed>
+                <QuestionLabel>Have you been employed at any time since 1 July 2009?</QuestionLabel>
+                <Answer>No</Answer>
+            </Employed>
+            <EmploymentAdditionalInfo>
+                <QuestionLabel>Do you want to add anything about your work?</QuestionLabel>
+                <Other>I want to tell more about my job</Other>
+                <Answer>Yes</Answer>
+            </EmploymentAdditionalInfo>
             <HavePartner><QuestionLabel>Have you lived with a partner at any time since your claim date?</QuestionLabel><Answer>No</Answer></HavePartner>
 
             <OtherBenefits>
