@@ -70,11 +70,7 @@
                         <QuestionLabel>Break Start time</QuestionLabel>
                         <Answer>10:00 am</Answer>
                     </StartTime>
-                    <EndDate><QuestionLabel>Break End date</QuestionLabel><Answer>17-07-2010</Answer></EndDate>
-                    <EndTime>
-                        <QuestionLabel>Break End time</QuestionLabel>
-                        <Answer>4:00 pm</Answer>
-                    </EndTime>
+                    <EndDateDoNotKnow><QuestionLabel>Break End date</QuestionLabel><Answer>I don't know when this break will end</Answer></EndDateDoNotKnow>
                     <ReasonClaimant>
                         <QuestionLabel>Where were you during the break?</QuestionLabel>
                         <Other>Friend's place</Other>

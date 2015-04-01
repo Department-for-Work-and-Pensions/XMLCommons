@@ -1013,6 +1013,7 @@
             <xs:element minOccurs="0" name="StartTime" type="QuestionTenTextType"/>
             <xs:element minOccurs="0" name="EndDate" type="QuestionDateType"/>
             <xs:element minOccurs="0" name="EndTime" type="QuestionTenTextType"/>
+            <xs:element minOccurs="0" name="EndDateDoNotKnow" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="ReasonClaimant" type="QuestionOtherType"/>
             <xs:element minOccurs="0" name="ReasonCaree" type="QuestionOtherType"/>
             <xs:element minOccurs="0" name="MedicalCare" type="QuestionTextType"/>
