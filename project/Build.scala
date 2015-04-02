@@ -8,14 +8,13 @@ import sbt.Keys._
 object ApplicationBuild extends Build {
   val appName = "xmlCommons"
 
-  val appVersion = "4.2.3"
+  val appVersion = "5.2"
 
   val appDependencies = Seq(
-    libraryDependencies += "org.specs2" %% "specs2" % "2.3.13" % "test",
     libraryDependencies += "org.apache.santuario" % "xmlsec" % "1.4.8",
-    libraryDependencies += "junit" % "junit" % "4.11" % "test",
-    libraryDependencies += "com.novocode" % "junit-interface" % "0.8" % "test->default",
-    libraryDependencies += "com.dwp.carers" %% "carerscommon" % "6.2"
+    libraryDependencies += "junit" % "junit" % "4.12" % "test",
+    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test->default",
+    libraryDependencies += "gov.dwp.carers" %% "carerscommon" % "6.6"
     // Add your project dependencies here,
   )
 
@@ -27,20 +26,18 @@ object ApplicationBuild extends Build {
 
   var sAppN: Seq[Def.Setting[_]] = Seq(name := appName)
   var sAppV: Seq[Def.Setting[_]] = Seq(version := appVersion)
-  var sOrg: Seq[Def.Setting[_]] = Seq(organization := "com.dwp.carers")
+  var sOrg: Seq[Def.Setting[_]] = Seq(organization := "gov.dwp.carers")
 
   var publ: Seq[Def.Setting[_]] = Seq(
     publishTo := Some("Artifactory Realm" at "http://build.3cbeta.co.uk:8080/artifactory/repo/"),
     publishTo <<= version {
       (v: String) =>
         Some("releases" at "http://build.3cbeta.co.uk:8080/artifactory/libs-release-local")
-    })
+    }, isSnapshot := true)
 
-  var creds: Seq[Def.Setting[_]] = Seq(credentials += Credentials("Artifactory Realm", "build.3cbeta.co.uk", "admin", "{DESede}GwYNYWCGg88uVuPjHixZ4g=="),
-    isSnapshot := true)
 
-  var appSettings: Seq[Def.Setting[_]] = Project.defaultSettings ++ sV ++ sO ++ sR ++ sAppN ++ sAppV ++ sOrg ++ appDependencies ++ publ ++ creds
+  var appSettings: Seq[Def.Setting[_]] = sV ++ sO ++ sR ++ sAppN ++ sAppV ++ sOrg ++ appDependencies ++ publ
 
-  val main = Project(id = appName, base = file("."), settings = appSettings)
+  val main = Project(id = appName, base = file(".")).settings(appSettings: _*)
 }
 
