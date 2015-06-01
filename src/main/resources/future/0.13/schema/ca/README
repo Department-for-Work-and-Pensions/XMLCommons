@@ -1,0 +1,7 @@
+These files are the schema from the existing carers project.
+
+Changes for 0.13 version :
+
+1) <EEAReceivePensionsBenefitsDetails/> --> Added new element to collect details of foreign pensions / benefits
+
+
