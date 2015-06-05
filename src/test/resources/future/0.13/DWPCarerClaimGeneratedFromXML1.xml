@@ -1,0 +1,197 @@
+<DWPBody xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/schema/ca/CarersAllowance_Schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance">
+    <Version>0.13</Version>
+    <DWPCATransaction id="1408TEST432">
+        <TransactionId>1408TEST432</TransactionId>
+        <DateTimeGenerated>25-03-2015 13:37</DateTimeGenerated>
+        <LanguageUsed>English</LanguageUsed>
+        <DWPCAClaim>
+            <DateOfClaim><QuestionLabel>Claim date</QuestionLabel><Answer>21-07-2013</Answer></DateOfClaim>
+            <QualifyingBenefit><QuestionLabel>What benefit does the person you care for get?</QuestionLabel><Answer>PIP</Answer></QualifyingBenefit>
+            <Claimant>
+                <Surname><QuestionLabel>Last name</QuestionLabel><Answer>zX41C06z7G/3BIMfv9Wlm11rln3B/mjeCUBEZNTa/itzmsByCNGz+QaTHBe2VPps2JZk2jLRsg37e52C8tgUOgLR31lfNkGK8exkZxNWEyE=</Answer></Surname>
+                <OtherNames><QuestionLabel>First name</QuestionLabel><Answer>I have a real nam</Answer></OtherNames>
+                <MiddleNames><QuestionLabel>Middle name(s)</QuestionLabel><Answer>I have real mid</Answer></MiddleNames>
+                <Title><QuestionLabel>Title</QuestionLabel><Answer>Mr</Answer></Title>
+                <DateOfBirth><QuestionLabel>Date of birth</QuestionLabel><Answer>28-09-1945</Answer></DateOfBirth>
+                <NationalInsuranceNumber><QuestionLabel>National Insurance number</QuestionLabel><Answer>U6HxvC65MfVLFhMv8QQC9E24kWUEO3sEBgPaG+TT30vivqtRKGtKrsIbHIKSwyyJ</Answer></NationalInsuranceNumber>
+                <Address>
+                    <QuestionLabel>Address</QuestionLabel>
+                    <Answer>
+                        <Line>this is a very large address lineok</Line><Line>another absurd large address lineok</Line><PostCode>Df4Tf/V10lvTW8xQkmKSvNU8uEO4RUyg/mlVriPadJ/YwwBQ/OfncIxRuJoC1Vfm</PostCode>
+                    </Answer>
+                </Address>
+                <DayTimePhoneNumber><QuestionLabel>Contact phone or mobile number</QuestionLabel><Answer>this is my nice way of contactingok</Answer></DayTimePhoneNumber>
+                <Cared35HoursBefore><QuestionLabel>Were you caring for the person for more than 35 hours a week before this date?</QuestionLabel><Answer>Yes</Answer></Cared35HoursBefore>
+                <DateStartCaring><QuestionLabel>When did you begin caring?</QuestionLabel><Answer>21-01-2012</Answer></DateStartCaring>
+                <MaritalStatus><QuestionLabel>Your marital status</QuestionLabel><Answer>Single</Answer></MaritalStatus>
+                <TextPhoneContact><QuestionLabel>I have hearing difficulties and I use a textphone.</QuestionLabel><Answer>Yes</Answer></TextPhoneContact>
+            </Claimant>
+            <Caree>
+                <Surname><QuestionLabel>Last name</QuestionLabel><Answer>q/IdveroeKuwUG0oWIp49KrEAL9HhS4hNGRxHz/fAuGP7t0L65Ph0gNJGMV6v4QV1iGtfDdSmKSyYH0g4wsCTkqnKZSrTNzRdVPP1vzvtJg=</Answer></Surname>
+                <OtherNames><QuestionLabel>First name</QuestionLabel><Answer>I have a real nam</Answer></OtherNames>
+                <MiddleNames><QuestionLabel>Middle name(s)</QuestionLabel><Answer>I have a real mid</Answer></MiddleNames>
+                <Title><QuestionLabel>Title</QuestionLabel><Answer>Dame</Answer></Title>
+                <DateOfBirth><QuestionLabel>Date of birth</QuestionLabel><Answer>12-09-1980</Answer></DateOfBirth>
+                <NationalInsuranceNumber><QuestionLabel>National Insurance number</QuestionLabel><Answer>t0i0+Qn12/0/numOeCLhSCigGCkQDDX4QFafOtSq7KimoJAvppYcyHIOwM72m+w2</Answer></NationalInsuranceNumber>
+                <Address>
+                    <QuestionLabel>Address</QuestionLabel>
+                    <Answer>
+                        <Line>this is a very large address lineok</Line><Line>another absurd large address lineok</Line><PostCode>845XNLLhA/x9JTiw5MOiPO32v/p/ns4dzplexhA7hNh9QsS/mSfZ/6XD4yuCgdEN</PostCode>
+                    </Answer>
+                </Address>
+                <RelationToClaimant><QuestionLabel>What's their relationship to you?</QuestionLabel><Answer>Partner</Answer></RelationToClaimant>
+                <Cared35Hours><QuestionLabel>Do you spend 35 hours or more each week caring for the person you care for?</QuestionLabel><Answer>Yes</Answer></Cared35Hours>
+                <CareBreak>
+                    <BreaksSinceClaim><QuestionLabel>Have you had any breaks from caring for this person since 21 January 2013?</QuestionLabel><Answer>No</Answer></BreaksSinceClaim>
+                </CareBreak>
+                <LiveSameAddress><QuestionLabel>Do they live at the same address as you?</QuestionLabel><Answer>Yes</Answer></LiveSameAddress>
+            </Caree>
+            <Residency>
+                <Nationality><QuestionLabel>What is your nationality?</QuestionLabel><Answer>Another Country</Answer></Nationality>
+
+                <ActualNationality><QuestionLabel>Your nationality</QuestionLabel><Answer>French</Answer></ActualNationality>
+
+                <NormallyLiveInGB><QuestionLabel>Do you normally live in England, Scotland or Wales?</QuestionLabel><Answer>Yes</Answer></NormallyLiveInGB>
+
+
+
+                <PeriodAbroad>
+                    <TimeOutsideGBLast3Years><QuestionLabel>Have you been away from England, Scotland or Wales for more than 52 weeks in the 3 years before your claim date?</QuestionLabel><Answer>No</Answer></TimeOutsideGBLast3Years>
+
+                </PeriodAbroad>
+
+            </Residency>
+            <CourseOfEducation><QuestionLabel>Have you been on a course of education since your claim date?</QuestionLabel><Answer>No</Answer></CourseOfEducation>
+
+            <SelfEmployed>
+                <QuestionLabel>Have you been self-employed at any time since 25 December 2009?</QuestionLabel>
+                <Answer>Yes</Answer>
+            </SelfEmployed>
+            <SelfEmployment>
+                <SelfEmployedNow>
+                    <QuestionLabel>Are you self employed now?</QuestionLabel>
+                    <Answer>Yes</Answer>
+                </SelfEmployedNow>
+                <CurrentJobDetails>
+                    <DateStarted>
+                        <QuestionLabel>When did you start this self employed work?</QuestionLabel>
+                        <Answer>01-02-2010</Answer>
+                    </DateStarted>
+                    <NatureBusiness>
+                        <QuestionLabel>Type of work or business?</QuestionLabel>
+                        <Answer>I help children charities as the owner of an NGO</Answer>
+                    </NatureBusiness>
+                    <TradingYear>
+                        <DateFrom>
+                            <QuestionLabel>What is your trading year? From</QuestionLabel>
+                            <Answer>01-02-2012</Answer>
+                        </DateFrom>
+                        <DateTo>
+                            <QuestionLabel>What is your trading year? To</QuestionLabel>
+                            <Answer>31-01-2013</Answer>
+                        </DateTo>
+                    </TradingYear>
+                    <SameIncomeOutgoingLevels>
+                        <QuestionLabel>Are the income, outgoings and profit in these accounts similar to your current level of trading?</QuestionLabel>
+                        <Answer>No</Answer>
+                    </SameIncomeOutgoingLevels>
+                    <WhyWhenChange>
+                        <QuestionLabel>Please tell us why and when the change happened</QuestionLabel>
+                        <Answer>All happened one night34567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890</Answer>
+                    </WhyWhenChange>
+                </CurrentJobDetails>
+                <PaidForPension>
+                    <QuestionLabel>Do you pay into a pension?</QuestionLabel>
+                    <Answer>No</Answer>
+                </PaidForPension>
+                <PaidForJobExpenses>
+                    <QuestionLabel>Do you have any care costs because of this work?
+                    </QuestionLabel>
+                    <Answer>No</Answer>
+                </PaidForJobExpenses>
+            </SelfEmployment>
+            <Employed>
+                <QuestionLabel>Have you been employed at any time since 1 July 2009?</QuestionLabel>
+                <Answer>No</Answer>
+            </Employed>
+            <EmploymentAdditionalInfo>
+                <QuestionLabel>Do you want to add anything about your work?</QuestionLabel>
+                <Other>I want to tell more about my job</Other>
+                <Answer>Yes</Answer>
+            </EmploymentAdditionalInfo>
+            <HavePartner><QuestionLabel>Have you lived with a partner at any time since your claim date?</QuestionLabel><Answer>No</Answer></HavePartner>
+
+            <OtherBenefits>
+                <OtherMoneySSP><QuestionLabel>Have you had any Statutory Sick Pay since your claim date?</QuestionLabel><Answer>No</Answer></OtherMoneySSP>
+
+                <OtherMoneySP><QuestionLabel>Have you had any Statutory Maternity Pay, Statutory Paternity Pay or Statutory Adoption Pay since your claim date?</QuestionLabel><Answer>No</Answer></OtherMoneySP>
+
+                <OtherMoneyPayments><QuestionLabel>Have you received any payments for the person you care for or any other person since your claim date?</QuestionLabel><Answer>No</Answer></OtherMoneyPayments>
+
+                <EEA>
+                    <EEAReceivePensionsBenefits><QuestionLabel>Have you or anyone in your family claimed or been paid any benefits or pensions from any of these countries?</QuestionLabel><Answer>No</Answer></EEAReceivePensionsBenefits>
+                    <EEAWorkingInsurance><QuestionLabel>Do you or anyone in your family work or pay insurance in any of these countries?</QuestionLabel><Answer>No</Answer></EEAWorkingInsurance>
+                </EEA>
+            </OtherBenefits>
+
+            <OtherInformation>
+                <WelshCommunication><QuestionLabel>Do you live in Wales and would like to receive future communications in Welsh?</QuestionLabel><Answer>No</Answer></WelshCommunication>
+                <AdditionalInformation><QuestionLabel>Do you want to tell us any additional information about your claim?</QuestionLabel><Answer>Yes</Answer><Why><QuestionLabel>Please tell us anything else you think we should know about your claim</QuestionLabel><Answer>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestib</Answer></Why></AdditionalInformation>
+            </OtherInformation>
+            <Declaration>
+                <DeclarationStatement>
+                    <Title>The declarations below set out your legal responsibilities in respect of your claim.</Title>
+                    <Content>I declare that I understand the Carer's Allowance Claim Notes and that the information provided on this claim form is correct and complete.</Content>
+                    <Content>I understand that I must report all changes in my circumstances or that of the person that I am caring for which may affect my entitlement promptly and by failing to do so I may be liable to prosecution or face a financial penalty.</Content>
+                    <Content>I will use the online service or phone 0345 608 4321 or write to Carer's Allowance Unit, Palatine House, Lancaster Road, Preston, PR1 1HB to report a change in my circumstances or that of the person that I am caring for.</Content>
+                    <Content>If I give false or incomplete information or fail to report changes in my circumstances or that of the person that I am caring for promptly, I understand that my Carer's Allowance may be stopped or reduced and any overpayment of Carer's Allowance may be recovered. In addition I may be prosecuted or face a financial penalty.</Content>
+                </DeclarationStatement>
+                <DeclarationQuestion><QuestionLabel>Please tick this box if this claim form has been filled in by someone else, if so, please ensure that you understand the declarations above as another person cannot make the declarations on your behalf.</QuestionLabel><Answer>Yes</Answer></DeclarationQuestion>
+                <DeclarationQuestion><QuestionLabel>Please tick this box to confirm that you understand and make the declarations above.</QuestionLabel><Answer>Yes</Answer></DeclarationQuestion>
+                <DeclarationNameOrg><QuestionLabel>Your name and/or organisation</QuestionLabel><Answer>Organisation  trying  to swindle innocent citizens  stealing</Answer></DeclarationNameOrg>
+            </Declaration>
+            <Disclaimer>
+                <DisclaimerStatement>
+                    <Title>This is my claim for Carer's Allowance.</Title>
+                    <Content>When you claim Carer's Allowance the person you care for may stop receiving any severe disability premium they get added to their:</Content>
+                    <Content>income-based Jobseeker's Allowance</Content>
+                    <Content>Income Support</Content>
+                    <Content>Employment and Support Allowance</Content>
+                    <Content>Pension Credit</Content>
+                    <Content>Housing Benefit</Content>
+                    <Content>It could also affect their Council Tax reduction - contact their local council to find out how.</Content>
+                    <Content>Read guidance on how Carer's Allowance affects other benefits.</Content>
+                    <Content>You must tell the person you care for before you claim the allowance.</Content>
+                </DisclaimerStatement>
+                <DisclaimerQuestion><QuestionLabel>I agree</QuestionLabel><Answer>Yes</Answer></DisclaimerQuestion>
+            </Disclaimer>
+            <EvidenceList>
+                <Evidence>
+                    <Title/>
+                    <Content>The Carer's Allowance Unit will contact you if they need any further information.</Content>
+                </Evidence>
+            </EvidenceList>
+            <Consents>
+
+                <Consent><QuestionLabel>Do you agree to us getting information from any other person or organisation you have told us about as part of this claim?</QuestionLabel><Answer>Yes</Answer></Consent>
+            </Consents>
+            <AssistedDecisions><AssistedDecision><Reason>Person is not British.</Reason><RecommendedDecision>Transfer to Exportability team.</RecommendedDecision></AssistedDecision></AssistedDecisions>
+        </DWPCAClaim>
+    </DWPCATransaction>
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <ds:Reference URI="#1408TEST432">
+                <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ds:DigestValue>YWwRf4AtbeR3m8xG6fF5/RSXeBA=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            PLwZzRQ4uyl1Os7sBDQgIyb559zfst5JFGoenQWcpuWu/9wJ+4glxWkBZxBpuo+WkU1gDDMHZyLn
+            hJcle0uDG1j2EP9EMdCEFylLAo3lSCIzFm9b81uNGF1tR/lvot+LrJTMFscd3676zbrIUKlbTcG6
+            EHpVznmO4jMBJILkOEvfXlCGwoQQbEn/DVpd0W2FyzLdN4b3LhXf7pOvzZrvOeiZSNk8dRslGB78
+            L9yP/MQTt3ykgvG2WnPyXcrCZXJSVMPF88JRpN7JTSFD7BQLgBAbBPsm64BK4nScQSOeQUi4i5TN
+            G1MGmMM9vUnPNndKm9M6KpMms9tO7lZ5tIRxYg==
+        </ds:SignatureValue>
+    </ds:Signature></DWPBody>
