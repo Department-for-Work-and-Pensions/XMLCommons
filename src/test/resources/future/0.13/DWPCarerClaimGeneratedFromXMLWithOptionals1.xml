@@ -491,7 +491,7 @@
                     </EEAWorkingInsurance>
                     <EEAWorkingInsuranceDetails>
                         <QuestionLabel>eea.insurance.details</QuestionLabel>
-                        <Answer></Answer>
+                        <Answer>a</Answer>
                     </EEAWorkingInsuranceDetails>
                 </EEA>
             </OtherBenefits>
