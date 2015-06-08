@@ -296,6 +296,7 @@
                                                                     <xs:element minOccurs="0" name="EEAReceivePensionsBenefits" type="QuestionTextType"/>
                                                                     <xs:element minOccurs="0" name="EEAReceivePensionsBenefitsDetails" type="QuestionTextThreeThousandType"/>
                                                                     <xs:element minOccurs="0" name="EEAWorkingInsurance" type="QuestionTextType"/>
+                                                                    <xs:element minOccurs="0" name="EEAWorkingInsuranceDetails" type="QuestionTextThreeThousandType"/>
                                                                 </xs:all>
                                                             </xs:complexType>
                                                         </xs:element>

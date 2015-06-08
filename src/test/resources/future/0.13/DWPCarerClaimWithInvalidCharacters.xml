@@ -493,6 +493,10 @@
                         <QuestionLabel>eea.insurance</QuestionLabel>
                         <Answer>No</Answer>
                     </EEAWorkingInsurance>
+                    <EEAWorkingInsuranceDetails>
+                        <QuestionLabel>eea.insurance.details</QuestionLabel>
+                        <Answer></Answer>
+                    </EEAWorkingInsuranceDetails>
                 </EEA>
 
             </OtherBenefits>
