@@ -8,7 +8,7 @@ import sbt.Keys._
 object ApplicationBuild extends Build {
   val appName = "xmlCommons"
 
-  val appVersion = "5.5"
+  val appVersion = "5.6"
 
   val appDependencies = Seq(
     libraryDependencies += "org.apache.santuario" % "xmlsec" % "1.4.8",
@@ -24,7 +24,7 @@ object ApplicationBuild extends Build {
 
   var sO: Seq[Def.Setting[_]] = Seq(scalacOptions := Seq("-deprecation", "-unchecked", "-feature", "-Xlint", "-language:reflectiveCalls"))
 
-  var sAppN: Seq[Def.Setting[_]] = Seq(name := appName)
+  var sAppN: Seq[Def.Setting[_]] = Seq(name := appName,publishArtifact in (Compile, packageDoc) := false)
   var sAppV: Seq[Def.Setting[_]] = Seq(version := appVersion)
   var sOrg: Seq[Def.Setting[_]] = Seq(organization := "gov.dwp.carers")
 
