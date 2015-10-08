@@ -1,0 +1,9 @@
+These files are the schema from the existing carers project.
+
+Changes for 0.16 version :
+
+ CADS-179 - Add email address to output.
+1) added EmailAddressType - email regexp
+2) ClaimantPersonType - added WantsContactEmail and Email
+3) CircsPersonType - added WantsContactEmail and Email
+

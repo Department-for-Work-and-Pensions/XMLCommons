@@ -1,0 +1,5 @@
+These files are the schema from the existing carers project.
+
+Changes for 0.18 version :
+
+CADS-223 - added self employment trading year guard question - <DoYouKnowYourTradingYear>
