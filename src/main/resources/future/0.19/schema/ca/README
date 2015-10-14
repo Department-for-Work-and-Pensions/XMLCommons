@@ -1,0 +1,5 @@
+These files are the schema from the existing carers project.
+
+Changes for 0.19 version :
+
+CADS-156 - Claim & Circs: Consent & Declaration: Remove Q1 question and update text on Q2 regarding giving consent to contact. Moving consent text to 3000
