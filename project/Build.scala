@@ -8,17 +8,17 @@ import sbt.Keys._
 object ApplicationBuild extends Build {
   val appName = "xmlCommons"
 
-  val appVersion = "6.1"
+  val appVersion = "7.0"
 
   val appDependencies = Seq(
     libraryDependencies += "org.apache.santuario" % "xmlsec" % "1.4.8",
     libraryDependencies += "junit" % "junit" % "4.12" % "test",
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test->default",
-    libraryDependencies += "gov.dwp.carers" %% "carerscommon" % "6.6"
+    libraryDependencies += "gov.dwp.carers" %% "carerscommon" % "7.0"
     // Add your project dependencies here,
   )
 
-  var sV: Seq[Def.Setting[_]] = Seq(scalaVersion := "2.10.4")
+  var sV: Seq[Def.Setting[_]] = Seq(scalaVersion := "2.10.5")
 
   var sR: Seq[Def.Setting[_]] = Seq(resolvers += "Carers repo" at "http://build.3cbeta.co.uk:8080/artifactory/repo/")
 
