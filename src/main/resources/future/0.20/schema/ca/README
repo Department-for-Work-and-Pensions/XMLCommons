@@ -1,0 +1,5 @@
+These files are the schema from the existing carers project.
+
+Changes for 0.20 version :
+
+CADS-413 - NISSA: Add support for origin tag in C3 (xml-generated)
