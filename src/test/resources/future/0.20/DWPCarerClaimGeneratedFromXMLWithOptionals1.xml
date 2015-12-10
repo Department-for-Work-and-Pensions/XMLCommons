@@ -2,7 +2,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/0.20/schema/ca/CarersAllowance_Schema.xsd">
     <Version>0.20</Version>
-    <Origin>NI</Origin>
+    <Origin>GB-NIR</Origin>
     <DWPCATransaction>
         <TransactionId>1412CGNIM9K</TransactionId>
         <DateTimeGenerated>02-10-2010 14:36</DateTimeGenerated>

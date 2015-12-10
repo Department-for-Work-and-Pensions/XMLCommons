@@ -18,7 +18,7 @@
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
                             <xs:enumeration value="GB"/>
-                            <xs:enumeration value="NI"/>
+                            <xs:enumeration value="GB-NIR"/>
                         </xs:restriction>
                     </xs:simpleType>
                 </xs:element>
