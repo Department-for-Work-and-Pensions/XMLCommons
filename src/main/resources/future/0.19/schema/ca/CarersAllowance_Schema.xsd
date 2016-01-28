@@ -320,7 +320,7 @@
                                                 <xs:complexType>
                                                     <xs:sequence>
                                                         <xs:element minOccurs="0" name="WelshCommunication" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" maxOccurs="1" name="AdditionalInformation" type="QuestionYesNoWhyType"/>
+                                                        <xs:element minOccurs="0" maxOccurs="1" name="AdditionalInformation" type="QuestionYesNoWhyThreeThousandType"/>
                                                     </xs:sequence>
                                                 </xs:complexType>
                                             </xs:element>
