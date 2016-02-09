@@ -25,20 +25,20 @@ public class CocLegacyXmlValidatorImplTest extends XmlTestBase {
 
     @Test
     public void testValidateFailWithEmptyXml()  {
-        assertFalse(validator.validate(""));
+        assertFalse(!validator.validate("").hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithUnreadableSchema() throws IOException {
         final String xml = readXMLFile("legacy/DWPCarerClaimGeneratedFromXML1.xml");
         ((S2XmlValidator)validator).setMainSchemaFile("legacy/doesNotExistFile.xsd");
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithSchemaReferencingUnknownSchema() throws IOException {
         final String xml = readXMLFile("legacy/DWPCarerClaimGeneratedFromXML1.xml");
         ((S2XmlValidator)validator).setMainSchemaFile("legacy/SchemaReferencingUnknownSchema.xsd");
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 }

@@ -26,24 +26,24 @@ public class CaFutureXmlValidatorImpl2Test extends XmlTestBase {
     @Test
     public void testValidateSuccessFullWithOnlyMandatoryFields() throws IOException {
         final String xml = readXMLFile("future/0.1/DWPCarerClaimGeneratedFromXML1.xml");
-        assertTrue(validator.validate(xml));
+        assertTrue(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateSuccessFullWithAllFields() throws IOException {
         final String xml = readXMLFile("future/0.1/DWPCarerClaimGeneratedFromXMLWithOptionals1.xml");
-        assertTrue(validator.validate(xml));
+        assertTrue(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithEmptyXml() throws Exception {
         final String xml = readXMLFile("future/0.1/DWPCarerClaimEmptyXMLWithVersion.xml");
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithUnkownXmlVersion() throws IOException {
         final String xml = readXMLFile("future/0.1/DWPCarerClaimGeneratedFromXMLUnknownVersion.xml");
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 }

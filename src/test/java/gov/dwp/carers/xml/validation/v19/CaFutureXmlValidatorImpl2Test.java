@@ -25,37 +25,37 @@ public class CaFutureXmlValidatorImpl2Test extends XmlTestBase {
     @Test
     public void testValidateSuccessFullWithOnlyMandatoryFields() throws IOException {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimGeneratedFromXML1.xml", version));
-        assertTrue(validator.validate(xml));
+        assertTrue(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateSuccessFullWithAllFields() throws IOException {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimGeneratedFromXMLWithOptionals1.xml", version));
-        assertTrue(validator.validate(xml));
+        assertTrue(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithEmptyXml() throws Exception {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimEmptyXMLWithVersion.xml", version));
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithUnkownXmlVersion() throws IOException {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimGeneratedFromXMLUnknownVersion.xml", version));
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
 
     @Test
     public void testValidateFailWithInvalidCharactersInFields() throws IOException {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimWithInvalidCharacters.xml", version));
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithInvalidLanguage() throws Exception {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerClaimGeneratedFromXMLWithInvalidLanguage.xml", version));
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 }

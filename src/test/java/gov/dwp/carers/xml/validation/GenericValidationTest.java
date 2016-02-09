@@ -32,7 +32,7 @@ public class GenericValidationTest extends XmlTestBase {
     public void testValidateFailWithUnreadableSchema() throws IOException {
         final String xml = readXMLFile("future/DWPCarerClaimGeneratedFromXML1.xml");
         ((S2XmlValidator)validator).setMainSchemaFile("doesNotExistFile.xsd");
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
@@ -40,14 +40,14 @@ public class GenericValidationTest extends XmlTestBase {
         final String xml = readXMLFile("future/DWPCarerClaimGeneratedFromXML1.xml");
         ((S2XmlValidator)validator).setSchemasPath("/future/");
         ((S2XmlValidator)validator).setMainSchemaFile("SchemaReferencingUnknownSchema.xsd");
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testCOCValidateFailWithUnreadableSchema() throws IOException {
         final String xml = readXMLFile("future/DWPCarerCOCGeneratedFromCase1.xml");
         ((S2XmlValidator)cocValidator).setMainSchemaFile("doesNotExistFile.xsd");
-        assertFalse(cocValidator.validate(xml));
+        assertFalse(!cocValidator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
@@ -55,6 +55,6 @@ public class GenericValidationTest extends XmlTestBase {
         final String xml = readXMLFile("future/DWPCarerCOCGeneratedFromCase1.xml");
         ((S2XmlValidator)cocValidator).setSchemasPath("/future/");
         ((S2XmlValidator)cocValidator).setMainSchemaFile("SchemaReferencingUnknownSchema.xsd");
-        assertFalse(cocValidator.validate(xml));
+        assertFalse(!cocValidator.validate(xml).hasFoundErrorOrWarning());
     }
 }
