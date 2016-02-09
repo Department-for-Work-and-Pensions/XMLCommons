@@ -11,7 +11,11 @@ object XmlSchemaDecryptorFactory {
   val packageName = "gov.dwp.carers.xml"
   val clsName = "XmlSchemaDecryptor"
   def buildSchemaDecrytor(version: String): XmlSchemaDecryptor = {
-    createInstance(s"v${version.drop(version.indexOf(".") + 1)}")
+    val versionNo = Try(s"v${version.drop(version.indexOf(".") + 1)}") match {
+      case Success(ver) => ver
+      case Failure(e) => ""
+    }
+    createInstance(versionNo)
   }
 
   private def createInstance(version: String): XmlSchemaDecryptor = {
