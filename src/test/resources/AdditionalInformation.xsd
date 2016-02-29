@@ -1,0 +1,61 @@
+<xs:element name="DWPBody">
+    <xs:element minOccurs="0" name="OtherInformation">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="WelshCommunication" type="QuestionTextType"/>
+                <xs:element minOccurs="0" maxOccurs="1" name="AdditionalInformation" type="QuestionYesNoWhyThreeThousandType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="QuestionType">
+        <xs:sequence>
+            <xs:element name="QuestionLabel">
+                <xs:simpleType>
+                    <xs:restriction base="RestrictedStringType">
+                        <xs:maxLength value="240"/>
+                        <xs:minLength value="3"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="QuestionTextType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="HundredTwentyTextType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="QuestionYesNoWhyThreeThousandType">
+        <xs:complexContent>
+            <xs:extension base="QuestionTextType">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Why" type="QuestionTextThreeThousandType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="QuestionTextThreeThousandType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="ThreeThousandTextType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:simpleType name="ThreeThousandTextType">
+        <xs:restriction base="RestrictedStringType">
+            <xs:minLength value="15"/>
+            <xs:maxLength value="3000"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="HundredTwentyTextType">
+        <xs:restriction base="RestrictedStringType">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="120"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>
