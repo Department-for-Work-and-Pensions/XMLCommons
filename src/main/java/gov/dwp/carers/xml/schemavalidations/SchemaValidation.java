@@ -27,7 +27,7 @@ public class SchemaValidation {
     }
 
     public void loadSchema(String version) {
-        if (RESTRICTIONS != null && RESTRICTIONS.getRestrictions().size() > 0) {
+        if (RESTRICTIONS != null && RESTRICTIONS.getRestrictions() != null && RESTRICTIONS.getRestrictions().size() > 0) {
             LOG.debug("Schema for version:" + version + " is already loaded with " + RESTRICTIONS.getRestrictions().size());
         } else {
             String schemaFile = schemaDefaultFilename(version);
