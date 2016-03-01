@@ -63,8 +63,8 @@ public class SchemaValidationTest {
         SchemaValidation.clearSchema();
         SchemaValidation validate = new SchemaValidation("AdditionalInformation.xsd");
 
-        Restriction restriction1=validate.getRestriction("OtherInformation//WelshCommunication//Answer");
-        assertTrue(restriction1!=null);
+        Restriction restriction1 = validate.getRestriction("OtherInformation//WelshCommunication//Answer");
+        assertTrue(restriction1 != null);
         assertEquals("HundredTwentyTextType", restriction1.getName());
         assertEquals(1, restriction1.getMinlength().intValue());
         assertEquals(120, restriction1.getMaxlength().intValue());
@@ -76,7 +76,7 @@ public class SchemaValidationTest {
         assertEquals(15, restriction2.getMinlength().intValue());
         assertEquals(3000, restriction2.getMaxlength().intValue());
 
-        Restriction restriction3=validate.getRestriction("OtherInformation//AdditionalInformation//Answer");
+        Restriction restriction3 = validate.getRestriction("OtherInformation//AdditionalInformation//Answer");
         assertTrue(restriction3 != null);
         assertEquals("HundredTwentyTextType", restriction3.getName());
         assertEquals(1, restriction3.getMinlength().intValue());
@@ -110,7 +110,7 @@ public class SchemaValidationTest {
 
 
     @Test
-    public void testDateOfClaimWithPattern(){
+    public void testDateOfClaimWithPattern() {
         SchemaValidation.clearSchema();
         SchemaValidation validate = new SchemaValidation("0.20");
         Restriction restriction = validate.getRestriction("DateOfClaim//Answer");
@@ -144,4 +144,11 @@ public class SchemaValidationTest {
         assertEquals("OtherInformation//AdditionalInformation//Why//Answer", newPath2);
     }
 
+    @Test
+    public void ensureNoNPEWhenBadSchema() {
+        SchemaValidation.clearSchema();
+        SchemaValidation validate = new SchemaValidation("BAD-SCHEMA");
+        Restriction restriction = validate.getRestriction("OtherInformation//AdditionalInformation//Why//Answer");
+        assertEquals("", restriction.getName());
+    }
 }

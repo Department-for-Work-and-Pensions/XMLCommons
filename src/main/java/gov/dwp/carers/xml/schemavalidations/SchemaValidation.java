@@ -35,9 +35,11 @@ public class SchemaValidation {
             Document doc = getDocFromXmlFile(schemaFile);
             Restrictions r = new Restrictions();
             r.setVersion(version);
-            r.setRestrictions(expandRestrictions(doc));
-            if (r.getRestrictions().size() == 0) {
-                LOG.error("ERROR building restrictions from xsd, 0 restrictions found");
+            if (doc != null) {
+                r.setRestrictions(expandRestrictions(doc));
+                if (r.getRestrictions().size() == 0) {
+                    LOG.error("ERROR building restrictions from xsd, 0 restrictions found");
+                }
             }
             RESTRICTIONS = r;
             this.doc = doc;
@@ -291,10 +293,12 @@ public class SchemaValidation {
         return doc;
     }
 
-
     public Restriction getRestriction(String nodename) {
-        Restriction restriction = RESTRICTIONS.getRestrictions().get(nodename);
-        return restriction;
+        if (RESTRICTIONS != null && RESTRICTIONS.getRestrictions() != null && RESTRICTIONS.getRestrictions().containsKey(nodename)) {
+            return RESTRICTIONS.getRestrictions().get(nodename);
+        } else {
+            return new Restriction("");
+        }
     }
 
     public Document getDoc() {
