@@ -293,9 +293,9 @@ public class SchemaValidation {
         return doc;
     }
 
-    public Restriction getRestriction(String nodename) {
-        if (RESTRICTIONS != null && RESTRICTIONS.getRestrictions() != null && RESTRICTIONS.getRestrictions().containsKey(nodename)) {
-            return RESTRICTIONS.getRestrictions().get(nodename);
+    public Restriction getRestriction(String nodepath) {
+        if (RESTRICTIONS != null && RESTRICTIONS.getRestrictions() != null && RESTRICTIONS.getRestrictions().containsKey(nodepath)) {
+            return RESTRICTIONS.getRestrictions().get(nodepath);
         } else {
             return new Restriction("");
         }
