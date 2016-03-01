@@ -1,5 +1,6 @@
 package gov.dwp.carers.xml.validation;
 
+
 /**
  * Interface for all the XML validators.
  * <br></br>
@@ -14,13 +15,11 @@ public interface XmlValidator {
      * @return true if XML valid, false if XML valid or if any error happened when reading schemas or XML.
      * All the errors are logged into log file.
      */
-    boolean validate(String xml);
+    XmlErrorHandler validate(String xml);
 
     String getGlobalXmlns();
 
     String getSchemaLocation();
 
     String getMessageClass();
-
-
 }

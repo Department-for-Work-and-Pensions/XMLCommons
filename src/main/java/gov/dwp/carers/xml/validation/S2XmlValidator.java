@@ -1,5 +1,7 @@
 package gov.dwp.carers.xml.validation;
 
+import gov.dwp.carers.xml.helpers.XmlSchemaDecryptor;
+import gov.dwp.carers.xml.helpers.XmlSchemaDecryptorFactory;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +15,8 @@ import javax.xml.validation.Validator;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -58,9 +62,9 @@ abstract class S2XmlValidator implements XmlValidator {
      * {@inheritDoc}
      */
     @Override
-    public boolean validate(final String xml) {
+    public XmlErrorHandler validate(final String xml) {
         logger.info("Start validation");
-        boolean isValid;
+        final XmlErrorHandler errorHandler = new XmlErrorHandler();
         final String schemaLang = "http://www.w3.org/2001/XMLSchema";
         final SchemaFactory factory = SchemaFactory.newInstance(schemaLang);
         // Get version number of XML so we know which version of schema to use
@@ -78,22 +82,20 @@ abstract class S2XmlValidator implements XmlValidator {
             final Schema schema = factory.newSchema(new StreamSource(is));
             final Validator validator = schema.newValidator();
             //Output more information than the default error handler
-            final XmlErrorHandler  errorHandler= new XmlErrorHandler();
+
             validator.setErrorHandler(errorHandler);
             //Validation of the XML
-            validator.validate(new StreamSource(new StringReader(xml)));
-            isValid = !errorHandler.hasFoundErrorOrWarning();
-        }catch (final LSException ls) {
-            logger.error(ls.getMessage(), ls);
-            isValid = false;
+            XmlSchemaDecryptor xmlSchemaDecryptor = XmlSchemaDecryptorFactory.buildSchemaDecrytor(version);
+            String xmlString = xmlSchemaDecryptor.decryptSchema(xml);
+            validator.validate(new StreamSource(new StringReader(xmlString)));
+        } catch (final LSException ls) {
+            errorHandler.addGenericException(ls);
         } catch (final SAXException sax) {
-            logger.error(sax.getMessage(), sax);
-            isValid = false;
+            errorHandler.addGenericException(sax);
         } catch (final IOException io) {
-            logger.error(io.getMessage(), io);
-            isValid = false;
+            errorHandler.addGenericException(io);
         }
-        return isValid;
+        return errorHandler;
     }
 
 

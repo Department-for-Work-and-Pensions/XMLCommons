@@ -24,18 +24,18 @@ public class CocFutureXmlValidatorImplTest extends XmlTestBase {
 
     @Test
     public void testValidateFailWithEmptyXml()  {
-        assertFalse(validator.validate(""));
+        assertFalse(!validator.validate("").hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateSuccessFullWithOnlyMandatoryFields() throws IOException {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerCOCWithMandatoryValues.xml",version));
-        assertTrue(validator.validate(xml));
+        assertTrue(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 
     @Test
     public void testValidateFailWithUnkownXmlVersion() throws IOException {
         final String xml = readXMLFile(String.format("future/%s/DWPCarerCOCWithMandatoryValuesWithUnknownVersion.xml", version));
-        assertFalse(validator.validate(xml));
+        assertFalse(!validator.validate(xml).hasFoundErrorOrWarning());
     }
 }
