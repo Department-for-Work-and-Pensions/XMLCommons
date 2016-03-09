@@ -15,6 +15,7 @@ import java.net.URL;
 import java.util.*;
 
 public class SchemaValidation {
+
     private static final Logger LOG = LoggerFactory.getLogger(SchemaValidation.class);
     private static final String XSD = "CarersAllowance_Schema.xsd";
 
@@ -26,7 +27,10 @@ public class SchemaValidation {
         loadSchema(version);
     }
 
-    public void loadSchema(String version) {
+    /*  Beware that we only load a single version schema. Which is OK in c3 where we only run a single version per jvm instance.
+        If we need to handle multiple achemas we need to handle this better with using a factory say.
+     */
+    public synchronized void loadSchema(String version) {
         if (RESTRICTIONS != null && RESTRICTIONS.getRestrictions() != null && RESTRICTIONS.getRestrictions().size() > 0) {
             LOG.debug("Schema for version:" + version + " is already loaded with " + RESTRICTIONS.getRestrictions().size());
         } else {
@@ -48,7 +52,7 @@ public class SchemaValidation {
 
     // Since we cache the xsd schema into static we need to be able to clear it for tests.
     // so we can test different scenarios by loading different xsd files.
-    public static void clearSchema() {
+    public synchronized static void clearSchema() {
         LOG.info("Clearing schema ... this will cause a reload / reparse of xsd");
         RESTRICTIONS = null;
     }
@@ -293,7 +297,7 @@ public class SchemaValidation {
         return doc;
     }
 
-    public Restriction getRestriction(String nodepath) {
+    public synchronized Restriction getRestriction(String nodepath) {
         if (RESTRICTIONS != null && RESTRICTIONS.getRestrictions() != null && RESTRICTIONS.getRestrictions().containsKey(nodepath)) {
             return RESTRICTIONS.getRestrictions().get(nodepath);
         } else {
