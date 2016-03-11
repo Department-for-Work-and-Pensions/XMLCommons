@@ -360,7 +360,7 @@
                                             <xs:element minOccurs="0" name="SelfEmployedChange" type="SelfEmployedChangeType"/>
                                             <xs:element minOccurs="0" name="PaymentChange" type="PaymentChangeType"/>
                                             <xs:element minOccurs="0" name="EmploymentChange" type="EmploymentChangeType"/>
-                                            <xs:element minOccurs="0" name="OtherChanges" type="QuestionLongTextType"/>
+                                            <xs:element minOccurs="0" name="OtherChanges" type="QuestionTextThreeThousandType"/>
                                             <xs:element minOccurs="0" name="Declaration" type="DeclarationType"> </xs:element>
                                             <xs:element minOccurs="0" name="EvidenceList" type="EvidenceListType"> </xs:element>
                                             <xs:element minOccurs="0" name="Consents" type="ConsentsType"/>
