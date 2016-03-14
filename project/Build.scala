@@ -8,7 +8,7 @@ import sbt.Keys._
 object ApplicationBuild extends Build {
   val appName = "xmlCommons"
 
-  val appVersion = "7.9"
+  val appVersion = "7.10"
 
   val appDependencies = Seq(
     libraryDependencies += "org.specs2" %% "specs2-core" % "3.3.1" % "test" withSources() withJavadoc(),
@@ -17,7 +17,7 @@ object ApplicationBuild extends Build {
     libraryDependencies += "org.apache.santuario" % "xmlsec" % "1.4.8",
     libraryDependencies += "junit" % "junit" % "4.12" % "test",
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test->default",
-    libraryDependencies += "gov.dwp.carers" %% "carerscommon" % "7.7"
+    libraryDependencies += "gov.dwp.carers" %% "carerscommon" % "7.9"
     // Add your project dependencies here,
   )
 
