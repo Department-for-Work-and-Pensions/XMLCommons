@@ -17,7 +17,7 @@ object ApplicationBuild extends Build {
     libraryDependencies += "org.apache.santuario" % "xmlsec" % "1.4.8",
     libraryDependencies += "junit" % "junit" % "4.12" % "test",
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test->default",
-    libraryDependencies += "gov.dwp.carers" %% "carerscommon" % "7.9"
+    libraryDependencies += "gov.dwp.carers" %% "carerscommon" % "7.8"
     // Add your project dependencies here,
   )
 
