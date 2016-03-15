@@ -1,0 +1,31 @@
+<xs:element name="DWPBody">
+    <xs:element minOccurs="0" name="Payment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="PaymentFrequency" type="QuestionTextType"/>
+                <xs:element minOccurs="0" name="InitialAccountQuestion" type="QuestionTextType"/>
+                <xs:element minOccurs="0" name="Account" type="AccountDetailsType"/>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:complexType name="AccountDetailsType">
+            <xs:sequence>
+                <xs:element minOccurs="0" name="HolderName" type="QuestionTextType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="QuestionTextType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="HundredTwentyTextType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:simpleType name="HundredTwentyTextType">
+        <xs:restriction base="RestrictedStringType">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="120"/>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:element>

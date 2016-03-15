@@ -37,28 +37,51 @@ public class XmlErrorHandler implements ErrorHandler {
     @Override
     public void warning(SAXParseException exception) throws SAXException {
         hasFoundErrorOrWarning = true;
-        errors.add(exception.toString());
+        errors.add(handleMessage("Warning", exception));
         logger.warn("warning: " + exception.toString(), exception);
     }
 
     @Override
     public void error(SAXParseException exception) throws SAXException {
         hasFoundErrorOrWarning = true;
-        errors.add(exception.toString());
+        errors.add(handleMessage("Error", exception));
         logger.warn("error: " + exception.toString(), exception);
     }
 
     @Override
     public void fatalError(SAXParseException exception) throws SAXException {
         hasFoundErrorOrWarning = true;
-        errors.add(exception.toString());
-        logger.error("fatalError: " + exception.toString(), exception);
+        errors.add(handleMessage("Fatal", exception));
+        logger.warn("fatalError: " + exception.toString(), exception);
     }
 
     public void addGenericException(Exception exception) {
         hasFoundErrorOrWarning = true;
-        errors.add(exception.toString());
+        errors.add(exception.getMessage());
         logger.error("addGenericException: " + exception.toString(), exception);
+    }
+
+    private String handleMessage(String level, SAXParseException exception) {
+        String message = exception.getMessage();
+        String errorMessage = "[" + level + "] line number: " + exception.getLineNumber() + ", column number: " + exception.getColumnNumber() + ", error: " + message.substring(0, message.indexOf(":")) + ", message: " + getErrorMessage(message);
+        logger.debug(errorMessage);
+        return errorMessage;
+    }
+
+    private String getErrorMessage(String message) {
+        if (message != null && message.toLowerCase().contains("value")) {
+            String[] errorMessages = new String[]{"of element", "with length"};
+            return removeValueFromMessage(message, errorMessages);
+        } else {
+            return message;
+        }
+    }
+
+    private String removeValueFromMessage(String message, String[] errorMessages) {
+        for (String errorMessage : errorMessages){
+            if (message.contains(errorMessage)) return "value " + message.substring(message.indexOf(errorMessage));
+        }
+        return message;
     }
 
     /**
