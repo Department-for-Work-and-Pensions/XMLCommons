@@ -35,8 +35,11 @@ object ApplicationBuild extends Build {
     publishTo := Some("Artifactory Realm" at "http://build.3cbeta.co.uk:8080/artifactory/repo/"),
     publishTo <<= version {
       (v: String) =>
-        Some("releases" at "http://build.3cbeta.co.uk:8080/artifactory/libs-release-local")
-    }, isSnapshot := true)
+        if (isSnapshot.value)
+          Some("snapshots" at "http://build.3cbeta.co.uk:8080/artifactory/libs-snapshot-local")
+        else
+          Some("releases"  at "http://build.3cbeta.co.uk:8080/artifactory/libs-release-local")
+    })
 
 
   var appSettings: Seq[Def.Setting[_]] = sV ++ sO ++ sR ++ sAppN ++ sAppV ++ sOrg ++ appDependencies ++ publ
