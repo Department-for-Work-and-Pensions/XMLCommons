@@ -865,6 +865,8 @@
     <xs:complexType name="EmploymentChangeSelfEmploymentType">
         <xs:sequence>
             <xs:element minOccurs="0" name="TypeOfSelfEmployment" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="PaidYet" type="QuestionTextType"/>
+            <xs:element minOccurs="0" name="DatePaid" type="QuestionDateType"/>
             <xs:element minOccurs="0" name="TotalIncome" type="QuestionTextType"/>
             <xs:element minOccurs="0" name="MoreAboutChanges" type="QuestionTextThreeThousandType"/>
         </xs:sequence>

@@ -151,4 +151,24 @@ public class SchemaValidationTest {
         Restriction restriction = validate.getRestriction("OtherInformation//AdditionalInformation//Why//Answer");
         assertEquals("", restriction.getName());
     }
+
+    @Test
+    public void dumpAllRestrictionsFromFullXsd() {
+        SchemaValidation.clearSchema();
+        SchemaValidation validate = new SchemaValidation("0.20");
+        Map<String, Restriction> restrictions = validate.expandRestrictions(validate.getDoc());
+        for (String path : restrictions.keySet()) {
+            if (path.startsWith("DWPBody") || path.startsWith("DWPCATransaction")) {
+                // Skip DWPBody and DWPTransacion they are not needed ( duplicate paths )
+            } else if (path.startsWith("DWPCAChangeOfCircumstances") || path.startsWith("DWPCAClaim")) {
+                Restriction r = restrictions.get(path);
+                if (r.getPattern() != null && r.getPattern().length() > 0) {
+                    System.out.println(path + ":" + r.getPattern());
+                } else {
+                    System.out.println(path + ":" + r.getMinlength() + ":" + r.getMaxlength());
+                }
+            }
+        }
+    }
+
 }
