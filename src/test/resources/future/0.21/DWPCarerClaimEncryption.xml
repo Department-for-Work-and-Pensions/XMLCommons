@@ -1,0 +1,302 @@
+<DWPBody xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/0.21/schema/ca/CarersAllowance_Schema.xsd" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Version>0.21</Version>
+    <Origin>GB</Origin>
+    <DWPCATransaction id="16010000001">
+        <TransactionId>16010000001</TransactionId>
+
+        <DateTimeGenerated>27-01-2016 11:06</DateTimeGenerated>
+        <LanguageUsed>English</LanguageUsed>
+        <DWPCAClaim>
+            <DateOfClaim><QuestionLabel>Claim date</QuestionLabel><Answer>12-12-1999</Answer></DateOfClaim>
+            <QualifyingBenefit><QuestionLabel>What benefit does the person you care for get?</QuestionLabel><Answer>PIP</Answer></QualifyingBenefit>
+            <Claimant>
+                <Surname><QuestionLabel>Last name</QuestionLabel><Answer>lUVNPdh9U3YkHhYCVIuS9iGAJxc4KuY/soFEAlqEpHGDmgmchvvB3a7h6qjA4oIzUCmIPFB3vpmEuH58Sza1zA==</Answer></Surname>
+                <OtherNames><QuestionLabel>First name</QuestionLabel><Answer>twentseven</Answer></OtherNames>
+                <MiddleNames><QuestionLabel>Middle name(s)</QuestionLabel><Answer>testmiddlename</Answer></MiddleNames>
+                <Title><QuestionLabel>Title</QuestionLabel><Answer>qa</Answer></Title>
+                <DateOfBirth><QuestionLabel>Date of birth</QuestionLabel><Answer>12-12-1999</Answer></DateOfBirth>
+                <NationalInsuranceNumber><QuestionLabel>National Insurance number</QuestionLabel><Answer>WbSSCPulFxhpe7rkPZezaqhzzdfhSU4/5likKhcLaY8lKkho9O3981zRp1z4ymlR</Answer></NationalInsuranceNumber>
+                <Address>
+                    <QuestionLabel>Address</QuestionLabel>
+                    <Answer>
+                        <Line>testaddress</Line><Line>tkfsjfjdsfjds</Line><Line>dklfjskfjskl</Line><PostCode>4AM99F2YcDyvYOlIp6/QVWr7Jp8LdoZU8PjPCE2a737sysqZMYvAspLFndzW3ZhY</PostCode>
+                    </Answer>
+                </Address>
+                <DayTimePhoneNumber><QuestionLabel>Contact number</QuestionLabel><Answer>40320940949049049049</Answer></DayTimePhoneNumber>
+                <Cared35HoursBefore><QuestionLabel>Were you caring for the person for more than 35 hours a week before this date?</QuestionLabel><Answer>Yes</Answer></Cared35HoursBefore>
+                <DateStartCaring><QuestionLabel>When did you begin caring?</QuestionLabel><Answer>12-12-1999</Answer></DateStartCaring>
+                <MaritalStatus><QuestionLabel>Your status</QuestionLabel><Answer>Married or civil partner</Answer></MaritalStatus>
+                <TextPhoneContact><QuestionLabel>This is a textphone for people with hearing difficulties.</QuestionLabel><Answer>Yes</Answer></TextPhoneContact>
+                <WantsContactEmail><QuestionLabel>Have you got an email address?</QuestionLabel><Answer>Yes</Answer></WantsContactEmail>
+                <Email><QuestionLabel>Email address</QuestionLabel><Answer>prasad@scrumconnect.com</Answer></Email>
+            </Claimant>
+            <Caree>
+                <Surname><QuestionLabel>Last name</QuestionLabel><Answer>Xo9LCjxNtTcXJLcMGvUU89A06cEuqEDR5znpqacG+1ga+ELiJ2Hexyy4Qaw2VXjm9+7N6EeT8dN3YYI8l4yAXg==</Answer></Surname>
+                <OtherNames><QuestionLabel>First name</QuestionLabel><Answer>personyouccarefor</Answer></OtherNames>
+                <MiddleNames><QuestionLabel>Middle name(s)</QuestionLabel><Answer>middlename</Answer></MiddleNames>
+                <Title><QuestionLabel>Title</QuestionLabel><Answer>doctorqa</Answer></Title>
+                <DateOfBirth><QuestionLabel>Date of birth</QuestionLabel><Answer>12-02-2001</Answer></DateOfBirth>
+                <NationalInsuranceNumber><QuestionLabel>National Insurance number</QuestionLabel><Answer>edv4FP8EwD2QPZRYDHYIjU/UHrz20sDntTtvTSG8g2ymam4XaLKU0OnqViLju9LA</Answer></NationalInsuranceNumber>
+                <Address>
+                    <QuestionLabel>Address</QuestionLabel>
+                    <Answer>
+                        <Line>testaddress</Line><Line>tkfsjfjdsfjds</Line><Line>dklfjskfjskl</Line><PostCode>Z+vmwdghj43/9J1XuoYpQsSJRHk97R5L7k320Jh+deW0OyjySGe5q7zbX4HoOXRP</PostCode>
+                    </Answer>
+                </Address>
+                <RelationToClaimant><QuestionLabel>What's their relationship to you?</QuestionLabel><Answer>friend</Answer></RelationToClaimant>
+                <Cared35Hours><QuestionLabel>Do you spend 35 hours or more each week caring for the person you care for?</QuestionLabel><Answer>No</Answer></Cared35Hours>
+                <CareBreak>
+                    <BreaksSinceClaim><QuestionLabel>Have you had any breaks from caring for this person since 12 December 1999?</QuestionLabel><Answer>No</Answer></BreaksSinceClaim>
+                </CareBreak>
+                <LiveSameAddress><QuestionLabel>Do they live at the same address as you?</QuestionLabel><Answer>Yes</Answer></LiveSameAddress>
+            </Caree>
+            <Residency>
+                <Nationality><QuestionLabel>What is your nationality?</QuestionLabel><Answer>British</Answer></Nationality>
+
+
+
+                <NormallyLiveInGB><QuestionLabel>Do you normally live in England, Scotland or Wales?</QuestionLabel><Answer>Yes</Answer></NormallyLiveInGB>
+
+
+
+                <PeriodAbroad>
+                    <TimeOutsideGBLast3Years><QuestionLabel>Have you been away from England, Scotland or Wales for more than 52 weeks in the 3 years before your claim date?</QuestionLabel><Answer>No</Answer></TimeOutsideGBLast3Years>
+
+                </PeriodAbroad>
+
+            </Residency>
+            <CourseOfEducation><QuestionLabel>Have you been on a course of education since your claim date?</QuestionLabel><Answer>No</Answer></CourseOfEducation>
+
+            <SelfEmployed><QuestionLabel>Have you been self-employed at any time since 5 December 1999?</QuestionLabel><Answer>Yes</Answer></SelfEmployed>
+            <SelfEmployment>
+                <SelfEmployedNow><QuestionLabel>Are you self-employed now?</QuestionLabel><Answer>Yes</Answer></SelfEmployedNow>
+                <CurrentJobDetails>
+                    <DateStarted><QuestionLabel>When did you start this self-employed work?</QuestionLabel><Answer>12-01-2011</Answer></DateStarted>
+                    <NatureBusiness><QuestionLabel>Type of work or business?</QuestionLabel><Answer>testtypeofwork</Answer></NatureBusiness>
+                    <DoYouKnowYourTradingYear><QuestionLabel>Do you know your trading year?</QuestionLabel><Answer>Yes</Answer></DoYouKnowYourTradingYear>
+                    <TradingYear>
+
+
+                    </TradingYear>
+
+
+                </CurrentJobDetails>
+                <PaidForPension><QuestionLabel>Do you pay into a pension?</QuestionLabel><Answer>No</Answer></PaidForPension>
+                <PaidForJobExpenses><QuestionLabel>Do you have any care costs because of this work?</QuestionLabel><Answer>No</Answer></PaidForJobExpenses>
+            </SelfEmployment>
+            <Employed><QuestionLabel>Have you been employed at any time since 12 June 1999?</QuestionLabel><Answer>Yes</Answer></Employed>
+            <Employment>
+
+                <JobDetails>
+                    <Employer>
+                        <CurrentlyEmployed><QuestionLabel>Have you finished this job?</QuestionLabel><Answer>Yes</Answer></CurrentlyEmployed>
+                        <DidJobStartBeforeClaimDate><QuestionLabel>Did you start this job before 12 November 1999?</QuestionLabel><Answer>Yes</Answer></DidJobStartBeforeClaimDate>
+
+                        <DateJobEnded><QuestionLabel>Date last worked</QuestionLabel><Answer>12-12-1999</Answer></DateJobEnded>
+                        <Name><QuestionLabel>Employer's name</QuestionLabel><Answer>GE HEALTHCAREPRIVATELIMITEDUNITEDKINGDOMPRESTONLANCSHIRE</Answer></Name>
+                        <Address>
+                            <QuestionLabel>Address</QuestionLabel>
+                            <Answer>
+                                <Line>KLDSJFKSJKFJ</Line><Line>KJSDKFJKJ</Line><Line>KJKDJFKSJ</Line><PostCode>PR2 2AX</PostCode>
+                            </Answer>
+                        </Address>
+                        <EmployersPhoneNumber><QuestionLabel>Phone number</QuestionLabel><Answer>3092039093093903309</Answer></EmployersPhoneNumber>
+
+                    </Employer>
+                    <Pay>
+
+                        <DateLastPaid><QuestionLabel>When were you last paid?</QuestionLabel><Answer>12-12-1999</Answer></DateLastPaid>
+                        <GrossPayment><QuestionLabel>What were you paid in your last wage?</QuestionLabel><Answer><Currency>GBP</Currency><Amount>329329</Amount></Answer></GrossPayment>
+                        <IncludedInWage><QuestionLabel>What was included in this pay?</QuestionLabel><Answer>sdkldskldskfsfldfdslfjskjfkqa twentseven testmiddlename version1lastname qa twentseven testmiddlename version1lastname qa twentseven testmiddlename version1lastname qa twentseven testmiddlename version1lastname qa twentseven testmiddlename version1lastname qa twentseven testmiddlename version1lastna</Answer></IncludedInWage>
+                        <PayFrequency><QuestionLabel>How often were you paid?</QuestionLabel><Answer>Weekly</Answer></PayFrequency>
+                        <UsualPayDay><QuestionLabel>When did you get paid?</QuestionLabel><Answer>099934893409094309430943094309340943094394394390099043933903</Answer></UsualPayDay>
+                        <ConstantEarnings><QuestionLabel>Did you get the same amount each time?</QuestionLabel><Answer>Yes</Answer></ConstantEarnings>
+                    </Pay>
+                    <OweMoney><QuestionLabel>Does your employer owe you any money?</QuestionLabel><Answer>No</Answer></OweMoney>
+                    <PaidForPension><QuestionLabel>Did you pay into a pension?</QuestionLabel><Answer>Yes</Answer></PaidForPension><PensionExpenses>
+                    <Expense><QuestionLabel>Give details of each pension you paid into, including how much and how often you paid into them.</QuestionLabel><Answer>100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                        101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                        100	ThirdPropertyyesYourCarerRadButn
+                        101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN</Answer></Expense>
+                </PensionExpenses>
+                    <PaidForThingsToDoJob><QuestionLabel>Did you pay for things you needed to do your job?</QuestionLabel><Answer>Yes</Answer></PaidForThingsToDoJob><ExpensesToDoJob>
+                    <Expense><QuestionLabel>Give details of what you needed to buy, why you needed it and how much it cost.</QuestionLabel><Answer>100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                        101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                        100	ThirdPropertyyesYourCarerRadButn
+                        101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN</Answer></Expense>
+                </ExpensesToDoJob>
+                    <PaidForJobExpenses><QuestionLabel>Did you have any care costs because of this work?</QuestionLabel><Answer>Yes</Answer></PaidForJobExpenses><JobExpenses>
+                    <Expense><QuestionLabel>Give details of who you paid and what it cost.</QuestionLabel><Answer>100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                        101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                        100	ThirdPropertyyesYourCarerRadButn
+                        101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN</Answer></Expense>
+                </JobExpenses>
+                    <OtherEmployment><QuestionLabel>Have you had any other jobs since 12 June 1999?</QuestionLabel><Answer>No</Answer></OtherEmployment>
+                </JobDetails>
+            </Employment>
+            <EmploymentAdditionalInfo><QuestionLabel>Do you want to add anything about your work?</QuestionLabel><Other>100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes your the carer	SELECTRADIO	yesYourCarerRadButn
+                101	ThirdProperty	Click Next Button	CLICKBUTTON	NxtBTN
+                100	ThirdProperty	Select Yes y</Other><Answer>Yes</Answer></EmploymentAdditionalInfo>
+            <HavePartner><QuestionLabel>Have you lived with a partner at any time since your claim date?</QuestionLabel><Answer>No</Answer></HavePartner>
+
+            <OtherBenefits>
+                <OtherMoneySSP><QuestionLabel>Have you had any Statutory Sick Pay since your claim date?</QuestionLabel><Answer>Yes</Answer></OtherMoneySSP>
+                <OtherMoneySSPDetails>
+                    <Payment>
+                        <Payment><QuestionLabel>How much</QuestionLabel><Answer><Currency>GBP</Currency><Amount>393939</Amount></Answer></Payment>
+                        <Frequency><QuestionLabel>How often</QuestionLabel><Answer>Four-Weekly</Answer></Frequency>
+                    </Payment>
+                    <Name><QuestionLabel>Employer's name</QuestionLabel><Answer>GE HEALTHCAREPRIVATELIMITEDUNITEDKINGDOMPRESTONLANCSHIRE</Answer></Name>
+                    <Address>
+                        <QuestionLabel>Employer's address</QuestionLabel>
+                        <Answer>
+                            <Line>Lopadotemachoselachogaleokranioleip</Line><Line>Lopadotemachoselachogaleokranioleip</Line><Line>Lopadotemachoselachogaleokranioleip</Line><PostCode>PR2 3AX</PostCode>
+                        </Answer>
+                    </Address>
+                </OtherMoneySSPDetails>
+                <OtherMoneySP><QuestionLabel>Have you had any Statutory Maternity Pay, Statutory Paternity Pay or Statutory Adoption Pay since your claim date?</QuestionLabel><Answer>Yes</Answer></OtherMoneySP>
+                <OtherMoneySPDetails>
+                    <Payment>
+                        <Payment><QuestionLabel>How much</QuestionLabel><Answer><Currency>GBP</Currency><Amount>323</Amount></Answer></Payment>
+                        <Frequency><QuestionLabel>How often</QuestionLabel><Answer>Weekly</Answer></Frequency>
+                    </Payment>
+                    <Name><QuestionLabel>Employer's name</QuestionLabel><Answer>Lopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilph</Answer></Name>
+                    <Address>
+                        <QuestionLabel>Employer's address</QuestionLabel>
+                        <Answer>
+                            <Line>Lopadotemachoselachogaleokranioleip</Line><Line>Lopadotemachoselachogaleokranioleip</Line><Line>Lopadotemachoselachogaleokranioleip</Line><PostCode>PR2 3AX</PostCode>
+                        </Answer>
+                    </Address>
+                </OtherMoneySPDetails>
+                <OtherMoneyPayments><QuestionLabel>Have you received any payments for the person you care for or any other person since your claim date?</QuestionLabel><Answer>Yes</Answer></OtherMoneyPayments>
+                <OtherMoneyDetails>
+                    <Payment>
+                        <Payment><QuestionLabel>How much?</QuestionLabel><Answer><Currency>GBP</Currency><Amount>03939</Amount></Answer></Payment>
+                        <Frequency><QuestionLabel>How often?</QuestionLabel><Answer>Fortnightly</Answer></Frequency>
+                    </Payment>
+                    <Name><QuestionLabel>Who pays you?</QuestionLabel><Answer>sdpfksdfksfjdsfsfdsfdkflsdl;fl;dsfs</Answer></Name>
+                </OtherMoneyDetails>
+                <EEA>
+                    <EEAGuardQuestion><QuestionLabel>Have you or any of your close family worked abroad or been paid benefits from outside the United Kingdom since your claim date?</QuestionLabel><Answer>No</Answer></EEAGuardQuestion>
+
+
+
+
+                </EEA>
+            </OtherBenefits>
+            <Payment>
+                <PaymentFrequency><QuestionLabel>How often do you want to be paid Carer's Allowance?</QuestionLabel><Answer>Every week</Answer></PaymentFrequency>
+                <InitialAccountQuestion><QuestionLabel>Do you have a bank account?</QuestionLabel><Answer>Yes</Answer></InitialAccountQuestion>
+                <Account>
+                    <HolderName><QuestionLabel>Account holder name</QuestionLabel><Answer>q+KEGfORpD3SiVwYCW4/nUToQRk/mC4dHyaz7uADCkb1ppmZ1VMXjfyNTucipgCG8x64kT3RrgS01Ijv+l8SfMQW7rclMebYoYLfnhjsQhDgIwpKTrY45FXjWLB7IIAP</Answer></HolderName>
+                    <BuildingSocietyDetails>
+                        <AccountNumber><QuestionLabel>Account number</QuestionLabel><Answer>hh49WL3c7XRAxdZXt07+7CM+Sz3LHivInBPzW1w0klg6MKKNkGXA8ngOxXGelqJ4</Answer></AccountNumber>
+                        <RollNumber><QuestionLabel>Building society roll or reference number</QuestionLabel><Answer>992929383838388383</Answer></RollNumber>
+                        <SortCode><QuestionLabel>Sort code</QuestionLabel><Answer>EZsIg388DeGZ5MpQYWDqn2Ls84oDuzv8EqTW0Rjld8jwBy0hSh5g91PtrH4E6U2F</Answer></SortCode>
+                        <Name><QuestionLabel>Name of bank or building society</QuestionLabel><Answer>kdsjfkdlkfsjkfjksljfkljdsflsdfsfklksfklsflsflslfslflsflslsdf</Answer></Name>
+                    </BuildingSocietyDetails>
+                </Account>
+            </Payment>
+            <OtherInformation>
+                <WelshCommunication><QuestionLabel>Do you live in Wales and want to receive future communications in Welsh?</QuestionLabel><Answer>No</Answer></WelshCommunication>
+                <AdditionalInformation><QuestionLabel>Do you want to tell us any additional information about your claim?</QuestionLabel><Answer>Yes</Answer><Why><QuestionLabel>Tell us anything else you think we should know about your claim</QuestionLabel><Answer>LopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokraniolphattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygon
+
+                    LopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygon
+
+                    LopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogaleokranioleipsanodrimhypotrimmatosilphioparaomelitokatakechymenokichlepikossyphophattoperisteralektryonoptekephalliokigklopeleiolagoiosiraiobaphetraganopterygonLopadotemachoselachogale</Answer></Why></AdditionalInformation>
+            </OtherInformation>
+            <Declaration>
+                <DeclarationStatement>
+                    <Content>By sending this application you agree that:</Content>
+                    <Content>the information you've given is complete and correct as far as you know</Content>
+                    <Content>you'll pay back any money you've been overpaid if you're asked to</Content>
+                    <Content>you'll report changes of your circumstances or those of the person you care for promptly either online or by contacting the Carer's Allowance Unit</Content>
+                    <Content>You could be prosecuted or have to pay a financial penalty if you deliberately give wrong or incomplete information or don't report changes. Your Carer's Allowance may also be stopped or reduced.</Content>
+                </DeclarationStatement>
+                <DeclarationQuestion><QuestionLabel>Are you applying for Carer's Allowance for yourself?</QuestionLabel><Answer>Yes</Answer></DeclarationQuestion>
+                <DeclarationQuestion><QuestionLabel>I agree</QuestionLabel><Answer>Yes</Answer></DeclarationQuestion>
+
+            </Declaration>
+            <Disclaimer>
+                <DisclaimerStatement>
+                    <Title>This is my claim for Carer's Allowance.</Title>
+                    <Content>When you claim Carer's Allowance the person you care for may stop getting:</Content>
+                    <Content>a severe disability premium paid with their benefits, if they get one</Content>
+                    <Content>an extra amount for severe disability paid with Pension Credit, if they get one</Content>
+                    <Content>reduced Council Tax, if their local council offers it</Content>
+                    <Content>Read more about how Carer's Allowance affects other benefits.</Content>
+                    <Content>You must tell the person you care for before you claim.</Content>
+                </DisclaimerStatement>
+                <DisclaimerQuestion><QuestionLabel>I agree</QuestionLabel><Answer>Yes</Answer></DisclaimerQuestion>
+            </Disclaimer>
+            <EvidenceList>
+                <RecipientAddress>
+                    <QuestionLabel>Send your documents to:</QuestionLabel>
+                    <Answer>
+                        <Line>Carer's Allowance Unit</Line><Line>Mail Handling Site A</Line><Line>Wolverhampton</Line><PostCode>WV98 2AB</PostCode>
+                    </Answer>
+                </RecipientAddress><Evidence><Title>What happens next</Title></Evidence><Evidence><Title>You'll get an email when your claim has been received.</Title></Evidence><Evidence><Title>You'll usually get a decision on your claim within 4 weeks - it may take longer if you don't send the required documents.</Title></Evidence><Evidence>
+                <Title>Documents required</Title>
+                <Content>You must now send:</Content><Content>last payslip you got before 12-12-1999 (your claim date)</Content><Content>any payslips you have had since your claim date</Content><Content>your most recent finalised accounts you have for your business</Content><Content>copies of your pension statements</Content><Content>payslips for Statutory Sick Pay since your claim date</Content><Content>payslips for any statutory payments since your claim date</Content><Content>Include your name, address and National Insurance number with anything you send.</Content>
+            </Evidence>
+            </EvidenceList>
+            <Consents>
+                <Consent><QuestionLabel>Do you agree to the Carer's Allowance Unit contacting anyone mentioned in this form?</QuestionLabel><Answer>No</Answer><Why><QuestionLabel>List anyone you don't want to be contacted and say why.</QuestionLabel><Answer> doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoudoctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor
+                    doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor
+                    doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor
+                    doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doctorqa personyouccarefor middlename lastnamepersonyoucarefor  doct</Answer></Why></Consent>
+            </Consents>
+
+        </DWPCAClaim>
+    </DWPCATransaction>
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <ds:Reference URI="#1601AHRYNG3">
+                <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ds:DigestValue>HuuuJCytzrvyJNfm0M2si7YJDaA=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            oAzsdj76g9svEvzXRAEeNS+1jTwMpYE0KesDG62YdVYRhmzyjnI4hhaGiIlAXNNSx6Hhy9LknxWs
+            tFZt0C1IY9m+bFiUzb00EMJ4r3MfjEBh3Fks1BDmKlllFVCKGigzefjKiD54yvckWqIhoFGlk8Xj
+            KUBQ2xQYjJJCyUJ59AlKEL/9Rb3LfrsfopYamWOdJDLtzIaHNwAFbmYi7g65V8oU/S6aeuvY2T7A
+            fQFwJwyL6HRmeJ/p64znP69O9xsUBnBMM2B+Vk7dD7s+49iardsgEG+P+wocC+KwUsKKOdbC+/W7
+            pDvRxVywqcZkFylUNgt6+kiClt/zdPVjZAV7Fw==
+        </ds:SignatureValue>
+    </ds:Signature></DWPBody>

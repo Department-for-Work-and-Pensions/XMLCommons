@@ -33,7 +33,7 @@ public class S2LocalResourceResolverTest {
 
     @Test
     public void testSuccessfulResolveResourceFutureV1() throws Exception {
-        S2LocalResourceResolver resolver = new S2LocalResourceResolver("/future/0.1/");
+        S2LocalResourceResolver resolver = new S2LocalResourceResolver("/future/0.20/");
         resolver.resolveResource("http://www.w3.org/2001/XMLSchema",
                 "http://www.govtalk.gov.uk/dwp/ca/claim",
                 null,
@@ -43,7 +43,7 @@ public class S2LocalResourceResolverTest {
 
     @Test
     public void testSuccessfulResolveResourceFutureV2() throws Exception {
-        S2LocalResourceResolver resolver = new S2LocalResourceResolver("/future/0.2/");
+        S2LocalResourceResolver resolver = new S2LocalResourceResolver("/future/0.20/");
         resolver.resolveResource("http://www.w3.org/2001/XMLSchema",
                 "http://www.govtalk.gov.uk/dwp/ca/claim",
                 null,

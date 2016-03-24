@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<DWPBody xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/0.1/schema/ca/CarersAllowance_Schema.xsd">
-    <Version>0.3</Version>
-</DWPBody>

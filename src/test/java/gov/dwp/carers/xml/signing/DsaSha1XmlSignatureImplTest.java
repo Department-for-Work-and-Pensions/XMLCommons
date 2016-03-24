@@ -49,21 +49,19 @@ public class DsaSha1XmlSignatureImplTest  extends XmlTestBase {
 
     @Test
     public void testSuccessfulSignFuture() throws Exception {
-        final String XmlSigned = sign.sign(fileInputStream("future/0.4/DWPCarerClaimGeneratedFromXML1.xml"),"NFM33DB");
+        final String XmlSigned = sign.sign(fileInputStream("future/0.20/DWPCarerClaimGeneratedFromXML1.xml"),"14080000001");
         assertTrue(XmlSigned.contains("Signature"));
-        assertTrue(XmlSigned.contains("Reference URI=\"#NFM33DB\""));
+        assertTrue(XmlSigned.contains("Reference URI=\"#14080000001\""));
         assertTrue(XmlSigned.contains("SignatureValue"));
         assertTrue(XmlSigned.contains("DigestValue"));
     }
 
-
     @Test
     public void testSuccessfulVerification() throws Exception {
-        final String XmlSigned = sign.sign(fileInputStream("future/0.4/DWPCarerClaimGeneratedFromXML1.xml"),"NFM33DB");
+        final String XmlSigned = sign.sign(fileInputStream("future/0.20/DWPCarerClaimGeneratedFromXML1.xml"),"14080000001");
         assertTrue(sign.verifySignature(XmlSigned));
         assertTrue(XmlSignatureValidator.validate(XmlSigned));
     }
-
 
     @Test(expected = SigningException.class)
     public void testFailSignWithInvalidURI() throws Exception {

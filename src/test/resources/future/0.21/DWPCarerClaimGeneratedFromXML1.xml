@@ -1,5 +1,5 @@
-<DWPBody xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/0.20/schema/ca/CarersAllowance_Schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance">
-    <Version>0.20</Version>
+<DWPBody xsi:schemaLocation="http://www.govtalk.gov.uk/dwp/carers-allowance file:/future/0.21/schema/ca/CarersAllowance_Schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.govtalk.gov.uk/dwp/carers-allowance">
+    <Version>0.21</Version>
     <Origin>GB-NIR</Origin>
     <DWPCATransaction id="14080000001">
         <TransactionId>14080000001</TransactionId>
@@ -189,4 +189,20 @@
             <AssistedDecisions><AssistedDecision><Reason>Person is not British.</Reason><RecommendedDecision>Transfer to Exportability team.</RecommendedDecision></AssistedDecision></AssistedDecisions>
         </DWPCAClaim>
     </DWPCATransaction>
-</DWPBody>
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+            <ds:Reference URI="#1408TEST432">
+                <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                <ds:DigestValue>YWwRf4AtbeR3m8xG6fF5/RSXeBA=</ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            PLwZzRQ4uyl1Os7sBDQgIyb559zfst5JFGoenQWcpuWu/9wJ+4glxWkBZxBpuo+WkU1gDDMHZyLn
+            hJcle0uDG1j2EP9EMdCEFylLAo3lSCIzFm9b81uNGF1tR/lvot+LrJTMFscd3676zbrIUKlbTcG6
+            EHpVznmO4jMBJILkOEvfXlCGwoQQbEn/DVpd0W2FyzLdN4b3LhXf7pOvzZrvOeiZSNk8dRslGB78
+            L9yP/MQTt3ykgvG2WnPyXcrCZXJSVMPF88JRpN7JTSFD7BQLgBAbBPsm64BK4nScQSOeQUi4i5TN
+            G1MGmMM9vUnPNndKm9M6KpMms9tO7lZ5tIRxYg==
+        </ds:SignatureValue>
+    </ds:Signature></DWPBody>
