@@ -268,8 +268,8 @@
                                                                     <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
-                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionText60Type"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionText60Type"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
@@ -281,8 +281,8 @@
                                                                     <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
-                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionText60Type"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionText60Type"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
@@ -290,12 +290,13 @@
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element name="PaymentTypesForThisPay" type="QuestionText40Type"/>
+                                                                    <xs:element minOccurs="0" name="PaymentTypesForThisPayOther" type="QuestionText60Type"/>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
                                                                     <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
-                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionText60Type"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionText60Type"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
@@ -306,8 +307,8 @@
                                                                     <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
-                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element name="WhoPaidYouThisPay" type="QuestionText60Type"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionText60Type"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
@@ -593,6 +594,15 @@
             <xs:extension base="QuestionType">
                 <xs:sequence>
                     <xs:element name="Answer" type="FortyTextType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="QuestionText60Type">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="SixtyTextType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
