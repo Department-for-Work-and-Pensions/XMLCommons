@@ -276,6 +276,7 @@
                                                         <xs:element minOccurs="0" name="StatutoryMaternityPaternityAdopt">
                                                             <xs:complexType>
                                                                 <xs:sequence>
+                                                                    <xs:element name="PaymentTypesForThisPay" type="QuestionText40Type"/>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
                                                                     <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
@@ -288,6 +289,7 @@
                                                         <xs:element minOccurs="0" name="FosteringAllowance">
                                                             <xs:complexType>
                                                                 <xs:sequence>
+                                                                    <xs:element name="PaymentTypesForThisPay" type="QuestionText40Type"/>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
                                                                     <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
@@ -582,6 +584,15 @@
             <xs:extension base="QuestionType">
                 <xs:sequence>
                     <xs:element name="Answer" type="TwentyTextType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="QuestionText40Type">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="FortyTextType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -1154,6 +1165,12 @@
         <xs:restriction base="RestrictedStringType">
             <xs:minLength value="1"/>
             <xs:maxLength value="20"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="FortyTextType">
+        <xs:restriction base="RestrictedStringType">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="40"/>
         </xs:restriction>
     </xs:simpleType>
     <xs:complexType name="QuestionAmountType">
