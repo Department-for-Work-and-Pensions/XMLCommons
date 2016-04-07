@@ -143,12 +143,13 @@
                                                     <xs:sequence>
                                                         <xs:element name="Employed" type="QuestionYesNoType"/>
                                                         <xs:element name="SelfEmployed" type="QuestionYesNoType"/>
-                                                        <xs:element name="SickPayment" type="QuestionYesNoType"/>
-                                                        <xs:element name="PatMatAdopPayment" type="QuestionYesNoType"/>
-                                                        <xs:element name="FosteringPayment" type="QuestionYesNoType"/>
-                                                        <xs:element name="DirectPayment" type="QuestionYesNoType"/>
-                                                        <xs:element name="AnyOtherPayment" type="QuestionYesNoType"/>
-                                                        <xs:element name="Employment">
+                                                        <xs:element minOccurs="0" name="SickPayment" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="PatMatAdopPayment" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="FosteringPayment" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="DirectPayment" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="AnyOtherPayment" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="NoOtherPayment" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="Employment">
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element minOccurs="0" maxOccurs="5" name="JobDetails">
@@ -229,7 +230,7 @@
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
-                                                        <xs:element name="SelfEmployment">
+                                                        <xs:element minOccurs="0" name="SelfEmployment">
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element minOccurs="0" name="SelfEmployedNow" type="QuestionYesNoType"/>
@@ -260,55 +261,55 @@
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
-                                                        <xs:element name="SickPay">
+                                                        <xs:element minOccurs="0" name="SickPay">
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
-                                                                    <xs:element name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
+                                                                    <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
                                                                     <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
-                                                        <xs:element name="StatutoryMaternityPaternityAdopt">
+                                                        <xs:element minOccurs="0" name="StatutoryMaternityPaternityAdopt">
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
-                                                                    <xs:element name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
+                                                                    <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
                                                                     <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
-                                                        <xs:element name="FosteringAllowance">
+                                                        <xs:element minOccurs="0" name="FosteringAllowance">
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
-                                                                    <xs:element name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
+                                                                    <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
                                                                     <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
-                                                        <xs:element name="DirectPay">
+                                                        <xs:element minOccurs="0" name="DirectPay">
                                                             <xs:complexType>
                                                                 <xs:sequence>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
-                                                                    <xs:element name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
+                                                                    <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
                                                                     <xs:element name="HowOftenPaidThisPay" type="QuestionText20Type"/>
                                                                     <xs:element name="AmountOfThisPay" type="QuestionAmountType"/>
                                                                     <xs:element name="WhoPaidYouThisPay" type="QuestionOtherType"/>
-                                                                    <xs:element name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
+                                                                    <xs:element minOccurs="0" name="HowOftenPaidThisPayOther" type="QuestionOtherType"/>
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
-                                                        <xs:element name="OtherPaymentsInfo" type="QuestionTextThreeThousandType"/>
+                                                        <xs:element minOccurs="0" name="OtherPaymentsInfo" type="QuestionTextThreeThousandType"/>
                                                     </xs:sequence>
                                                 </xs:complexType>
                                             </xs:element>
