@@ -149,6 +149,7 @@
                                                         <xs:element minOccurs="0" name="DirectPayment" type="QuestionYesNoType"/>
                                                         <xs:element minOccurs="0" name="AnyOtherPayment" type="QuestionYesNoType"/>
                                                         <xs:element minOccurs="0" name="NoOtherPayment" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="OtherPaymentQuestion" type="QuestionSomeNoneType"/>
                                                         <xs:element minOccurs="0" name="Employment">
                                                             <xs:complexType>
                                                                 <xs:sequence>
@@ -470,6 +471,12 @@
             <xs:enumeration value="No"/>
         </xs:restriction>
     </xs:simpleType>
+    <xs:simpleType name="SomeNoneType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Some"/>
+            <xs:enumeration value="None"/>
+        </xs:restriction>
+    </xs:simpleType>
     <xs:complexType name="TextBlockType">
         <xs:sequence>
             <xs:element minOccurs="0" name="Title" type="RestrictedStringType"/>
@@ -678,6 +685,15 @@
             <xs:extension base="QuestionType">
                 <xs:sequence>
                     <xs:element name="Answer" type="YesNoType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="QuestionSomeNoneType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="SomeNoneType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
