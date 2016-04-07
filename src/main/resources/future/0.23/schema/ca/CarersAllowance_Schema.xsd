@@ -261,6 +261,7 @@
                                                                 </xs:sequence>
                                                             </xs:complexType>
                                                         </xs:element>
+                                                        <xs:element minOccurs="0" name="EmploymentAdditionalInfo" type="QuestionTextThreeThousandOtherType"/>
                                                         <xs:element minOccurs="0" name="SickPay">
                                                             <xs:complexType>
                                                                 <xs:sequence>
@@ -316,7 +317,6 @@
                                                     </xs:sequence>
                                                 </xs:complexType>
                                             </xs:element>
-                                            <xs:element minOccurs="0" name="EmploymentAdditionalInfo" type="QuestionTextThreeThousandOtherType"/>
                                             <xs:element minOccurs="0" name="HavePartner" type="QuestionTextType"/>
                                             <xs:element minOccurs="0" name="Partner">
                                                 <xs:complexType>
