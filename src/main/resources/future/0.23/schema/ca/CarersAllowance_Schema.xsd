@@ -278,6 +278,7 @@
                                                         <xs:element minOccurs="0" name="StatutoryMaternityPaternityAdopt">
                                                             <xs:complexType>
                                                                 <xs:sequence>
+                                                                    <xs:element name="PaymentType" type="QuestionText40Type"/>
                                                                     <xs:element name="PaymentTypesForThisPay" type="QuestionText40Type"/>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
                                                                     <xs:element minOccurs="0" name="WhenDidYouLastGetPaid" type="QuestionDateType"/>
@@ -291,6 +292,7 @@
                                                         <xs:element minOccurs="0" name="FosteringAllowance">
                                                             <xs:complexType>
                                                                 <xs:sequence>
+                                                                    <xs:element name="PaymentType" type="QuestionText40Type"/>
                                                                     <xs:element name="PaymentTypesForThisPay" type="QuestionText40Type"/>
                                                                     <xs:element minOccurs="0" name="PaymentTypesForThisPayOther" type="QuestionText60Type"/>
                                                                     <xs:element name="StillBeingPaidThisPay" type="QuestionYesNoType"/>
