@@ -142,22 +142,15 @@
                                             <xs:element minOccurs="0" name="SelfEmployment">
                                                 <xs:complexType>
                                                     <xs:sequence>
-                                                        <xs:element minOccurs="0" name="SelfEmployedNow" type="QuestionTextType"/>
-                                                        <xs:choice>
-                                                            <xs:element minOccurs="0" name="RecentJobDetails">
-                                                                <xs:complexType>
-                                                                    <xs:complexContent>
-                                                                        <xs:extension base="TradingType">
-                                                                            <xs:sequence>
-                                                                                <xs:element minOccurs="0" name="DateEnded" type="QuestionDateType"/>
-                                                                                <xs:element minOccurs="0" name="TradingCeased" type="QuestionTextType"/>
-                                                                            </xs:sequence>
-                                                                        </xs:extension>
-                                                                    </xs:complexContent>
-                                                                </xs:complexType>
-                                                            </xs:element>
-                                                            <xs:element minOccurs="0" name="CurrentJobDetails" type="TradingType"/>
-                                                        </xs:choice>
+                                                        <xs:element minOccurs="0" name="SelfEmployedNow" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="MoreThanYearAgo" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="DateStarted" type="QuestionDateType"/>
+                                                        <xs:element minOccurs="0" name="DateEnded" type="QuestionDateType"/>
+                                                        <xs:element minOccurs="0" name="GotAccounts" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="KnowTradingYear" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="TradingYearStart" type="QuestionDateType"/>
+                                                        <xs:element minOccurs="0" name="PaidMoneyYet" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="PaidMoneyDate" type="QuestionDateType"/>
                                                         <xs:element minOccurs="0" name="PaidForPension" type="QuestionTextType"/>
                                                         <xs:element minOccurs="0" name="PensionExpenses">
                                                             <xs:complexType>
@@ -425,6 +418,12 @@
             <xs:pattern value="[^@]+@[^\.]+\..+"/>
         </xs:restriction>
     </xs:simpleType>
+    <xs:simpleType name="YesNoType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Yes"/>
+            <xs:enumeration value="No"/>
+        </xs:restriction>
+    </xs:simpleType>
     <xs:complexType name="TextBlockType">
         <xs:sequence>
             <xs:element minOccurs="0" name="Title" type="RestrictedStringType"/>
@@ -597,6 +596,15 @@
             <xs:extension base="QuestionType">
                 <xs:sequence>
                     <xs:element name="Answer" type="TenTextType"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="QuestionYesNoType">
+        <xs:complexContent>
+            <xs:extension base="QuestionType">
+                <xs:sequence>
+                    <xs:element name="Answer" type="YesNoType"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
