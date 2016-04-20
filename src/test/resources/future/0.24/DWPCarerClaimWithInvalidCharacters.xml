@@ -11,7 +11,7 @@
             <QualifyingBenefit><QuestionLabel>What benefit does the person you care for get?</QuestionLabel><Answer>AA</Answer></QualifyingBenefit>
             <Claimant>
                 <Surname><QuestionLabel>Last name</QuestionLabel><Answer>swNQn46nVOlTlWeGNxNP/VAb8U95YNU423TVlyz75U/rP+xpw8PF1LU+S62EIoNn</Answer></Surname>
-                <OtherNames><QuestionLabel>First name</QuestionLabel><Answer>Joe</Answer></OtherNames>
+                <OtherNames><QuestionLabel>First name</QuestionLabel><Answer>Joe >Bad Char</Answer></OtherNames>
 
                 <Title><QuestionLabel>Title</QuestionLabel><Answer>Mr</Answer></Title>
                 <DateOfBirth><QuestionLabel>Date of birth</QuestionLabel><Answer>10-10-2014</Answer></DateOfBirth>
@@ -66,7 +66,7 @@
             </Caree>
             <Residency>
                 <Nationality><QuestionLabel>What is your nationality?</QuestionLabel><Answer>British</Answer></Nationality>
-                <AlwaysLivedInUK><QuestionLabel>Have you always lived in UK?</QuestionLabel><Answer>Yes</Answer></AlwaysLivedInUK>
+                <AlwaysLivedInUK><QuestionLabel>Have you always lived in UKHave you been away from England</QuestionLabel><Answer>Yes</Answer></AlwaysLivedInUK>
                 <TimeOutsideGBLast3Years><QuestionLabel>Have you been abroad more than 52 weeks?</QuestionLabel><Answer>No</Answer></TimeOutsideGBLast3Years>
             </Residency>
             <CourseOfEducation><QuestionLabel>Have you been on a course of education since your claim date?</QuestionLabel><Answer>Yes</Answer></CourseOfEducation>
