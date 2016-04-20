@@ -66,18 +66,11 @@
             </Caree>
             <Residency>
                 <Nationality><QuestionLabel>What is your nationality?</QuestionLabel><Answer>British</Answer></Nationality>
-
-
-
-                <NormallyLiveInGB><QuestionLabel>Do you normally live in England, Scotland or Wales?</QuestionLabel><Answer>Yes</Answer></NormallyLiveInGB>
-
-
-
-                <PeriodAbroad>
-                    <TimeOutsideGBLast3Years><QuestionLabel>Have you been away from England, Scotland or Wales for more than 52 weeks in the 3 years before your claim date?</QuestionLabel><Answer>No</Answer></TimeOutsideGBLast3Years>
-
-                </PeriodAbroad>
-
+                <AlwaysLivedInUK><QuestionLabel>Have you always lived in UK?</QuestionLabel><Answer>Yes</Answer></AlwaysLivedInUK>
+                <ArrivedInUK><QuestionLabel>Did you arrive in UK in last 3 years?</QuestionLabel><Answer>Yes</Answer></ArrivedInUK>
+                <ArrivedInUKDate><QuestionLabel>Date arrived</QuestionLabel><Answer>01-04-2016</Answer></ArrivedInUKDate>
+                <TimeOutsideGBLast3Years><QuestionLabel>Have you been abroad more than 52 weeks?</QuestionLabel><Answer>No</Answer></TimeOutsideGBLast3Years>
+                <TripDetails><QuestionLabel>Enter details of trip</QuestionLabel><Answer>Was in spain</Answer></TripDetails>
             </Residency>
             <CourseOfEducation><QuestionLabel>Have you been on a course of education since your claim date?</QuestionLabel><Answer>Yes</Answer></CourseOfEducation>
             <FullTimeEducation>
