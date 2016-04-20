@@ -95,20 +95,12 @@
                                                     <xs:sequence>
                                                         <xs:element minOccurs="0" name="Nationality" type="QuestionTextType"/>
                                                         <xs:element minOccurs="0" name="ActualNationality" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" name="NormallyLiveInGB" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" name="CountryNormallyLive" type="QuestionTextType"/>
-                                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="PeriodAbroad">
-                                                            <xs:complexType>
-                                                                <xs:sequence>
-                                                                    <xs:element minOccurs="0" name="TimeOutsideGBLast3Years" type="QuestionTextType"/>
-                                                                    <xs:element minOccurs="0" name="TripsDetails" type="QuestionTextThreeThousandType"/>
-                                                                    <xs:element minOccurs="0" name="Period" type="PeriodType"/>
-                                                                    <xs:element minOccurs="0" name="Reason" type="QuestionOtherType"/>
-                                                                    <xs:element minOccurs="0" name="Country" type="QuestionTextType"/>
-                                                                    <xs:element minOccurs="0" name="CareePresent" type="QuestionTextType"/>
-                                                                </xs:sequence>
-                                                            </xs:complexType>
-                                                        </xs:element>
+                                                        <xs:element minOccurs="0" name="AlwaysLivedInUK" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="LiveInUKNow" type="QuestionYesNoType"/>
+                                                        <xs:element minOccurs="0" name="ArrivedInUK" type="QuestionText20Type"/>
+                                                        <xs:element minOccurs="0" name="ArrivedInUKDate" type="QuestionDateType"/>
+                                                        <xs:element minOccurs="0" name="TimeOutsideGBLast3Years" type="QuestionTextType"/>
+                                                        <xs:element minOccurs="0" name="TripDetails" type="QuestionTextThreeThousandType"/>
                                                     </xs:sequence>
                                                 </xs:complexType>
                                             </xs:element>
