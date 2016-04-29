@@ -22,7 +22,7 @@ allprojects {
     apply plugin: 'maven-publish'
     version = '8.00-SNAPSHOT'
     archivesBaseName = 'xmlcommons'
-    name = 'xmlcommons'
+    archiveName = 'xmlcommons'
     group = 'gov.dwp.carers'
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
