@@ -5,8 +5,8 @@ buildscript {
         maven {
             url 'https://build.3cbeta.co.uk/artifactory/repo'
             credentials {
-                username = "${artifactory_user}"
-                password = "${artifactory_password}"
+                username = "jenkins"
+                password = "{DESede}EymN2+kOdMbdOQvf4PMSdA=="
             }
         }
     }
@@ -35,8 +35,8 @@ artifactory {
         mavenLocal()
         repository {
             repoKey = repo
-            username = "${artifactory_user}"
-            password = "${artifactory_password}"
+            username = "jenkins"
+            password = "{DESede}EymN2+kOdMbdOQvf4PMSdA=="
             maven = true
 
         }
@@ -44,8 +44,8 @@ artifactory {
     resolve {
         repository {
             repoKey = 'repo'
-            username = "${artifactory_user}"
-            password = "${artifactory_password}"
+            username = "jenkins"
+            password = "{DESede}EymN2+kOdMbdOQvf4PMSdA=="
             maven = true
         }
     }
