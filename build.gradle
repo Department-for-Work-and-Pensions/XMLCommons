@@ -21,8 +21,8 @@ allprojects {
     apply plugin: 'idea'
     apply plugin: 'maven-publish'
     version = '8.00-SNAPSHOT'
-    archivesBaseName = 'xmlCommons'
-    group = 'gov.dwp.carer'
+    archivesBaseName = 'xmlcommons'
+    group = 'gov.dwp.carers'
     sourceCompatibility = 1.8
     targetCompatibility = 1.8
 }
@@ -39,6 +39,14 @@ artifactory {
             password = "${artifactory_password}"
             maven = true
 
+        }
+        defaults {
+            // Reference to Gradle publications defined in the build script.
+            // This is how we tell the Artifactory Plugin which artifacts should be
+            // published to Artifactory.
+            publications('mavenJava')
+            publishArtifacts = true
+            publishPom = true // Publish generated POM files to Artifactory (true by default)
         }
     }
     resolve {
