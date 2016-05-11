@@ -1,0 +1,5 @@
+These files are the schema from the existing carers project.
+
+Changes for 0.24 version :
+
+CADS-811 : Add claim service version number.

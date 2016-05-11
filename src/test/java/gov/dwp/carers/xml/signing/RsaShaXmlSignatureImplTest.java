@@ -58,7 +58,6 @@ public class RsaShaXmlSignatureImplTest  extends XmlTestBase {
     @Test
     public void testSuccessfulVerification() throws Exception {
         final String XmlSigned = sign.sign(fileInputStream("future/0.20/DWPCarerClaimGeneratedFromXML1.xml"),"14080000001");
-        System.out.println(XmlSigned);
         assertTrue(sign.verifySignature(XmlSigned));
         assertTrue(XmlSignatureValidator.validate(XmlSigned));
     }
