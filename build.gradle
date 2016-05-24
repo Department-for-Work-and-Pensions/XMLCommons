@@ -1,0 +1,95 @@
+
+buildscript {
+    repositories {
+        jcenter()
+        maven {
+            url 'https://build.3cbeta.co.uk/artifactory/repo'
+            credentials {
+                username = "${artifactory_user}"
+                password = "${artifactory_password}"
+            }
+        }
+    }
+    dependencies {
+        classpath(group: 'org.jfrog.buildinfo', name: 'build-info-extractor-gradle', version: '4.0.0')
+    }
+}
+
+allprojects {
+    apply plugin: 'com.jfrog.artifactory'
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'maven-publish'
+    version = '8.00-SNAPSHOT'
+    archivesBaseName = 'xmlcommons'
+    group = 'gov.dwp.carers'
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+}
+
+String repo = version.endsWith('SNAPSHOT') ? 'libs-snapshot-local' : 'libs-release-local'
+
+artifactory {
+    contextUrl = "http://build.3cbeta.co.uk:8080/artifactory/"   //The base Artifactory URL if not overridden by the publisher/resolver
+    publish {
+        mavenLocal()
+        repository {
+            repoKey = repo
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+            maven = true
+
+        }
+        defaults {
+            // Reference to Gradle publications defined in the build script.
+            // This is how we tell the Artifactory Plugin which artifacts should be
+            // published to Artifactory.
+            publications('mavenJava')
+            publishArtifacts = true
+            publishPom = true // Publish generated POM files to Artifactory (true by default)
+        }
+    }
+    resolve {
+        repository {
+            repoKey = 'repo'
+            username = "${artifactory_user}"
+            password = "${artifactory_password}"
+            maven = true
+        }
+    }
+}
+
+//Project dependencies
+dependencies {
+    compile 'ch.qos.logback:logback-classic:1.1.2'
+    compile "org.apache.santuario:xmlsec:1.4.8"
+    compile "gov.dwp.carers:carerscommon_2.10:7.12-SNAPSHOT"
+    testCompile "junit:junit:4.12"
+    testCompile "com.novocode:junit-interface:0.11"
+}
+
+//Use this for publishing to local Maven repo
+//gradle publishToMavenLocal
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            artifact (sourcesJar) {
+                classifier = 'sources'
+            }
+        }
+    }
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.13'
+}
+
+test {
+    testLogging.showStandardStreams = true
+}

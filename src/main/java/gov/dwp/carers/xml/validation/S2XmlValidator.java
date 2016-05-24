@@ -5,9 +5,6 @@ import gov.dwp.carers.xml.helpers.XmlSchemaDecryptorFactory;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.w3c.dom.ls.LSException;
-import org.xml.sax.SAXException;
-
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
@@ -15,8 +12,6 @@ import javax.xml.validation.Validator;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.List;
 
 
 /**
@@ -88,15 +83,9 @@ abstract class S2XmlValidator implements XmlValidator {
             XmlSchemaDecryptor xmlSchemaDecryptor = XmlSchemaDecryptorFactory.buildSchemaDecrytor(version);
             String xmlString = xmlSchemaDecryptor.decryptSchema(xml);
             validator.validate(new StreamSource(new StringReader(xmlString)));
-        } catch (final LSException ls) {
-            errorHandler.addGenericException(ls);
-        } catch (final SAXException sax) {
-            errorHandler.addGenericException(sax);
-        } catch (final IOException io) {
-            errorHandler.addGenericException(io);
+        } catch (Exception e) {
+            errorHandler.addGenericException(e);
         }
         return errorHandler;
     }
-
-
 }
