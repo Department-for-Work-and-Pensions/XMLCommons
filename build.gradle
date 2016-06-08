@@ -20,7 +20,7 @@ allprojects {
     apply plugin: 'java'
     apply plugin: 'idea'
     apply plugin: 'maven-publish'
-    version = '8.00-SNAPSHOT'
+    version = '8.02-SNAPSHOT'
     archivesBaseName = 'xmlcommons'
     group = 'gov.dwp.carers'
     sourceCompatibility = 1.8

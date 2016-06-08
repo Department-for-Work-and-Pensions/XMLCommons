@@ -99,6 +99,7 @@
                                                         <xs:element minOccurs="0" name="LiveInUKNow" type="QuestionYesNoType"/>
                                                         <xs:element minOccurs="0" name="ArrivedInUK" type="QuestionText20Type"/>
                                                         <xs:element minOccurs="0" name="ArrivedInUKDate" type="QuestionDateType"/>
+                                                        <xs:element minOccurs="0" name="ArrivedInUKFrom" type="QuestionText60Type"/>
                                                         <xs:element minOccurs="0" name="TimeOutsideGBLast3Years" type="QuestionTextType"/>
                                                         <xs:element minOccurs="0" name="TripDetails" type="QuestionTextThreeThousandType"/>
                                                     </xs:sequence>
