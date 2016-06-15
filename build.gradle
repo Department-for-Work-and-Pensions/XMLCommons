@@ -60,6 +60,11 @@ artifactory {
     }
 }
 
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
 //Project dependencies
 dependencies {
     //compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
